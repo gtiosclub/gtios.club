@@ -2,6 +2,7 @@
 layout: post
 collection: tutorials
 title: Part 3 Cheatsheet
+date: 2016-10-15
 ---
 
 ### For the minus button

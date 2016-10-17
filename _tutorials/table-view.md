@@ -2,6 +2,7 @@
 layout: post
 collection: tutorials
 title: Table View Tutorial
+date: 2016-10-15
 ---
 
 #### [Part 1: Creating your Xcode Project]({{ site.url }}/tutorials/table-view/part1)

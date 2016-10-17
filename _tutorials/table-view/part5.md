@@ -2,6 +2,7 @@
 layout: post
 collection: tutorials
 title: Part 5 - Subclassing UITableViewCell
+date: 2016-10-15
 ---
 
 You may have noticed before, but the original class declaration of our `ViewController` was:

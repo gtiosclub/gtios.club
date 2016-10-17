@@ -2,6 +2,7 @@
 layout: post
 collection: tutorials
 title: Part 6 - Populating your Table View Cells
+date: 2016-10-15
 ---
 
 Now that we have a reference to the cell's label, we can customize it on-demand. We want to add a new method to the `ScoreCell` class that takes a person's name and can update the cell appropriately. Here's what we want:

@@ -2,6 +2,7 @@
 layout: post
 collection: tutorials
 title: Part 3 - Setting up your Custom Table View Cell
+date: 2016-10-15
 ---
 
 In Part 2, we set up your Table View. It fills the entire screen, but it doesn't have any content yet. We need to add a custom Table View Cell.

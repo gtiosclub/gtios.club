@@ -2,6 +2,7 @@
 layout: post
 collection: tutorials
 title: Part 2 - Setting up your Table View in Interface Builder
+date: 2016-10-15
 ---
 
 Open your `Main.storyboard`. We start with a blank canvas:

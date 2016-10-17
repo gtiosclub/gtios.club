@@ -2,6 +2,7 @@
 layout: post
 collection: tutorials
 title: Part 4 - Implementing your Table View Delegate
+date: 2016-10-15
 ---
 
 Now that we have a Table View set up in Interface Builder, we need to tell it how to behave. The Table View has a custom Cell, but it doesn't know how many cells to show or what content to put in those cells.

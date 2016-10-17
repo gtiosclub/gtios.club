@@ -2,6 +2,7 @@
 layout: post
 collection: tutorials
 title: iOS Tutorials
+date: 2016-10-15
 ---
 
 #### [Guess the Number]({{ site.url }}/tutorials/guess-the-number) - Teaches iOS basics *(not posted yet)*

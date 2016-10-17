@@ -2,6 +2,7 @@
 layout: post
 collection: tutorials
 title: Part 1 - Creating your Xcode Project
+date: 2016-10-15
 ---
 
 This tutorial will teach you how to build a Scorekeeping app using a Table View. To get started, open up Xcode. You should see a screen that looks like this: 

@@ -2,6 +2,7 @@
 layout: post
 collection: tutorials
 title: Part 7 - Adding User Interaction
+date: 2016-10-15
 ---
 
 So far we've been focusing on having the Table View display static content. Now that it can do that correctly, we can extend it to be dynamic.

@@ -2,6 +2,7 @@
 layout: post
 collection: tutorials
 title: Part 5 Bonus - Explaining @IBOutlets
+date: 2016-10-15
 ---
 
 <p align="center"> <img src="{{ site.url }}/assets/table-view/P5/screenshot_bonus1.png" height="100px" align="center"> </p>
