@@ -309,42 +309,42 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 }
 /* Base Style */
 .highlight .l {
-    color: transparent;
+    color: #1C00CF;
     background-color: transparent;
 }
 /* Literal Date */
 .highlight .ld {
-    color: transparent;
+    color: #1C00CF;
     background-color: transparent;
 }
 /* Literal Number */
 .highlight .m {
-    color: transparent;
+    color: #1C00CF;
     background-color: transparent;
 }
 /* Literal Number Float */
 .highlight .mf {
-    color: transparent;
+    color: #1C00CF;
     background-color: transparent;
 }
 /* Literal Number Hex */
 .highlight .mh {
-    color: transparent;
+    color: #1C00CF;
     background-color: transparent;
 }
 /* Literal Number Integer */
 .highlight .mi {
-    color: transparent;
+    color: #1C00CF;
     background-color: transparent;
 }
 /* Literal Number Oct */
 .highlight .mo {
-    color: transparent;
+    color: #1C00CF;
     background-color: transparent;
 }
 /* Literal Number Integer Long */
 .highlight .il {
-    color: transparent;
+    color: #1C00CF;
     background-color: transparent;
 }
 /* Literal String */
@@ -354,7 +354,7 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 }
 /* Literal String Backtick */
 .highlight .sb {
-    color: transparent;
+    color: #c41a16;
     background-color: transparent;
 }
 /* Literal String Char */
@@ -364,12 +364,12 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 }
 /* Literal String Doc */
 .highlight .sd {
-    color: transparent;
+    color: #c41a16;
     background-color: transparent;
 }
 /* Literal String Double */
 .highlight .s2 {
-    color: transparent;
+    color: #c41a16;
     background-color: transparent;
 }
 /* Literal String Escape */
@@ -379,92 +379,92 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 }
 /* Literal String Heredoc */
 .highlight .sh {
-    color: transparent;
+    color: #c41a16;
     background-color: transparent;
 }
 /* Literal String Interpol */
 .highlight .si {
-    color: transparent;
+    color: #c41a16;
     background-color: transparent;
 }
 /* Literal String Other */
 .highlight .sx {
-    color: transparent;
+    color: #c41a16;
     background-color: transparent;
 }
 /* Literal String Regex */
 .highlight .sr {
-    color: transparent;
+    color: #c41a16;
     background-color: transparent;
 }
 /* Literal String Single */
 .highlight .s1 {
-    color: transparent;
+    color: #c41a16;
     background-color: transparent;
 }
 /* Literal String Symbol */
 .highlight .ss {
-    color: transparent;
+    color: #c41a16;
     background-color: transparent;
 }
 /* Base Style */
 .highlight .g {
-    color: transparent;
+    color: #000;
     background-color: transparent;
 }
 /* Generic Deleted */
 .highlight .gd {
-    color: transparent;
+    color: #000;
     background-color: transparent;
 }
 /* Generic Emph */
 .highlight .ge {
-    color: transparent;
+    color: #000;
     background-color: transparent;
 }
 /* Generic Error */
 .highlight .gr {
-    color: transparent;
+    color: #000;
     background-color: transparent;
 }
 /* Generic Heading */
 .highlight .gh {
-    color: transparent;
+    color: #000;
     background-color: transparent;
 }
 /* Generic Inserted */
 .highlight .gi {
-    color: transparent;
+    color: #000;
     background-color: transparent;
 }
 /* Generic Output */
 .highlight .go {
-    color: transparent;
+    color: #000;
     background-color: transparent;
 }
 /* Generic Prompt */
 .highlight .gp {
-    color: transparent;
+    color: #000;
     background-color: transparent;
 }
 /* Generic Strong */
 .highlight .gs {
-    color: transparent;
+    color: #000;
     background-color: transparent;
 }
 /* Generic Subheading */
 .highlight .gu {
-    color: transparent;
+    color: #000;
     background-color: transparent;
 }
 /* Generic Traceback */
 .highlight .gt {
-    color: transparent;
+    color: #000;
     background-color: transparent;
 }
 /* Other */
 .highlight .x {
-    color: transparent;
+    color: #000;
     background-color: transparent;
 }
 /* Text Whitespace */
