@@ -5,18 +5,18 @@ title: Part 5 Bonus - Explaining @IBOutlets
 date: 2016-10-15
 ---
 
-<p align="center"> <img src="{{ site.url }}/assets/table-view/P5/screenshot_bonus1.png" height="100px" align="center"> </p>
+<p align="center"> <img src="../images/P5/screenshot_bonus1.png" height="100px" align="center"> </p>
 
 Xcode gives us some strange boilerplate when we create a storyboard connection. What do all of these keywords mean?
 
 ### @IBOutlet
 This key word doesn't add any behavior to the code, and it would actually work fine without it. It's just an annotation for Xcode to give some added behavior to that line of code.
 
-<p align="center"> <img src="{{ site.url }}/assets/table-view/P5/screenshot_bonus2.png" height="100px" align="center"> </p>
+<p align="center"> <img src="../images/P5/screenshot_bonus2.png" height="100px" align="center"> </p>
 
 If you notice on the left of the line numbers (which you may or may not have enabled) there's a little dot. Mousing over it reveals which object in the Storyboard file is plugged up to that IBOutlet.
 
-<p align="center"> <img src="{{ site.url }}/assets/table-view/P5/screenshot_bonus3.png" height="85" align="center"> </p>
+<p align="center"> <img src="../images/P5/screenshot_bonus3.png" height="85" align="center"> </p>
 
 If you take out `@IBOutlet` from the line, this functionality goes away. Useful, but not entirely necessary.
 

@@ -92,25 +92,25 @@ class ViewController: UIViewController, UITableViewDataSource {
 
 But if you run the app in the simulator, you'll see nothing but an empty Table View:
 
-<p align="center"> <img src="{{ site.url }}/assets/table-view/P4/screenshot1.png" height="450px" align="center"> </p>
+<p align="center"> <img src="../images/P4/screenshot1.png" height="450px" align="center"> </p>
 
 Even though we've turned our `ViewController` into a `UITableViewDelegate` and `UITableViewDataSource`, we haven't told the Table View to use that controller as its delegate.
 
 Open up the `Main.storyboard` again, and select the Table View. Open the Connections Inspector, and you should see these outlets for `dataSource` and `delegate`:
 
-<p align="center"> <img src="{{ site.url }}/assets/table-view/P4/screenshot2.png" height="175px" align="center"> </p>
+<p align="center"> <img src="../images/P4/screenshot2.png" height="175px" align="center"> </p>
 
 We need to connect the View Controller to these outlets. You can do that by dragging from the circles on the right to the little yellow circle at the top of the canvas.
 
-<p align="center"> <img src="{{ site.url }}/assets/table-view/P4/screenshot3.png" height="200px" align="center"> </p>
+<p align="center"> <img src="../images/P4/screenshot3.png" height="200px" align="center"> </p>
 
 You should have both of them set to the View Controller:
 
-<p align="center"> <img src="{{ site.url }}/assets/table-view/P4/screenshot4.png" height="175px" align="center"> </p>
+<p align="center"> <img src="../images/P4/screenshot4.png" height="175px" align="center"> </p>
 
 If you run the app in the simulator again, you should actually see some content:
 
-<p align="center"> <img src="{{ site.url }}/assets/table-view/P4/screenshot5.png" height="450px" align="center"> </p>
+<p align="center"> <img src="../images/P4/screenshot5.png" height="450px" align="center"> </p>
 
 ### Why are they all the same?
 
@@ -124,4 +124,4 @@ We implemented our `UITableViewDelegate` / `UITableViewDataSource`. We covered `
 
 We'll implement a custom class that subclasses `UITableViewCell`, allowing us to customize the content in each individual row.
 
-#### [Part 5: Subclassing UITableViewCell]({{ site.url }}/tutorials/table-view/part5)
+#### [Part 5: Subclassing UITableViewCell](../part5)

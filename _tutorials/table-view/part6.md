@@ -86,11 +86,11 @@ After we've populated the cell with content, we `return` it so the Table View ca
 
 If you run the app in the simulator, the rows should actually match the dictionary now:
 
-<p align="center"> <img src="{{ site.url }}/assets/table-view/P6/screenshot1.png" height="450px" align="center"> </p>
+<p align="center"> <img src="../images/P6/screenshot1.png" height="450px" align="center"> </p>
 
 And if you update the dictionary to something like `var scores = ["Cal" : 1, "Brian" : 5, "Komal" : 2, "Kevin" : 3, "Luke" : 0, "Tim" : 4, "Steve" : 6, "Bill" : 0]`, you should see the changes reflected when you re-run the app:
 
-<p align="center"> <img src="{{ site.url }}/assets/table-view/P6/screenshot2.png" height="450px" align="center"> </p>
+<p align="center"> <img src="../images/P6/screenshot2.png" height="450px" align="center"> </p>
 
 ### Recap
 
@@ -100,4 +100,4 @@ You wrote a `decorate` function that lets the `ViewController` populate individu
 
 We'll wrap up by implementing the add and subtract buttons.
 
-#### [Part 7: Adding User Interaction]({{ site.url }}/tutorials/table-view/part7)
+#### [Part 7: Adding User Interaction](../part7)
