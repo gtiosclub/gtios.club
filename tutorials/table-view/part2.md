@@ -72,4 +72,4 @@ We set up our Table View and constrained it to fill the screen. We discussed Aut
 
 We'll create a custom Cell for our Table View.
 
-#### [Part 3: Setting up your Custom Table View Cell](../part3)
+#### [Part 3: Setting up your Custom Table View Cell](table-view-part3)

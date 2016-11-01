@@ -123,4 +123,4 @@ We implemented our `UITableViewDelegate` / `UITableViewDataSource`. We covered `
 
 We'll implement a custom class that subclasses `UITableViewCell`, allowing us to customize the content in each individual row.
 
-#### [Part 5: Subclassing UITableViewCell](../part5)
+#### [Part 5: Subclassing UITableViewCell](table-view-part5)

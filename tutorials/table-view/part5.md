@@ -100,7 +100,7 @@ class ScoreCell : UITableViewCell {
 }
 ```
 
-You don't need to worry about what everything on that line means. The only parts that really matter for us is the name (`label`) and the type (`UILabel`). For a detailed explanation of the individual keywords and what that exclamation mark is doing, read [Part 5 Bonus: Explaining @IBOutlets](.../part5_bonus.md).
+You don't need to worry about what everything on that line means. The only parts that really matter for us is the name (`label`) and the type (`UILabel`). For a detailed explanation of the individual keywords and what that exclamation mark is doing, read [Part 5 Bonus: Explaining @IBOutlets](.../table-view-part4-bonus).
 
 ### Recap
 
@@ -110,4 +110,4 @@ We added a custom subclass of `UITableViewCell`, assigned it to our cell in Inte
 
 We'll add a function that lets the Table View Delegate populate the content in individual cells.
 
-#### [Part 6: Populating your Table View Cells](../part6)
+#### [Part 6: Populating your Table View Cells](table-view-part6)

@@ -46,7 +46,7 @@ We also need a way for the user to change the score. A plus and minus button on 
 
 As usual, we need to set up some constraints. These buttons are pinned to the left / right edges, but are centered vertically in the cell. These buttons have an intrinsic size too, so no need to worry about setting size constraints.
 
-The constraints are left as an exercise to the reader. *[(Answers)](../part3_cheatsheet)*
+The constraints are left as an exercise to the reader. *[(Answers)](table-view-part3-cheatsheet)*
 
 ### Recap
 
@@ -56,4 +56,4 @@ We made a custom Table View Cell that uses constraints and intrinsic sizes to po
 
 We'll start writing some code to make the Table View actually do something.
 
-#### [Part 4: Implementing your Table View Delegate](../part4)
+#### [Part 4: Implementing your Table View Delegate](table-view-part4)

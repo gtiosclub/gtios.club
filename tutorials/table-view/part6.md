@@ -99,4 +99,4 @@ You wrote a `decorate` function that lets the `ViewController` populate individu
 
 We'll wrap up by implementing the add and subtract buttons.
 
-#### [Part 7: Adding User Interaction](../part7)
+#### [Part 7: Adding User Interaction](table-view-part7)

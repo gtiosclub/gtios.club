@@ -36,4 +36,4 @@ You set up your Xcode project and you're ready to get started with the real meat
 
 We will crack open Interface Builder and set up our Table View.
 
-#### [Part 2: Setting up your Table View in Interface Builder](../part2)
+#### [Part 2: Setting up your Table View in Interface Builder](table-view-part2)
