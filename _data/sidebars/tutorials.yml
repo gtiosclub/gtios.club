@@ -1,0 +1,57 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: Sidebar
+  levels: one
+  folders:
+
+  - title: Table View
+    output: web
+    folderitems:
+    - title: <b>Part 1</b> - Creating your Xcode Project
+      url: "/table-view-part1.html"
+      output: web
+    - title: <b>Part 2</b> - Setting up your Table View in Interface Builder
+      url: "/table-view-part2.html"
+      output: web
+    - title: <b>Part 3</b> - Setting up your Custom Table View Cell
+      url: "/table-view-part3.html"
+      output: web
+    - title: <b>Part 4</b> - Implementing your Table View Delegate
+      url: "/table-view-part4.html"
+      output: web
+    - title: <b>Part 5</b> - Subclassing UITableViewCell
+      url: "/table-view-part5.html"
+      output: web
+    - title: <b>Part 6</b> - Populating your Table View Cells
+      url: "/table-view-part6.html"
+      output: web
+    - title: <b>Part 7</b> - Adding User Interaction
+      url: "/table-view-part7.html"
+      output: web
+      
+  - title: Calculator
+    output: web
+    folderitems:
+    - title: Part 1 - Introduction
+      url: /news.html
+      output: web
+    - title: Part 2 - Doing more stuff
+      url: /mydoc_introduction.html
+      output: web
+    - title: Part 3 - Doing some more stuff
+      url: /mydoc_introduction.html
+      output: web
+      
+  - title: Notes
+    output: web
+    folderitems:
+    - title: Part 1 - Introduction
+      url: /news.html
+      output: web
+    - title: Part 2 - Doing more stuff
+      url: /mydoc_introduction.html
+      output: web
+    - title: Part 3 - Doing some more stuff
+      url: /mydoc_introduction.html
+      output: web
