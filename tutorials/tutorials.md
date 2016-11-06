@@ -5,8 +5,10 @@ sidebar: tutorials
 permalink: "tutorials.html"
 ---
 
-#### [Guess the Number](../guess-the-number) - Teaches iOS basics *(not posted yet)*
+#### [Guess the Number](guess-the-number-part1) - Teaches iOS basics
 
-#### [Scorekeeper](../table-view) - Teaches Table Views
+#### [Scorekeeper](table-view-part1) - Teaches Table Views
 
-#### [Calculator](../scorekeeper) - Teaches Autolayout Constraints, and Table Views *(not posted yet)*
+#### [Calculator](calculator-part1) - Teaches Autolayout Constraints, and Table Views
+
+#### [Notes](notes-part1) - Teaches Segues and Data Persistence

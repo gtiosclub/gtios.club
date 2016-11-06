@@ -27,7 +27,7 @@ entries:
       url: /guess-the-number-part6.html
       output: web
 
-  - title: Table View
+  - title: Scorekeeper
     output: web
     folderitems:
     - title: <b>Part 1</b> - Creating your Xcode Project
