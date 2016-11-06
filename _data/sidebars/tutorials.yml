@@ -5,6 +5,28 @@ entries:
   levels: one
   folders:
 
+  - title: Guess the Number
+    output: web
+    folderitems:
+    - title: <b>Part 1</b> - Getting Started
+      url: /guess-the-number-part1.html
+      output: web
+    - title: <b>Part 2</b> - Setting up your View
+      url: /guess-the-number-part2.html
+      output: web
+    - title: <b>Part 3</b> - Generate Random Numbers
+      url: /guess-the-number-part3.html
+      output: web
+    - title: <b>Part 4</b> - Writing the Game Logic
+      url: /guess-the-number-part4.html
+      output: web
+    - title: <b>Part 5</b> - Adding Alerts
+      url: /guess-the-number-part5.html
+      output: web
+    - title: <b>Part 6</b> - Pushing to GitHub
+      url: /guess-the-number-part6.html
+      output: web
+
   - title: Table View
     output: web
     folderitems:
@@ -33,25 +55,64 @@ entries:
   - title: Calculator
     output: web
     folderitems:
-    - title: Part 1 - Introduction
-      url: /news.html
+    - title: <b>Part 1</b> - Creating your Xcode Project
+      url: /calculator-part1.html
       output: web
-    - title: Part 2 - Doing more stuff
-      url: /mydoc_introduction.html
+    - title: <b>Part 2</b> - Getting the hang of Interface Builder
+      url: /calculator-part2.html
       output: web
-    - title: Part 3 - Doing some more stuff
-      url: /mydoc_introduction.html
+    - title: <b>Part 3</b> - Designing your layout with Interface Builder
+      url: /calculator-part3.html
+      output: web
+    - title: <b>Part 4</b> - Setting up your Constraints
+      url: /calculator-part4.html
+      output: web
+    - title: <b>Part 5</b> - Connecting Storyboard to Code
+      url: /calculator-part5.html
+      output: web
+    - title: <b>Part 6</b> - Preparing your Calculation Delegate
+      url: /calculator-part6.html
+      output: web
+    - title: <b>Part 7</b> - Implementing your Buttons
+      url: /calculator-part7.html
+      output: web
+    - title: <b>Part 8</b> - Testing and Debugging your Calculator
+      url: /calculator-part8.html
+      output: web
+    - title: <b>Part 9</b> - Preparing your Table View
+      url: /calculator-part9.html
+      output: web
+    - title: <b>Part 10</b> - Implementing your Custom UITableViewCell
+      url: /calculator-part10.html
+      output: web
+    - title: <b>Part 11</b> - Implementing your UITableViewDataSource
+      url: /calculator-part11.html
+      output: web
+    - title: <b>Part 12</b> - Reloading and Animating your Table View
+      url: /calculator-part12.html
       output: web
       
   - title: Notes
     output: web
     folderitems:
-    - title: Part 1 - Introduction
-      url: /news.html
+    - title: <b>Part 1</b> - Creating your Xcode Project
+      url: /notes-part1.html
       output: web
-    - title: Part 2 - Doing more stuff
-      url: /mydoc_introduction.html
+    - title: <b>Part 2</b> - Creating your Note Object
+      url: /notes-part2.html
       output: web
-    - title: Part 3 - Doing some more stuff
-      url: /mydoc_introduction.html
+    - title: <b>Part 3</b> - Creating your View Controllers
+      url: /notes-part3.html
+      output: web
+    - title: <b>Part 4</b> - Implementing Notes List
+      url: /notes-part4.html
+      output: web
+    - title: <b>Part 5</b> - Viewing and Editing Notes
+      url: /notes-part5.html
+      output: web
+    - title: <b>Part 6</b> - Adding and Saving Notes
+      url: /notes-part6.html
+      output: web
+    - title: <b>Part 7</b> - Persistence
+      url: /notes-part7.html
       output: web
