@@ -101,11 +101,10 @@ header ul li a:hover {
     justify-content: center;
     position: absolute;
     transition-duration: 1s;
-
 }
 
 .iphone {
-    background-image: url("../images/iphone6.png");
+    background-image: url("../images/home/iphone6.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;

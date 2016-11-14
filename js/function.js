@@ -1,11 +1,11 @@
 var officers = [
-    {"pic":"assets/images/brian.jpg", "firstName":"Brian", "lastName":"Wang", "job":"President", "github":"https://github.com/brianwang9100"},
-    {"pic":"assets/images/cal.jpg", "firstName":"Cal", "lastName":"Stephens", "job":"Senior Tech Lead", "github":"https://github.com/calda"},
-    {"pic":"assets/images/ale.jpg", "firstName":"Ale", "lastName":"Patron", "job":"Tech Lead", "github":"https://github.com/apatronl"},
-    {"pic":"assets/images/komal.jpg", "firstName":"Komal", "lastName":"Hirani", "job":"Tech Lead", "github":"https://github.com/khirani6"},
-    {"pic":"assets/images/kevin.jpg", "firstName":"Kevin", "lastName":"Randrup", "job":"Tech Lead", "github":"https://github.com/kevinrandrup"},
-    {"pic":"assets/images/varun.jpg", "firstName":"Varun", "lastName":"Ballari", "job":"Designer", "github":"https://github.com/Varun-Ballari"},
-    {"pic":"assets/images/luke.jpg", "firstName":"Luke", "lastName":"Newman", "job":"Corporate Relations", "github":"https://github.com/lukenewman"},
+    {"pic":"images/home/brian.jpg", "firstName":"Brian", "lastName":"Wang", "job":"President", "github":"https://github.com/brianwang9100"},
+    {"pic":"images/home/cal.jpg", "firstName":"Cal", "lastName":"Stephens", "job":"Senior Tech Lead", "github":"https://github.com/calda"},
+    {"pic":"images/home/ale.jpg", "firstName":"Ale", "lastName":"Patron", "job":"Tech Lead", "github":"https://github.com/apatronl"},
+    {"pic":"images/home/komal.jpg", "firstName":"Komal", "lastName":"Hirani", "job":"Tech Lead", "github":"https://github.com/khirani6"},
+    {"pic":"images/home/kevin.jpg", "firstName":"Kevin", "lastName":"Randrup", "job":"Tech Lead", "github":"https://github.com/kevinrandrup"},
+    {"pic":"images/home/varun.jpg", "firstName":"Varun", "lastName":"Ballari", "job":"Designer", "github":"https://github.com/Varun-Ballari"},
+    {"pic":"images/home/luke.jpg", "firstName":"Luke", "lastName":"Newman", "job":"Corporate Relations", "github":"https://github.com/lukenewman"},
 ];
 
 getDataFromOfficers(officers);
