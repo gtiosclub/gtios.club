@@ -218,6 +218,7 @@ p.post-meta {font-size: 80%; color: #777;}
     width:223px;
     border-left: 1px solid #dedede;
     box-shadow: 2px 3px 2px #dedede;
+    display: none;
 }
 
 
@@ -229,6 +230,9 @@ ul#results-container a: hover {
     color: black;
 }
 
+#search-demo-container {
+    display:none;
+}
 
 #search-demo-container a:hover {
     color: black;

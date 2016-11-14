@@ -5,3 +5,5 @@ topnav:
   items:
     - title: Tutorials
       url: /tutorials.html
+    - title: Schedule
+      url: /schedule.html
