@@ -44,7 +44,7 @@ Another caveat about Xcode is that it's more designed for a 27" iMac than a 13" 
 
 Right next to the Counterparts button, there's another set of buttons that control the left and right sidebars. Close any number of them until you have enough space to work comfortably. (You can also close the View Hierarchy with a similar looking button at the bottom-right corner of the storyboard canvas.)
 
-<p align="center"> <img src="../images/calculator/P5/screenshot8.png" height:"400px" align="center"> </p>
+<p align="center"> <img src="../images/calculator/P5/screenshot8.png" height="400px" align="center"> </p>
 
 This is the setup I tend to prefer, with the File Browser (left sidebar) and the Storyboard's View Hierarchy closed. The Inspector is something that gets used fairly often so it's a good idea to have it open.
 
@@ -78,7 +78,7 @@ Name the function `addButtonPressed` and then press *Connect*.
 
 Do the same for `subtractButtonPressed`, `multiplyButtonPressed`, `divideButtonPressed`, `equalsButtonPressed`, and `clearButtonPressed`. Now your View Controller should look like this:
 
-<p align="center"> <img src="../images/calculator/P5/screenshot13.png" height: "224px" align="center"> </p>
+<p align="center"> <img src="../images/calculator/P5/screenshot13.png" height="300px" align="center"> </p>
 
 ### Adding connections to the number buttons
 It would be pretty tragic if we had to make a unique function for all of these number buttons. `zeroButtonPressed`, `oneButtonPressed`, `twoButtonPressed`.... yikes.
@@ -87,7 +87,7 @@ We can actually connect **multiple** IBActions to the **same function**.
 
 From any of the number buttons, control-drag and create the function `numberButtonPressed`. It's really important that you set the type to `UIButton` instead of `AnyObject` for this one. Then, you can control-drag and link all of the other nine buttons to that *one* function. That should look like this:
 
-<p align="center"> <img src="../images/calculator/P5/screenshot14.png" height: "100px" align="center"> </p>
+<p align="center"> <img src="../images/calculator/P5/screenshot14.png" height="150px" align="center"> </p>
 
 Do that for all of the number buttons and you should be good to go!
 

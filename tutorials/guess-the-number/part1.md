@@ -25,3 +25,5 @@ Click "Next", and then save the project anywhere you want to on your computer:
 ### Next Time
 
 Now you have successfully created your new project on Xcode! In the next part, we will actually be creating the interface for the Guess the Number game.
+
+#### [Part 2: Setting up your View](guess-the-number-part2)

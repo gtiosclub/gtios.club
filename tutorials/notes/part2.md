@@ -36,3 +36,5 @@ Second, we create a basic initializer which assigns values to all of the propert
 ### Recap
 
 You created a Note class with a title, body and timestamp.
+
+#### [Part 3: Creating your View Controllers](notes-part3)

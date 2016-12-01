@@ -49,6 +49,7 @@ func validateGuess(_ guess: Int) {
     }
 }
 ```
+
 ## One more thing
 
 We have our `validateGuess` function ready, now all we need to do is call it every time "Submit" is pressed. Replace the print call with `validateGuess(guessInt)`
@@ -68,3 +69,5 @@ Run your app and try it! Your console should output the proper messages based on
 
 ### Next Time
 The logic of our app looks great, but we need some way to notify the player that he or she has won, or that there is something wrong with their guess. We will do this by adding some alerts in part 5.
+
+#### [Part 5: Adding Alerts](guess-the-number-part5)

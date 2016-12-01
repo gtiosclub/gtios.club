@@ -28,10 +28,6 @@ Once you've pushed your code, you're done!
 ### Recap
 You created your very first iOS app, congrats!
 
-What you learned:
-- How to create a project
-- How to link IBOutlets and IBActions
-- How to generate random numbers
-- How to create UIAlertControllers
+You learned how to use Interface Builder, how to link your storyboard to your code, and how to create custom alerts.
 
 If you have any feedback for this tutorial, contact us at iosgatech@gmail.com.

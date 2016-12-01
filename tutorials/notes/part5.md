@@ -80,3 +80,5 @@ When you build and run the application, you should be able to select and view no
 ### Recap
 
 You added a Note variable to NoteViewController and displayed the note as soon as the screen loads. Afterwards you used `prepare(for segue: )` to set the note variable when a cell was selected.
+
+#### [Part 6: Adding and Saving Notes](notes-part6)

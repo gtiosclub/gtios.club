@@ -74,3 +74,5 @@ Do the same linking process to the text field in the view, and name that connect
 ### Next Time
 
 Awesome! Now we have added connections for both the label and the text field to Swift code! In the next part, we will be adding some functionality for generating a random number to guess, and we will also be connecting the button to the code.
+
+#### [Part 3: Generate Random Numbers](guess-the-number-part3)

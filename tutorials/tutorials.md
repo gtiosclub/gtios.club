@@ -9,6 +9,8 @@ permalink: "tutorials.html"
 
 #### [Scorekeeper](table-view-part1) - Teaches Table Views
 
-#### [Calculator](calculator-part1) - Teaches Autolayout Constraints, and Table Views
+#### [Calculator](calculator-part1) - Teaches Autolayout Constraints, Delegates, and Table Views
 
 #### [Notes](notes-part1) - Teaches Segues and Data Persistence
+
+#### [Weather](weather-part1) - Teaches CocoaPods, Networking, JSON Parsing, and CoreLocation

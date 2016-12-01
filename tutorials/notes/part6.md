@@ -59,7 +59,7 @@ After the user hits the save button they probably expect to go back to the previ
 
 If you build and run the app, you will see your changes when you modify the notes, save them and reselect the same note.
 
-<p align="center"> <img src="../images/notes/P6/checkpoint1.png" height="300px" align="center"> </p>
+<p align="center"> <img src="../images/notes/P6/checkpoint1.gif" height="300px" align="center"> </p>
 
 
 ### Adding Notes
@@ -158,3 +158,5 @@ Build and run the app and you will be able to create, modify and view notes whil
 ### Recap
 
 You learned about UIBarButtonItems and added save functionality. Right after you learned how to trigger storyboard segues from code when you implemented adding new notes. Finally, you learned about closures and used them to update the Note List and the Note Database when notes were changed.
+
+#### [Part 7: Intro to UserDefaults](notes-part7)

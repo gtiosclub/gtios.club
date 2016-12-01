@@ -2,7 +2,7 @@
 
 entries:
 - title: Sidebar
-  levels: one
+
   folders:
 
   - title: Guess the Number
@@ -116,3 +116,30 @@ entries:
     - title: <b>Part 7</b> - Persistence
       url: /notes-part7.html
       output: web
+      
+  - title: Weather
+    output: web
+    folderitems:
+    - title: <b>Part 1</b> - Creating your Xcode Project
+      url: /weather-part1.html
+      output: web
+    - title: <b>Part 2</b> - Using CocoaPods
+      url: /weather-part2.html
+      output: web
+    - title: <b>Part 3</b> - Preparing the ViewController
+      url: /weather-part3.html
+      output: web
+    - title: <b>Part 4</b> - Reading from the Dark Sky API
+      url: /weather-part4.html
+      output: web
+    - title: <b>Part 5</b> - Parsing with SwiftyJSON
+      url: /weather-part5.html
+      output: web
+    - title: <b>Part 6</b> - Using CoreLocation
+      url: /weather-part6.html
+      output: web
+    - title: <b>Part 7</b> - Updating the UI
+      url: /weather-part7.html
+      output: web
+      
+      

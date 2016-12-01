@@ -104,7 +104,7 @@ Lucky for all of us, the other buttons use the same constraint pattern. We just 
 1. **Do all of those steps for all of the buttons.** It's a bit tedious, but it would work fairly well.
 2. If you select multiple buttons at once using the ⌘ button, then you can **simultaneously apply constraints to all of them at once**. This is more complicated to pull off, but I demonstrate it in this video. (It's very important that you select the buttons starting with the **clr** button).
 
-[<p align="center"> <img src="../images/calculator/P4/screenshot11.png" height="300" align="center"> </p>](http://www.youtube.com/watch?v=KHyFUpohY90)
+<p align="center"> <a href="http://www.youtube.com/watch?v=KHyFUpohY90"><img src="../images/calculator/P4/screenshot11.png" height="300" align="center"></a> </p>
 
 **([Video](http://www.youtube.com/watch?v=KHyFUpohY90)^)**
 

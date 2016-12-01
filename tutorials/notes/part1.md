@@ -32,3 +32,5 @@ Next, we're going to delete some stuff that we no longer need.
 ### Recap
 
 You set up your Xcode project and deleted some of the default files that we won't need. 
+
+#### [Part 2: Creating your Note Object](notes-part2)

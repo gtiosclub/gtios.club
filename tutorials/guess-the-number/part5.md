@@ -41,15 +41,20 @@ func showBoundsAlert() {
     self.present(alert, animated: true, completion: nil)
 }
 ```   
-Now we can replace this line of code in `validateGuess`
+Now we can replace this line of code in `validateGuess`:
+
 ```swift
 print("Your guess should be between 1 and 100!")
 ```   
-with this line of code
+
+with this line of code:
+
 ```swift
 showBoundsAlert()
 ```  
+
 We will do something similar for our `showWinAlert` function:
+
 ```swift
 func showWinAlert() {
     let alert = UIAlertController(title: "Congrats! 🎉", message: "You won with a total of \(numberOfGuesses) guesses", preferredStyle: .alert)
@@ -58,14 +63,9 @@ func showWinAlert() {
     self.present(alert, animated: true, completion: nil)
 }
 ```
-Replace
-```swift
-print("You win!")
-```
-with
-```swift
-showWinAlert()
-```
+
+Replace `print("You win!")` with `showWinAlert()`.
+
 As you can see, your win alert message also lets players know how many guesses they made until they got the right number. Your final `validateGuess` function will look like this:
 
 ```swift
@@ -95,3 +95,5 @@ Voila! You are done with your app! You are now a master iOS Developer and make $
 
 ### Next Time
 Since the app is all done now, save for some more design work, we can get your code pushed up to GitHub.
+
+#### [Part 6: Pushing to GitHub](guess-the-number-part6)

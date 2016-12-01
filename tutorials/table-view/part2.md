@@ -20,7 +20,7 @@ We want the table view to fill the entire screen at all times. We could just dra
 
 The goal of Autolayout Constraints are to establish a set of relationships that define where a view should be on screen (its origin) and how big it should be (its size). Together, the origin and size of a view create its *frame*.
 
-*If you want an in-depth explanation of how constraints work, take a look at [Part 4 of our Calculator Tutorial](http://www.iosgatech.xyz/tutorials#)*.
+*If you want an in-depth explanation of how constraints work, take a look at [Part 4 of our Calculator Tutorial](calculator-part4)*.
 
 We want the Table View to fill the entire screen. One way to represent this relationship is by setting the top, bottom, left, and right sides of the Table View to be zero pixels away from the edges of the screen.
 

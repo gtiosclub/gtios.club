@@ -18,7 +18,7 @@ The CalculationDelegate has the function `handleInput(_ number: Int)`. The funct
 
 Each `UIButton` on screen is wired to connect to this same function, so it wouldn't make any sense for them to all pass the same constant to `handleInput`. How can we find out what button was actually pressed?
 
-##### (sender: UIButton)
+#### (sender: UIButton)
 
 The key part here is that every IBAction also has a `sender` argument. When a button is pressed, the linked function is called with the pressed button as the sender. This gives us access to a `UIButton` representation of our button on screen. That means we can get attributes like the button's title label (the visible text).
 

@@ -68,3 +68,5 @@ Next we are going to design our UI (at this point we are assuming that you are f
 ### Recap
 
 We have created a Navigation Controller containing `NoteListTableViewController` and a tableview. Tapping the row will segue to `NoteViewController` which contains a Text Field and Text View. 
+
+#### [Part 4: Implementing Notes List](notes-part4)

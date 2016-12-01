@@ -20,7 +20,7 @@ class ScoreCell : UITableViewCell {
 }
 ```
 
-###Connecting @IBOutlets
+### Connecting @IBOutlets
 
 To customize the text in the label, we need a reference to the label itself. You can do this through an `@IBOutlet`, which allows you to connect an object in Interface Builder to a variable in your code. This is done with the same drag-and-drop method as linking the `dataSource` and `delegate`, but this time between the code and the storyboard. We'll need to see both at once.
 
@@ -100,7 +100,7 @@ class ScoreCell : UITableViewCell {
 }
 ```
 
-You don't need to worry about what everything on that line means. The only parts that really matter for us is the name (`label`) and the type (`UILabel`). For a detailed explanation of the individual keywords and what that exclamation mark is doing, read [Part 5 Bonus: Explaining @IBOutlets](.../table-view-part4-bonus).
+You don't need to worry about what everything on that line means. The only parts that really matter for us is the name (`label`) and the type (`UILabel`). For a detailed explanation of the individual keywords and what that exclamation mark is doing, read [Part 5 Bonus: Explaining @IBOutlets](table-view-part5-bonus).
 
 ### Recap
 

@@ -33,16 +33,19 @@ class NoteDatabase {
     ...
     private func synchronize() {
         notes.sort(by: { $0.lastUpdated > $1.lastUpdated })
-	     Persistence.save(notes: notes)
-	 }
+        Persistence.save(notes: notes)
+    }
 	 
-	 private struct Persistence {
-	     private static let key = "Notes.NoteDatabase.Key"
-	     static func save(notes: [Note]) {
-	     }
-	     static func load() -> [Note] {
-	     }
-	 }
+     private struct Persistence {
+        private static let key = "Notes.NoteDatabase.Key"
+        static func save(notes: [Note]) {
+        
+        }
+        
+        static func load() -> [Note] {
+        
+        }
+    }
 }
 ```
 

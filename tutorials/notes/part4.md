@@ -131,3 +131,5 @@ Build and run and you should see a list of notes that looks like the screenshot 
 ### Recap
 
 We created `NoteDatabase` to store and retrieve notes then used it to implement `UITableViewDataSource` to display the title and timestamp of notes.
+
+#### [Part 5: Viewing and Editing Notes](notes-part5)

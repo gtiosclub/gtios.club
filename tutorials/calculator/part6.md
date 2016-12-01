@@ -14,7 +14,32 @@ Your project should look like this now:
 
 ### CalculationDelegate.swift
 
-<p align="center"> <img src="../images/calculator/P6/screenshot1.png" align="center"> </p>
+```swift
+protocol CalculationDelegate {
+    
+    var previousExpressions: [(expression: String, result: String)] { get set }
+    var currentOperator: Operator? { get set }
+    
+    var leftNumber: Double? { get set }
+    var rightNumber: Double? { get set }
+    var resultNumber: Double { get }
+    
+    var expressionString: String { get }
+    
+    func handleInput(_ number: Int)
+    func setOperator(_ newOperator: Operator)
+    func clearInputAndSave(_ save: Bool)
+    
+}
+
+protocol Operator {
+    
+    var character: String { get }
+    var operate: (Double, Double) -> Double { get }
+    init(forCharacter character: String, withFunction: @escaping (Double, Double) -> Double)
+    
+}
+```
 
 CalculationDelegate is a protocol that contains all of the necessary *function headers* for the logic to our calculator. Functions like `handleInput` and `setOperator` don't actually do anything yet, but it's a blueprint of how a Calculation Delegate should behave.
 

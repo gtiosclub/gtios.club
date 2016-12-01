@@ -49,3 +49,5 @@ Run the app press the submit button. Your console should be outputting new rando
 ### Next Time
 
 Now we have successfully connected our button to our code through an `IBAction` connection! In the next part, we will work on the logic behind the game!
+
+#### [Part 4: Writing the Game Logic](guess-the-number-part4)
