@@ -10,7 +10,7 @@ Now that we have a Table View set up in Interface Builder, we need to tell it ho
 
 `UITableViewDelegate` and `UITableViewDataSource` are two **delegate protocols** that let us tell the table view how to behave. **Delegates** allow an object to delegate responsibility and decision-making to other parts of your app. For example, the Table View doesn't know how many rows it should have. It will ask *"Hey, how many rows should I have?"* and your app will say *"You should have 3 rows."*
 
-#### Conforming to UITableViwDelegate and UITableViewDataSource
+#### Conforming to UITableViewDelegate and UITableViewDataSource
 
 We need to create a delegate that we can give to the Table View. It's common practice to have the `UIViewController` double as your delegate, so go ahead and open your `ViewController.swift`
 
