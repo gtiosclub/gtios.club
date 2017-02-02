@@ -34,9 +34,9 @@ At the top of the popup, you can control the **Spacing to neaest neighbor**. Typ
 
 In this case, we want to set the label to be 20 pixels from the top of the screen and 20 pixels from the left of the screen. Set those values and click *Add 2 Constraints* at the bottom.
 
-Back in the canvas, your label should have turned orange. This means that it's current frame in Interface Builder isn't correct based on the constraints you've specified. 
-
 <p align="center"> <img src="../images/about-me/label needs update.png" align="center" style="max-width:250px"> </p>
+
+Back in the canvas, your label should have turned orange. This means that it's current frame in Interface Builder isn't correct based on the constraints you've specified. 
 
 The dotted orange line is the frame your constraints specify. If you press the key command `Command-Option-Equals` **(⌘⌥=)**, the view's frame will update. It should snap in place and turn blue: 
 
@@ -72,7 +72,7 @@ And we can add these constraints to the button:
 
 We specifically don't need to add a top constraint to the button. Since we already said *"the image view is 20 pixels above the button"*, it would be redundant to also say *"the button is 20 pixels below the image view"*.
 
-With these constraints added the the frames updated *(⌘⌥=)*, your View Controller should look something like this:
+With these constraints added and the frames updated *(⌘⌥=)*, your View Controller should look something like this:
 
 <p align="center"> <img src="../images/about-me/first controller no image.png" align="center" style="max-width:300px"> </p>
 

@@ -34,7 +34,7 @@ We can reconstruct the previous example using constraints instead of pixel value
  
  <p align="center"> <img src="../images/about-me/basic constraints.png" align="center" style="max-width:500px;"> </p>
  
- With these constraints, the rectangle stays centered as it gets larger.
+ With these constraints, the rectangle stays centered as the screen gets larger.
 
 ### Constraining Views Relative To Eachother
 
@@ -56,9 +56,9 @@ The <b style="color: red;">red</b> view has these constraints:
  * Centered horizontally
  * 20 pixels from the bottom
 
-Notably, these constraints never specific how tall <b style="color: red;">red</b> should be. Based on this relationships, though, it's easy to infer how tall the view should be. This is exactly what Autolayout does.
+Notably, these constraints never specify how tall <b style="color: red;">red</b> should be. Based on this relationships, though, it's easy to infer how tall the view should be. This is exactly what Autolayout does.
 
-As we decrease the screen size, <b style="color: blue;">blue</b> stays the same height and relative position while <b style="color: red;">red</b> gets progressively smaller:
+As we decrease the screen size, <b style="color: blue;">blue</b> stays the same height and in the same relative position while <b style="color: red;">red</b> gets progressively smaller:
 
  <p align="center"> <img src="../images/about-me/multiple views and sizes.png" align="center" style="max-width:600px;"> </p>
 

@@ -32,7 +32,7 @@ We actually won't be writing any code for this app. We'll spend almost all of ou
 Opening the storyboard bring us to *Interface Builder*. This is where we'll design our app. There are four major pieces that we need to be aware of:
 
  * **Editor Canvas** (center): This is where we actually design the screens in our app. An individual screen is called a `View Controller`. The Tabbed Application template we chose earlier started us with three View Controllers.
- * **View Heierarchy** (left): The View Heierarchy you a tree of all the views and View Controllers in your storyboard.
+ * **View Heierarchy** (left): The View Heierarchy shows you a tree of all the views and View Controllers in your storyboard.
  * **Inspector** (center right): The Inspector is where you can control and customize the views in your canvas. Since we don't have anything selected, it shows *No Selection* right now.
  * **View Palette** (bottom right): The View Palette shows you all of the different components that you can add to your canvas. Make sure you have the third item selected (the other three aren't all that useful).
  
