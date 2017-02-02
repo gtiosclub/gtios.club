@@ -4,8 +4,31 @@ sidebar: tutorials
 permalink: schedule.html
 ---
 
+## Spring 2017
 
-## Fall 2016
+Date   | Topic
+-------| -------------
+1/17   | Tap Game - *Introduction to iOS*
+1/24   | **NO MEETING**
+1/31   | About Me app - *Autolayout, Tab Bars, and Navigation Controllers*
+2/7    | Reminders app - *Table Views*
+2/14   | **Tech Talk hosted by MailChimp** - *Intro to Core Data*
+2/21   | Places I've Been app - *MapKit and CoreData*
+2/28   | Chat app - *Firebase*
+3/7    | Photos app - *Collection Views and Photos framework*
+3/14   | Flappy Buzz - *SpriteKit crash course*
+3/21   | **SPRING BREAK**
+3/28   | *tbd*
+4/4    | *tbd*
+4/11   | *tbd*
+4/18   | Demo Day
+4/25   | **FINALS**
+5/2    | **FINALS**
+
+
+## Past Schedules
+
+### Fall 2016
 
 Date   | Topic
 -------| -------------
@@ -25,29 +48,3 @@ Date   | Topic
 11/29  | Ice Cream Showcase
 12/6   | **DEADWEEK**
 12/13  | **FINALS**
-12/20  | **WINTER BREAK**
-12/27  | **WINTER BREAK**
-1/3    | **WINTER BREAK**
-
-
-## Spring 2017
-
-Date   | Topic
--------| -------------
-1/10   |
-1/17   |
-1/24   |
-1/31   |
-2/7    |
-2/14   |
-2/21   |
-2/28   |
-3/7    |
-3/14   |
-3/21   | **SPRING BREAK**
-3/28   |
-4/4    |
-4/11   |
-4/18   | Demo Day
-4/25   | **FINALS**
-5/2    | **FINALS**

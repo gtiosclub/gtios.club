@@ -10,14 +10,14 @@ Now that we have a Table View set up in Interface Builder, we need to tell it ho
 
 `UITableViewDelegate` and `UITableViewDataSource` are two **delegate protocols** that let us tell the table view how to behave. **Delegates** allow an object to delegate responsibility and decision-making to other parts of your app. For example, the Table View doesn't know how many rows it should have. It will ask *"Hey, how many rows should I have?"* and your app will say *"You should have 3 rows."*
 
-#### Conforming to UITableViwDelegate and UITableViewDataSource
+#### Conforming to UITableViewDelegate and UITableViewDataSource
 
 We need to create a delegate that we can give to the Table View. It's common practice to have the `UIViewController` double as your delegate, so go ahead and open your `ViewController.swift`
 
 `UITableViewDelegate` and `UITableViewDataSource` are two protocols that we want our `ViewController` to implement. (If you're more familiar with Java, think along the lines of implementing an Interface). Go ahead and add the protocols to the class declaration:
 
 ```swift
-class ViewController: UIViewController, UIViewControllerDelegate, UITableViewDataSource {
+class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     // Xcode autogenerates some boilerplate code for you here,
     // but you can go ahead and delete it if you want.
@@ -74,7 +74,7 @@ Instead, `UITableView` keeps a queue of cells that have already been initialized
 Your View Controller class should look something like this:
 
 ```swift
-class ViewController: UIViewController, UITableViewDataSource {
+class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     var scores = ["Cal" : 0, "Brian" : 0, "Komal" : 0]
 
