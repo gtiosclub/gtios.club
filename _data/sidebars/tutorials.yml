@@ -27,6 +27,25 @@ entries:
       url: /guess-the-number-part6.html
       output: web
 
+  - title: About Me
+    output: web
+    folderitems:
+    - title: <b>Part 1</b> - Introduction to Autolayout
+      url: /about-me-part1.html
+      output: web
+    - title: <b>Part 2</b> - Setting up your Xcode Project
+      url: /about-me-part2.html
+      output: web
+    - title: <b>Part 3</b> - Designing the first View Controller
+      url: /about-me-part3.html
+      output: web
+    - title: <b>Part 4</b> - Segues and Navigation Bars
+      url: /about-me-part4.html
+      output: web
+    - title: <b>Part 5</b> - Stack Views
+      url: /about-me-part5.html
+      output: web
+
   - title: Scorekeeper
     output: web
     folderitems:
@@ -50,6 +69,56 @@ entries:
       output: web
     - title: <b>Part 7</b> - Adding User Interaction
       url: "/table-view-part7.html"
+      output: web
+      
+  - title: Weather
+    output: web
+    folderitems:
+    - title: <b>Part 1</b> - Creating your Xcode Project
+      url: /weather-part1.html
+      output: web
+    - title: <b>Part 2</b> - Using CocoaPods
+      url: /weather-part2.html
+      output: web
+    - title: <b>Part 3</b> - Preparing the ViewController
+      url: /weather-part3.html
+      output: web
+    - title: <b>Part 4</b> - Reading from the Dark Sky API
+      url: /weather-part4.html
+      output: web
+    - title: <b>Part 5</b> - Parsing with SwiftyJSON
+      url: /weather-part5.html
+      output: web
+    - title: <b>Part 6</b> - Using CoreLocation
+      url: /weather-part6.html
+      output: web
+    - title: <b>Part 7</b> - Updating the UI
+      url: /weather-part7.html
+      output: web
+
+  - title: Notes
+    output: web
+    folderitems:
+    - title: <b>Part 1</b> - Creating your Xcode Project
+      url: /notes-part1.html
+      output: web
+    - title: <b>Part 2</b> - Creating your Note Object
+      url: /notes-part2.html
+      output: web
+    - title: <b>Part 3</b> - Creating your View Controllers
+      url: /notes-part3.html
+      output: web
+    - title: <b>Part 4</b> - Implementing Notes List
+      url: /notes-part4.html
+      output: web
+    - title: <b>Part 5</b> - Viewing and Editing Notes
+      url: /notes-part5.html
+      output: web
+    - title: <b>Part 6</b> - Adding and Saving Notes
+      url: /notes-part6.html
+      output: web
+    - title: <b>Part 7</b> - Persistence
+      url: /notes-part7.html
       output: web
       
   - title: Calculator
@@ -90,56 +159,6 @@ entries:
       output: web
     - title: <b>Part 12</b> - Reloading and Animating your Table View
       url: /calculator-part12.html
-      output: web
-      
-  - title: Notes
-    output: web
-    folderitems:
-    - title: <b>Part 1</b> - Creating your Xcode Project
-      url: /notes-part1.html
-      output: web
-    - title: <b>Part 2</b> - Creating your Note Object
-      url: /notes-part2.html
-      output: web
-    - title: <b>Part 3</b> - Creating your View Controllers
-      url: /notes-part3.html
-      output: web
-    - title: <b>Part 4</b> - Implementing Notes List
-      url: /notes-part4.html
-      output: web
-    - title: <b>Part 5</b> - Viewing and Editing Notes
-      url: /notes-part5.html
-      output: web
-    - title: <b>Part 6</b> - Adding and Saving Notes
-      url: /notes-part6.html
-      output: web
-    - title: <b>Part 7</b> - Persistence
-      url: /notes-part7.html
-      output: web
-      
-  - title: Weather
-    output: web
-    folderitems:
-    - title: <b>Part 1</b> - Creating your Xcode Project
-      url: /weather-part1.html
-      output: web
-    - title: <b>Part 2</b> - Using CocoaPods
-      url: /weather-part2.html
-      output: web
-    - title: <b>Part 3</b> - Preparing the ViewController
-      url: /weather-part3.html
-      output: web
-    - title: <b>Part 4</b> - Reading from the Dark Sky API
-      url: /weather-part4.html
-      output: web
-    - title: <b>Part 5</b> - Parsing with SwiftyJSON
-      url: /weather-part5.html
-      output: web
-    - title: <b>Part 6</b> - Using CoreLocation
-      url: /weather-part6.html
-      output: web
-    - title: <b>Part 7</b> - Updating the UI
-      url: /weather-part7.html
       output: web
       
       

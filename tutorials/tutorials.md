@@ -7,10 +7,12 @@ permalink: "tutorials.html"
 
 #### [Guess the Number](guess-the-number-part1) - Teaches iOS basics
 
-#### [Scorekeeper](table-view-part1) - Teaches Table Views
+#### [About Me](about-me-part1) - Teaches Autolayout and Stack Views
 
-#### [Calculator](calculator-part1) - Teaches Autolayout Constraints, Delegates, and Table Views
+#### [Scorekeeper](table-view-part1) - Teaches Table Views
 
 #### [Notes](notes-part1) - Teaches Segues and Data Persistence
 
 #### [Weather](weather-part1) - Teaches CocoaPods, Networking, JSON Parsing, and CoreLocation
+
+#### [Calculator](calculator-part1) - Teaches Autolayout and Table Views
