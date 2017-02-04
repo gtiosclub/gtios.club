@@ -103,6 +103,6 @@ If we run the app again, we see that everything is peachy:
 
 You've built an interactive Table View app using constraints, Table View delegates, custom Table View cells, and custom behavior. Great job!
 
-If you have any feedback on this tutorial, found something particularly difficult to understand, or got stuck on a weird bug, you can reach out to use on our Facebook group.
+If you have any feedback on this tutorial, found something particularly difficult to understand, or got stuck on a weird bug, you can reach out to us on our Facebook group.
 
 https://www.facebook.com/groups/iosgatech/
