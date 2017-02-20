@@ -14,13 +14,13 @@ You should see something that looks like this. There are three important parts w
 3. **The Inspector:** This pane is where you modify anything and everything. It shows options for whatever you have selected.
 4. **UI Palette:** Nestled at the bottom of the inspector, the UI Palette is where you find the components that you use to build your interfaces.
 
-That big white square in the middle is your first View Controller. Any changes you make to this view will appear on your screen when you run the app.
+That screen in the middle is your first View Controller. Any changes you make to this view will appear on your screen when you run the app.
 
-Let's first change the square to look a bit more like an iPhone 6s. Click on the view controller and look for a yellow circle at the top of the view controller (or look at the margin.) Click on the yellow circle to select the view controller and then click on the **Attributes Inspector** tab in the inspector panel on the right. Change the size to a `iPhone 4.7 Inch` screen:
+Notice in the bottom left corner of the Editor Canvas a button that says `View as: iPhone 7 (wC, hR)`. If you click on it it should pop up your Size and Orientation panel:
 
 <p align="center"> <img src="../images/guess-the-number/vcSize.png" align="center" style="max-width:75%"> </p>
 
-Great! It should look like an iPhone 6s now. In the future, you may need to use the full square size/size classes (out of good practice), but for the purpose of this tutorial, we'll use iPhone 6s size.
+Here is where you can view your app in different screen sizes and orientation. The cool thing about XCode is that you can layout your views to fit any screen size and orientation, all on one app. For the purpose of this tutorial, keep the setting at iPhone 7.
 
 Now, for this Guess the Number game, there are 3 parts in the interface we're building:
 1. A label to display the title of the game
