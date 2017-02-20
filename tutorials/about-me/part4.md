@@ -30,7 +30,7 @@ Now the two View Controller should be linked together by a segue:
 
 ### Thinking about a layout
 
-For this screen, we want to add two fun facts about yourself, which will need two separate labels. They would look best as a group centered in middle of the screen. The easiest way to do this is by creating a set of **nested views**. If we put the two labels inside of a container view, we can center that view in the screen. 
+For this screen, we want to add two fun facts about yourself, which will need two separate labels. They would look best as a group centered in middle of the screen. The easiest way to do this is by creating a set of **nested views**. If we put the two labels inside of a container view, we can center that view in the screen.
 
 ### Setting up our container view
 
@@ -46,6 +46,12 @@ We want the container view itself to be centered in the screen. You can add thos
 
 <p align="center"> <img src="../images/about-me/container constraints.png" align="center" style="max-width:350px"> </p>
 
+Right now, your container should have red lines around it.
+
+<p align="center"> <img src="../images/about-me/container red lines.png" align="center" style="max-width:350px"> </p>
+
+That's okay. Red means that there are missing constraints (or conflicting constraints). In this case, the container has its **x** and **y** constraints from the center constraints that we've made, but it has red lines because it's missing its **width** and **height** constraints. Those will be determined by the constraints from the two labels, which we'll set up right now:
+
 For the labels, we'll set their top, bottom, left, and right spacing to 20:
 
 <p align="center"> <img src="../images/about-me/top label constraints.png" align="center" style="max-width:300px"> </p>
@@ -55,6 +61,8 @@ For the labels, we'll set their top, bottom, left, and right spacing to 20:
 Together, these sets of constraints look like this:
 
 <p align="center"> <img src="../images/about-me/visualized constraints.png" align="center" style="max-width:400px"> </p>
+
+Now, whenever the labels change in size, the parent container view should change in size as well. That's because the spacing constraints of the labels **push out** on the width and height of the parent container. Therefore the parent container knows its x, y, width, and height constraints and all the constraints are satisfied.
 
 ### Customizing the labels
 
@@ -76,7 +84,7 @@ Most apps solve this by using a Navigation Bar. When a new screen pushes onto th
 
 ### Adding our own Navigation Bar
 
-An app's Navigation Bar is managed by a **Navigation View Controller**. It's a special kind of View Controller that other content is embedded in. 
+An app's Navigation Bar is managed by a **Navigation View Controller**. It's a special kind of View Controller that other content is embedded in.
 
 Select the first View Controller by clicking on the white bar at the top:
 
@@ -94,6 +102,6 @@ If you run the app in the simulator again, you should see everything is working 
 
 <p align="center"> <img src="../images/about-me/with nav bar.gif" align="center" style="max-width:300px"> </p>
 
-In Part 5, we'll start working on the app's other tab. 
+In Part 5, we'll start working on the app's other tab.
 
 #### [Part 5: Stack Views](about-me-part5)
