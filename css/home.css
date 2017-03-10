@@ -236,6 +236,24 @@ h3 {
     position: relative;
     z-index: 2;
 }
+
+.sponsors {
+    margin: 75px 0px;
+    width: 100%;
+}
+
+.level2sponsor {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.level2s {
+    flex: auto;
+    width: 50%;
+    margin: 50px 0px;
+}
 /*----------------------------------------------------------------------------*/
 
 .teamPage {
@@ -244,6 +262,9 @@ h3 {
     padding-top: 50px;
     display:block;
     overflow:auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .teamPage p {
