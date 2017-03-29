@@ -19,7 +19,7 @@ Date   | Topic
 3/14   | Flappy Buzz - *SpriteKit crash course*
 3/21   | **SPRING BREAK**
 3/28   | *Spec Challenge and Build your own app*
-4/4    | *tbd*
+4/4    | *Spec Challenge and Build your own app*
 4/11   | *Build your own app session*
 4/18   | Demo Day
 4/25   | **FINALS**
