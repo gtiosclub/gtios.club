@@ -8,7 +8,7 @@ var officers = [
     {"pic":"images/home/cliff.jpg", "firstName":"Cliff", "lastName":"Panos", "job":"Tech Lead / Designer", "github":"https://github.com/cliffpanos"},
     {"pic":"images/home/mitchell.jpg", "firstName":"Mitchell", "lastName":"Gant", "job":"Tech Lead / Corporate Relations", "github":"https://github.com/m-gant"},
     {"pic":"images/home/kay.jpg", "firstName":"Kay", "lastName":"Yin", "job":"Tech Lead", "github":"https://github.com/lumingyin"},
-    {"pic":"images/home/rohan.jpg", "firstName":"Rohan", "lastName":"Rk", "job":"Tech Lead", "github":"https://github.com/calda"},
+    {"pic":"images/home/rohan.jpg", "firstName":"Rohan", "lastName":"Rk", "job":"Tech Lead", "github":"https://github.com/rohanrk"},
 ];
 
 getDataFromOfficers(officers);
