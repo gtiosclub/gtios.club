@@ -1,11 +1,14 @@
 var officers = [
-    {"pic":"images/home/brian.jpg", "firstName":"Brian", "lastName":"Wang", "job":"President", "github":"https://github.com/brianwang9100"},
-    {"pic":"images/home/cal.jpg", "firstName":"Cal", "lastName":"Stephens", "job":"Senior Tech Lead", "github":"https://github.com/calda"},
-    {"pic":"images/home/ale.jpg", "firstName":"Ale", "lastName":"Patron", "job":"Tech Lead", "github":"https://github.com/apatronl"},
-    {"pic":"images/home/komal.jpg", "firstName":"Komal", "lastName":"Hirani", "job":"Tech Lead", "github":"https://github.com/khirani6"},
-    {"pic":"images/home/kevin.jpg", "firstName":"Kevin", "lastName":"Randrup", "job":"Tech Lead", "github":"https://github.com/kevinrandrup"},
-    {"pic":"images/home/varun.jpg", "firstName":"Varun", "lastName":"Ballari", "job":"Designer", "github":"https://github.com/Varun-Ballari"},
-    {"pic":"images/home/luke.jpg", "firstName":"Luke", "lastName":"Newman", "job":"Corporate Relations", "github":"https://github.com/lukenewman"},
+    {"pic":"images/home/cal.jpg", "firstName":"Cal", "lastName":"Stephens", "job":"President", "github":"https://github.com/calda"},
+    {"pic":"images/home/brian.jpg", "firstName":"Brian", "lastName":"Wang", "job":"Founder", "github":"https://github.com/brianwang9100"},
+    {"pic":"images/home/ale.jpg", "firstName":"Ale", "lastName":"Patron", "job":"Senior Tech Lead", "github":"https://github.com/apatronl"},
+    {"pic":"images/home/komal.jpg", "firstName":"Komal", "lastName":"Hirani", "job":"Tech Lead / Senior Designer", "github":"https://github.com/khirani6"},
+    {"pic":"images/home/kevin.jpg", "firstName":"Kevin", "lastName":"Randrup", "job":"Senior Tech Lead", "github":"https://github.com/kevinrandrup"},
+    //{"pic":"images/home/varun.jpg", "firstName":"Varun", "lastName":"Ballari", "job":"Designer", "github":"https://github.com/Varun-Ballari"},
+    {"pic":"images/home/cliff.jpg", "firstName":"Cliff", "lastName":"Panos", "job":"Tech Lead / Designer", "github":"https://github.com/cliffpanos"},
+    {"pic":"images/home/mitchell.jpg", "firstName":"Mitchell", "lastName":"Gant", "job":"Tech Lead / Corporate Relations", "github":"https://github.com/m-gant"},
+    {"pic":"images/home/kay.jpg", "firstName":"Kay", "lastName":"Yin", "job":"Tech Lead", "github":"https://github.com/lumingyin"},
+    {"pic":"images/home/rohan.jpg", "firstName":"Rohan", "lastName":"Rk", "job":"Tech Lead", "github":"https://github.com/calda"},
 ];
 
 getDataFromOfficers(officers);
@@ -21,14 +24,14 @@ function getDataFromOfficers(arr) {
     document.getElementById("officer-data").innerHTML = out;
 }
 
-window.addEventListener('resize', function(event){
+/*window.addEventListener('resize', function(event){
     var elmnt = document.getElementById("long-page");
     var maxX = elmnt.offsetWidth;
     console.log(maxX);
 
-});
+});*/
 
-$(document).ready(function(){
+/*$(document).ready(function(){
    var scroll_start = 0;
    var startchange = $('#iphone');
    var offset = startchange.offset();
@@ -41,4 +44,4 @@ $(document).ready(function(){
           $('.siri').css('background-color', 'white');
       }
    });
-});
+});*/
