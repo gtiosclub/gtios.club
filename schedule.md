@@ -4,7 +4,30 @@ sidebar: tutorials
 permalink: schedule.html
 ---
 
-## Spring 2017
+## Fall 2017
+
+Date   | Topic
+-------| -------------
+8/29   | Tap Game - *Introduction to iOS, Part 1*
+9/5    | Guess the Number - *Introduction to iOS, Part 2*
+9/12   | About Me / Career Fair app - *Autolayout & Interface Builder*
+9/19   | TBA
+9/26   | **No meeting** -- College of Computing Career Fair
+10/3   | TBA
+10/10  | **No meeting** -- Fall break
+10/17  | TBA
+10/17  | TBA
+10/24  | TBA
+10/31  | TBA
+11/7   | TBA
+11/14  | TBA
+11/21  | **No meeting** -- Thanksgiving break
+11/28  | App Showcase
+12/5   | **No meeting** -- Finals week
+
+## Past Schedules
+
+### Spring 2017
 
 Date   | Topic
 -------| -------------
@@ -24,9 +47,6 @@ Date   | Topic
 4/18   | Demo Day
 4/25   | **FINALS**
 5/2    | **FINALS**
-
-
-## Past Schedules
 
 ### Fall 2016
 
