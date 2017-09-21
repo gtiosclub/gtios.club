@@ -15,4 +15,4 @@ permalink: "tutorials.html"
 
 #### [Weather](weather-part1) - Teaches CocoaPods, Networking, JSON Parsing, and CoreLocation
 
-#### [Calculator](calculator-part1) - Teaches Autolayout and Table Views
+#### [Calculator (Legacy)](calculator-part1) - Teaches Autolayout and Table Views

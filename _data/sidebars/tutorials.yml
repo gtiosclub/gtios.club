@@ -121,7 +121,7 @@ entries:
       url: /notes-part7.html
       output: web
       
-  - title: Calculator
+  - title: Calculator (legacy)
     output: web
     folderitems:
     - title: <b>Part 1</b> - Creating your Xcode Project
