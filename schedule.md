@@ -10,10 +10,10 @@ Date   | Topic
 -------| -------------
 8/29   | Tap Game - *Introduction to iOS, Part 1*
 9/5    | Guess the Number - *Introduction to iOS, Part 2*
-9/12   | About Me / Career Fair app - *Autolayout & Interface Builder*
-9/19   | TBA
+9/12   | **Meeting canceled**
+9/19   | About Me app - *Autolayout & Interface Builder*
 9/26   | **No meeting** -- College of Computing Career Fair
-10/3   | TBA
+10/3   | Shopping List - *Introduction to UITableView*
 10/10  | **No meeting** -- Fall break
 10/17  | TBA
 10/17  | TBA
