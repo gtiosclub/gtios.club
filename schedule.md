@@ -8,22 +8,22 @@ permalink: schedule.html
 
 Date   | Topic
 -------| -------------
-8/29   | Tap Game - *Introduction to iOS, Part 1*
-9/5    | Guess the Number - *Introduction to iOS, Part 2*
+8/29   | Intro to iOS, Part 1 - *Tap Game*
+9/5    | Intro to iOS, Part 2 - *Guess the Number*
 9/12   | **Meeting canceled**
-9/19   | About Me app - *Autolayout & Interface Builder*
-9/26   | **No meeting** -- College of Computing Career Fair
-10/3   | Shopping List - *Introduction to UITableView*
-10/10  | **No meeting** -- Fall break
-10/17  | TBA
-10/17  | TBA
-10/24  | TBA
+9/19   | Autolayout & Interface Builder - *About Me*
+9/26   | **No meeting** - College of Computing Career Fair
+10/3   | Intro to UITableView - *Shopping List*
+10/10  | **No meeting** - Fall break
+10/17  | Intro to Multi-screen apps - *Colors list*
+10/17  | Data Persistence & MapKit - *Pin Drop*
+10/24  | Networking & JSON Decoding - *TBA*
 10/31  | TBA
 11/7   | TBA
 11/14  | TBA
-11/21  | **No meeting** -- Thanksgiving break
+11/21  | **No meeting** - Thanksgiving break
 11/28  | App Showcase
-12/5   | **No meeting** -- Finals week
+12/5   | **No meeting** - Finals week
 
 ## Past Schedules
 
