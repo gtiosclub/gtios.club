@@ -21,7 +21,7 @@ func generateRandomNumber() {
 ```
 With this function, we randomly generate a number within the range of 1-100 and assign the number to the variable `numberToGuess`. arc4random_uniform(N) is upperbound exclusive (0 - 99) so you need to add 1 to make 1 - 100.
 
-While this is great, we need to make sure that at the start of the app, a random number is generated. In order to do that, we will call the function we just created in the already existing `viewDidLoad` function in `ViewController.swift`:
+While this is great, we need to make sure that at the start of the app, a random number is generated. In order to do that, we will call the function we just created in the already existing `viewDidLoad` function in `ViewController.swift` like so:
 
 ```swift
 override func viewDidLoad() {
@@ -30,12 +30,18 @@ override func viewDidLoad() {
 }
 ```
 
+The `viewDidLoad` function is called once when the view controller is loaded onto the app -- you could say its the main function of your view controller! Every `UIViewController` will have this function, so if you have any initial screen setup work to do, do it in `viewDidLoad`.
+
 Now when the application launches, a number will randomly be generated and saved to `numberToGuess`! Let's continue by finally connecting our submit button to the Swift file!
 
 ### A Button for All: IBAction
-An IBOutlet is a connection to a UI element. An IBAction is a connected action to a UI element. For a button, an IBAction is a function called when the button is pressed on the screen.
+An IBOutlet is a connected **variable** to a UI element. An IBAction is a connected **action/function** to a UI element. For a button, an IBAction is a function called when the button is pressed on the screen.
 
-Just like we did for the label and the textfield in Part 2, control-click the button and drag it to `ViewController.swift` right below everything. In the pop-up screen, **change the connection type** from `Outlet` to `Action`. Go ahead and name the function `submitButtonPressed`. After the IBAction function has been created, add two lines of code below:
+Just like we did for the label and the textfield in Part 2, control-click the button and drag it to `ViewController.swift` right below everything. In the pop-up screen, **change the connection type** from `Outlet` to `Action`. Go ahead and name the function `submitButtonPressed`.
+
+<p align="center"> <img src="../images/guess-the-number/ibaction.png" align="center" style="max-width:75%"> </p>
+
+After the IBAction function has been created, add two lines of code inside:
 
 ```swift
 @IBAction func submitButtonPressed(_ sender: UIButton) {
@@ -43,6 +49,10 @@ Just like we did for the label and the textfield in Part 2, control-click the bu
     print("\(numberToGuess)")
 }
 ```
+
+Your code should look like such: 
+
+<p align="center"> <img src="../images/guess-the-number/endPart3.png" align="center" style="max-width:75%"> </p>
 
 Run the app press the submit button. Your console should be outputting new randomly generated numbers every time! Dope.
 

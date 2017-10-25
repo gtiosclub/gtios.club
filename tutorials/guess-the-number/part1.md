@@ -14,7 +14,7 @@ Click on "Create a new Xcode project", then a default screen should appear:
 
 <p align="center"> <img src="../images/guess-the-number/createProject.png" align="center" style="max-width:75%"> </p>
 
-Go ahead and click "Next", and on the next screen, make your project's name "Guess The Number":
+Select **Single View App** and click on "Next", and on the next screen, make your project's name "Guess The Number". 
 
 <p align="center"> <img src="../images/guess-the-number/inputProjectName.png" align="center" style="max-width:75%"> </p>
 
