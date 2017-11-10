@@ -67,6 +67,8 @@ We have our `validateGuess` function ready, now all we need to do is call it eve
 
 Run your app and try it! Your console should output the proper messages based on your text field input when you press submit.
 
+<p align="center"> <img src="../images/guess-the-number/endPart4.png" align="center" style="max-width:75%"> </p>
+
 ### Next Time
 The logic of our app looks great, but we need some way to notify the player that he or she has won, or that there is something wrong with their guess. We will do this by adding some alerts in part 5.
 

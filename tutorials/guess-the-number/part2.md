@@ -54,7 +54,7 @@ Now, in order to actually input a guess, you will need a `Text Field`, and you w
 
 Awesome! Now we have our view! If you run the application on the simulator, then you should be able to see the image above as the final layout on your phone! On the top left of XCode, **select iPhone X or iPhone 8 Plus** in the device/simulator dropdown and then press the **Play Button**.
 
-<p align="center"> <img src="../images/guess-the-number/selectSimulatorPlay.png" align="center" style="max-width: 375px"> </p>
+<p align="center"> <img src="../images/guess-the-number/selectSimulatorPlay.png" align="center" style="max-width: 75%"> </p>
 
 <p align="center"> <img src="../images/guess-the-number/simulatorView.png" align="center" style="max-width: 375px"> </p>
 
@@ -82,7 +82,11 @@ With this screen, you can specify what type of connection you'll make between th
 
 <p align="center"> <img src="../images/guess-the-number/guessLabel.png" align="center" style="max-width:75%"> </p>
 
-Do the same linking process to the text field in the view, and name that connection `guessTextField`. Then go to the  **Attributes tab** for the text field and scroll until you find `Keyboard Type`. Change it to `Number Pad`. This will only allow numbers to be inputted into the text field.
+Do the same linking process to the text field in the view, and name that connection `guessTextField`. 
+
+<p align="center"> <img src="../images/guess-the-number/guessTextField.png" align="center" style="max-width:75%"> </p>
+
+Then go to the  **Attributes tab** for the text field and scroll until you find `Keyboard Type`. Change it to `Number Pad`. This will only allow numbers to be inputted into the text field.
 
 <p align="center"> <img src="../images/guess-the-number/keyboardType.png" align="center" style="max-width:75%"> </p>
 

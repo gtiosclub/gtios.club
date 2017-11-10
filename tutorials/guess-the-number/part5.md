@@ -27,7 +27,7 @@ func validateGuess(_ guess: Int) {
 ```   
 As you can see, `guessLabel` will now show "Higher! ⬆️" or "Lower! ⬇️", depending on the player's input. This is because we have an `IBOutlet` connection to guessLabel, so anything we do in code for guessLabel will update on the UI. When you run your app and play, you will see something like this:
 
-<p align="center"> <img src="../images/guess-the-number/lowerhigher.png" height="320" align="center"> </p>
+<p align="center"> <img src="../images/guess-the-number/lowerhigher.png" align="center" style="max-width:75%"> </p>
 
 ### UIAlertController
 
@@ -79,17 +79,17 @@ func validateGuess(_ guess: Int) {
     } else {
         // You win yay!
         showWinAlert()
-        guessLabel.text = "Guess the Number"
+        guessLabel.text = "Guess the Number" // reset the label before restart game
         numberOfGuesses = 0
         generateRandomNumber()
     }
-    guessTextField.text = ""
+    guessTextField.text = "" // reset textField after guess so you don't have to delete previous guess
 }
 
 ```
 When you run your app and play, you should see something like this:
 
-<p align="center"> <img src="../images/guess-the-number/alerts.png" align="center" style="max-width: 50%"> </p>
+<p align="center"> <img src="../images/guess-the-number/alerts.png" align="center" style="max-width: 75%"> </p>
 
 Voila! You are done with your app! You are now a master iOS Developer and make $1000 an hour doing freelance work! Great Job!
 
