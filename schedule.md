@@ -16,13 +16,12 @@ Date   | Topic
 10/3   | Intro to UITableView - *Shopping List*
 10/10  | **No meeting** - Fall break
 10/17  | Intro to Multi-screen apps - *Colors list*
-10/17  | Data Persistence & MapKit - *Pin Drop*
-10/24  | Networking & JSON Decoding - *TBA*
-10/31  | TBA
-11/7   | TBA
-11/14  | TBA
+10/24  | Data Persistence & MapKit - *Pin Drop*
+10/31  | Networking & JSON Decoding - *Tunes app*
+11/7   | *News App* Spec Challenge
+11/14  | Animations
 11/21  | **No meeting** - Thanksgiving break
-11/28  | App Showcase
+11/28  | TBA
 12/5   | **No meeting** - Finals week
 
 ## Past Schedules
