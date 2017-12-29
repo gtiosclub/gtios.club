@@ -4,7 +4,7 @@ Jekyll site for hosting iOS tutorials.
 
 ## Critical Information Regarding Redesign
 
-## Tutorials:
+### Tutorials:
 * Tutorial navbar is configured in `_data/tutorials/side-nav.yml`.
 * Images must be stores in `images/..`.
 * Every tutorial .md file should start with the following front-matter:
@@ -44,7 +44,7 @@ This is a stand alone .md file with no further links.
 
 * images in .md files will automatically by the right size. No need to declare a width/height anymore. However, if you want an image to be a particular size you can specify a size less than 350px in the image tag like so: `<img src="..." style="max-width:325px !important" />`
 
-## Schedules:
+#### Schedules:
 * The schedules file has been changed from markdown to JSON.
 * Schedule data is configured in `_data/schedules/`
 * Active schedule data is configured in current-schedule.json
