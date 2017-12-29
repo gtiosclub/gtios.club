@@ -150,7 +150,7 @@ a.clickable-card:hover {
     margin-bottom: 16px;
 }
 
-.about-us h1 {
+.about-us h1, .thanks h1  {
     font-size: 28px;
     font-weight: 500;
     line-height: 32px;
@@ -192,28 +192,29 @@ img.devices {
 }
 
 .thanks {
-    background-size: cover;
+    /* background-size: cover;
     background-position: center;
-    box-shadow: inset 0px 9px 30px 3px rgba(0,0,0,0.8);
+    box-shadow: inset 0px 9px 30px 3px rgba(0,0,0,0.8); */
+    padding: 4rem 0;
 }
 
 .thanks h1 {
-    font-size: 3.4rem;
+    /* font-size: 3.4rem;
     font-weight: 700;
     color: white;
-    text-shadow: 2px 6px 8px rgba(0,0,0,.7);
+    text-shadow: 2px 6px 8px rgba(0,0,0,.7); */
 }
 
 .white h4 {
-    color: white;
-    font-weight: 700;
+    /* color: white;
+    font-weight: 700; */
 }
 
 .no-border {
     border-top: none;
 }
 
-.logos .col-sm {
+.logos .col-sm, .logos .col {
     text-align: center;
 }
 
@@ -382,9 +383,9 @@ img.devices {
         font-size: 42px;
     }
 
-    .thanks h1 {
+    /* .thanks h1 {
         font-size: 3.2rem;
-    }
+    } */
 
     .contact {
         width: 30%;
@@ -427,22 +428,26 @@ img.devices {
         line-height: 24px;
     }
 
-    .thanks h1 {
+    /* .thanks h1 {
         font-size: 2.2rem;
-    }
+    } */
 
     .logos img {
         padding: 2rem 0;
-        max-width: 40%;
+        max-width: 98%;
     }
 
     .logos {
-        margin-top: 0;
+        /* margin-top: 0; */
     }
 
-    .note {
-        margin-top: 1.2rem;
+    .thanks {
+        padding: 2rem 0;
     }
+
+    /* .note {
+        margin-top: 1.2rem;
+    } */
 }
 
 /* Extra large devices (greater than 1200px) */
