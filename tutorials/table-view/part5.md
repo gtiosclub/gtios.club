@@ -1,7 +1,8 @@
 ---
-title: Part 5 - Subclassing UITableViewCell
-permalink: table-view-part5.html
-sidebar: tutorials
+layout: tutorial_pages
+part: 5
+title: Subclassing UITableViewCell
+permalink: /table-view-part-5/
 ---
 
 You may have noticed before, but the original class declaration of our `ViewController` was:
@@ -100,7 +101,7 @@ class ScoreCell : UITableViewCell {
 }
 ```
 
-You don't need to worry about what everything on that line means. The only parts that really matter for us is the name (`label`) and the type (`UILabel`). For a detailed explanation of the individual keywords and what that exclamation mark is doing, read [Part 5 Bonus: Explaining @IBOutlets](table-view-part5-bonus).
+You don't need to worry about what everything on that line means. The only parts that really matter for us is the name (`label`) and the type (`UILabel`). For a detailed explanation of the individual keywords and what that exclamation mark is doing, read [Part 5 Bonus: Explaining @IBOutlets]({{ site.baseurl }}{% link tutorials/table-view/part5_bonus.md %}).
 
 ### Recap
 
@@ -110,4 +111,4 @@ We added a custom subclass of `UITableViewCell`, assigned it to our cell in Inte
 
 We'll add a function that lets the Table View Delegate populate the content in individual cells.
 
-#### [Part 6: Populating your Table View Cells](table-view-part6)
+[]({{ site.baseurl }}{% link tutorials/table-view/part6.md %})

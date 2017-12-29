@@ -1,7 +1,8 @@
 ---
-title: Part 4 - Implementing your Table View Delegate
-permalink: table-view-part4.html
-sidebar: tutorials
+layout: tutorial_pages
+part: 4
+title: Implementing your Table View Delegate
+permalink: /table-view-part-4/
 ---
 
 Now that we have a Table View set up in Interface Builder, we need to tell it how to behave. The Table View has a custom Cell, but it doesn't know how many cells to show or what content to put in those cells.
@@ -123,4 +124,4 @@ We implemented our `UITableViewDelegate` / `UITableViewDataSource`. We covered `
 
 We'll implement a custom class that subclasses `UITableViewCell`, allowing us to customize the content in each individual row.
 
-#### [Part 5: Subclassing UITableViewCell](table-view-part5)
+[]({{ site.baseurl }}{% link tutorials/table-view/part5.md %})

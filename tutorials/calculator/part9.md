@@ -1,7 +1,8 @@
 ---
-title: Part 9 - Preparing your Table View
-permalink: calculator-part9.html
-sidebar: tutorials
+layout: tutorial_pages
+part: 9
+title: Preparing your Table View
+permalink: /calculator-part-9/
 ---
 
 In the past 8 parts, you successfully built your first storyboard app! It works great (hopefully), but there's still this big blank space at the top of the screen. 
@@ -72,4 +73,4 @@ You learned about the UITableView and added one to your storyboard canvas.
 ### Next Time
 We add a custom cell to the Table View, with labels for the content of the paper tape.
 
-#### [Part 10: Implementing your Custom TableViewCell](calculator-part10)
+[]({{ site.baseurl }}{% link tutorials/calculator/part10.md %})

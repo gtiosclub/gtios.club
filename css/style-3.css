@@ -1,0 +1,58 @@
+
+ul.calender {
+    padding: 0;
+    list-style-type: none;
+}
+
+ul.calender:first-child {
+    margin-bottom: 0;
+}
+
+ul.calender li {
+    padding: .8rem 0;
+}
+
+.entry .date > h3 {
+ color: rgb(247, 57, 48);
+ font-weight: 700;
+}
+
+.entry .content {
+  border-left: 1px solid rgb(204, 204, 204);
+}
+
+.past-schedules {
+    opacity: 0.4;
+    margin-bottom: 4rem;
+}
+
+#schedule-menu a {
+    color: rgb(247, 57, 48);
+}
+
+a.cal {
+    cursor: pointer;
+}
+
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991px) {
+    #schedule-menu {
+        display: none;
+    }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {
+    h3.text-right {
+        text-align: left !important;
+    }
+
+    .entry .content {
+        border: none;
+    }
+
+    ul.calender li {
+        border-bottom: 1px solid rgb(204, 204, 204);
+    }
+}

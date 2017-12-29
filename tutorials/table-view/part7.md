@@ -1,7 +1,8 @@
 ---
-title: Part 7 - Adding User Interaction
-permalink: table-view-part7.html
-sidebar: tutorials
+layout: tutorial_pages
+part: 7
+title: Adding User Interaction
+permalink: /table-view-part-7/
 ---
 
 So far we've been focusing on having the Table View display static content. Now that it can do that correctly, we can extend it to be dynamic.

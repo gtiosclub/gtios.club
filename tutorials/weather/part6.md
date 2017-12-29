@@ -1,7 +1,8 @@
 ---
-title: Part 6 - Using CoreLocation
-permalink: weather-part6.html
-sidebar: tutorials
+layout: tutorial_pages
+part: 6
+title: Using CoreLocation
+permalink: /weather-part-6/
 ---
 
 We'll use **CoreLocation** to access the user's longitude and latitude. It's an iOS system framework, so no need to install it with CocoaPods. 
@@ -153,4 +154,4 @@ func locationManager(_ manager: CLLocationManager, didFailWithError error: Error
 
 Now that we have a proper forecast for the user's location, we'll update the text labels to show the temperature, an emoji representing the weather, and the city name.
 
-#### [Part 7: Updating the UI](weather-part7)
+[]({{ site.baseurl }}{% link tutorials/weather/part7.md %})

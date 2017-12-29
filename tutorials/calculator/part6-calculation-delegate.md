@@ -1,7 +1,8 @@
 ---
-title: Part 6 - CalculationDelegate.swift
-permalink: calculator-part6-calculation-delegate.html
-sidebar: tutorials
+layout: tutorial_pages
+part: 6
+title: CalculationDelegate.swift
+permalink: /calculator-part-6-calculation-delegate/
 ---
 
 ```swift
@@ -153,3 +154,4 @@ extension Double {
     
 }
 ```
+<p></p>

@@ -1,7 +1,8 @@
 ---
-title: Part 1 - Creating your Xcode Project
-permalink: calculator-part1.html
-sidebar: tutorials
+layout: tutorial_pages
+part: 1
+title: Creating your Xcode Project
+permalink: /calculator-part-1/
 ---
 
 This tutorial will teach you how to build a Calculator app using Interface Builder and Storyboards. To get started, open up Xcode. You should see a screen that looks like this: 
@@ -36,4 +37,4 @@ You set up your Xcode project and you're ready to get started with the real meat
 
 We will crack open Interface Builder and learn the foundations of designing a user interface.
 
-#### [Part 2: Getting the hang of Interface Builder](calculator-part2)
+[]({{ site.baseurl }}{% link tutorials/calculator/part2.md %})

@@ -1,7 +1,8 @@
 ---
-title: Part 3 - Designing the first View Controller
-permalink: about-me-part3.html
-sidebar: tutorials
+layout: tutorial_pages
+part: 3
+title: Designing the first View Controller
+permalink: /about-me-part-3/
 ---
 
 Now that we're familiar with Autolayout and Interface Builder, we can start designing the first View Controller. It has a few labels in it by default, but you can delete them.
@@ -124,4 +125,4 @@ Once you update the resistance priority, everything should turn blue again:
 
 In Part 4, we'll add another View Controller to our canvas.
 
-#### [Part 4: Segues and Navigation Bars](about-me-part4)
+[]({{ site.baseurl }}{% link tutorials/about-me/part4.md %})

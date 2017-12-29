@@ -1,7 +1,8 @@
 ---
-title: Part 5 - Viewing and Editing Notes
-permalink: notes-part5.html
-sidebar: tutorials
+layout: tutorial_pages
+part: 5
+title: Viewing and Editing Notes
+permalink: /notes-part-5/
 ---
 
 ### Note View Controller
@@ -81,4 +82,4 @@ When you build and run the application, you should be able to select and view no
 
 You added a Note variable to NoteViewController and displayed the note as soon as the screen loads. Afterwards you used `prepare(for segue: )` to set the note variable when a cell was selected.
 
-#### [Part 6: Adding and Saving Notes](notes-part6)
+[]({{ site.baseurl }}{% link tutorials/notes/part6.md %})

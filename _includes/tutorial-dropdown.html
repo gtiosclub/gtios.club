@@ -1,0 +1,36 @@
+<div id="mainAccordion" data-children=".item" class="side-nav">
+        {% assign num = 1 %}
+        {% for tut in site.data.tutorials.side-nav %}
+        <div class="item">
+            <a data-toggle="collapse" data-parent="#mainAccordion" href="#accordion-{{ num }}" aria-expanded="true" aria-controls="accordion-{{ num }}">
+                {{ tut.tutorial_title }}
+            </a>
+            {% assign all_tut_urls = tut.folderitems | map: "page_url" %}
+            {% assign flag = true %}
+    
+            {% for item in all_tut_urls %}
+            {% if page.url == item %}
+            {% assign flag = false %}
+            <div id="accordion-{{ num }}" class="collapse show" role="tabpanel">
+            {% break %}
+        
+            {% endif %}
+            {% endfor %}
+            
+            {% if flag %}
+            <div id="accordion-{{ num }}" class="collapse" role="tabpanel">
+            {% endif %}
+                <nav class="nav flex-column">
+                    {% for entry in tut.folderitems %}
+                    {% if page.url == entry.page_url %}
+                    <a class="nav-link active" href="{{ site.baseurl }}{{ entry.page_url }}">{{ entry.page_title }}</a>
+                    {% else %}
+                    <a class="nav-link" href="{{ site.baseurl }}{{ entry.page_url }}">{{ entry.page_title }}</a>
+                    {% endif %}
+                    {% endfor %}
+                </nav>
+            </div>
+        </div>
+        {% assign num = num | plus: 2 %}
+        {% endfor %}
+    </div>

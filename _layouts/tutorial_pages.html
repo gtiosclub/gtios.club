@@ -1,0 +1,49 @@
+---
+layout: master
+---
+
+<nav class="navbar second-nav fixed-top">
+    <div class="container">
+        <a class="navbar-brand">Tutorials</a>
+        <div class="nav justify-content-end">
+            <a id="expand-icon" data-toggle="collapse" href="#nav-collapse" aria-expanded="false" aria-controls="#nav-collapse">
+                <i class="material-icons">expand_more</i>
+            </a>
+        </div>
+    </div>
+</nav>
+<div class="second-nav-collapsible">
+    <div class="collapse" id="nav-collapse">
+        <div class="container">
+            {% include tutorial-dropdown.html %}
+        </div>
+    </div>
+</div>
+
+
+
+<div class="container my-fluid-container top-space-on-fixed">
+    <div class="row">
+        <div class="col-lg-3 side-menu">
+            <h1 class="page-header">Tutorials</h1>
+            <div class="side-nav-box">
+                {% include tutorial-sidenav.html %}
+            </div>
+        </div>
+        <div class="col-lg-9">
+            <div class="post-header spacer">
+                <h6 class="sub-heading">Part {{ page.part }}</h6>
+                <h1 class="heading">{{ page.title }}</h1>
+            </div>
+            <div class="post-content">
+                {{ content }}
+            </div>
+            <div class="post-footer">
+                <div class="pill">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

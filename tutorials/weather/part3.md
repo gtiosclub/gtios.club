@@ -1,7 +1,8 @@
 ---
-title: Part 3 - Preparing the ViewController
-permalink: weather-part3.html
-sidebar: tutorials
+layout: tutorial_pages
+part: 3
+title: Preparing the ViewController
+permalink: /weather-part-3/
 ---
 
 Open the project folder in Finder, and you'll see that CocoaPods created a new `Weather App.xcworkspace` file and a Pods folder in which to store all the project’s dependencies. From now on we will be using this workspace and **not** our `Weather App.xcodeproj`. 
@@ -29,7 +30,7 @@ You also want to add the 5 elements described above as well as the necessary con
 
 <p align="center"> <img src="../images/weather/uiResult.png" align="center"> </p>
 
-You can enter the degrees sign with Option-K. If you don't know how to work with Autolayout constraints, you can just move on. If you want to come back to it later, our [Calculator Tutorial](http://www.iosgatech.xyz/calculator-part4.html) is a good resource to learn more about Autolayout.
+You can enter the degrees sign with Option-K. If you don't know how to work with Autolayout constraints, you can just move on. If you want to come back to it later, our [Calculator Tutorial]({{ site.baseurl }}{% link tutorials/calculator/part4.md %}) is a good resource to learn more about Autolayout.
 
 ### WeatherViewController
 
@@ -70,4 +71,4 @@ class WeatherViewController: UIViewController {
 
 Awesome! Now we have added connections for both the labels and the bar button item to Swift code. In the next parts, we will be using the Dark Sky API to obtain weather data and show it in our newly created UI!
 
-#### [Part 4: Reading from the Dark Sky API](weather-part4)
+[]({{ site.baseurl }}{% link tutorials/weather/part4.md %})

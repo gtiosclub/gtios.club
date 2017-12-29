@@ -1,7 +1,8 @@
 ---
-title: Part 5 - Stack Views
-permalink: about-me-part5.html
-sidebar: tutorials
+layout: tutorial_pages
+part: 5
+title: Stack Views
+permalink: /about-me-part-5/
 ---
 
 In this last part, we'll design the second View Controller that we haven't touched yet. Like last time, it has some default labels that you can go ahead and delete.

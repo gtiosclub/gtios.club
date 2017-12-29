@@ -1,7 +1,8 @@
 ---
-title: Part 7 - Implementing your Buttons
-permalink: calculator-part7.html
-sidebar: tutorials
+layout: tutorial_pages
+part: 7
+title: Implementing your Buttons
+permalink: /calculator-part-7/
 ---
 
 Each button has a function, but those functions are all empty right now. The CalculationDelegate is capable of performing the logic, but it still needs to get called by these functions.
@@ -131,4 +132,4 @@ We connected the logic contained in the CalculationDelegate to the interface by 
 ### Next Time
 We will test the calculator and make sure everything is in working order.
 
-#### [Part 8: Testing and Debugging your Calculator](calculator-part8)
+[]({{ site.baseurl }}{% link tutorials/calculator/part8.md %})

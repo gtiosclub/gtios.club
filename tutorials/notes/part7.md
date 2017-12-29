@@ -1,7 +1,8 @@
 ---
-title: Part 7 - Persistence
-permalink: notes-part7.html
-sidebar: tutorials
+layout: tutorial_pages
+part: 7
+title: Persistence
+permalink: /notes-part-7/
 ---
 
 ### Intro to UserDefaults
@@ -101,4 +102,4 @@ Launch the app and you will see that your notes are saved even when you relaunch
 ### Recap
 In this section you learned how to use UserDefaults to persist data across launches and how to serialize/deserialize custom objects.
 
-At this point the Notes app is complete, congratulations 😀.
+At this point the Notes app is complete, congratulations. 😀

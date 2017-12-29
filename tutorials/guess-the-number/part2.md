@@ -1,7 +1,8 @@
 ---
-title: Part 2 - Setting up your View
-permalink: guess-the-number-part2.html
-sidebar: tutorials
+layout: tutorial_pages
+part: 2
+title: Setting Up Your View
+permalink: /guess-the-number-part-2/
 ---
 
 **Interface builder** is Xcode's GUI editor. For most projects, the interface is contained in the `Main.storyboard` file. Open it up 
@@ -36,7 +37,7 @@ Let's start building the screen!
 
 In order to display the title of the game, we are going to work with the Interface builder and the UI Palette. Scroll through the UI Palette until you find `Label`:
 
-<p align="center"> <img src="../images/guess-the-number/uiPalette.png" align="center" style="max-width:250px"> </p>
+<p align="center"> <img src="../images/guess-the-number/uiPalette.png" align="center" style="max-width:250px !important"> </p>
 
 You can drag components from the UI Palette into your View Controller. Go ahead and drag a `Label` over and drop it on somewhere on the view. The process should look something like this:
 
@@ -50,13 +51,13 @@ Here at the Attributes tab, you can edit the text of your label, the color, the 
 
 Now, in order to actually input a guess, you will need a `Text Field`, and you will also need a `Button` in order to submit your guess. From the UI Palette, drag a `Button` and `Text Field` to your screen. Also edit the textfield and the button in any way you want. For this tutorial, edit all the features in the view so that it looks like this:
 
-<p align="center"> <img src="../images/guess-the-number/finalLayout.png" align="center" style="max-width: 375px"> </p>
+<p align="center"> <img src="../images/guess-the-number/finalLayout.png" align="center" style="max-width: 375px !important"> </p>
 
 Awesome! Now we have our view! If you run the application on the simulator, then you should be able to see the image above as the final layout on your phone! On the top left of XCode, **select iPhone X or iPhone 8 Plus** in the device/simulator dropdown and then press the **Play Button**.
 
 <p align="center"> <img src="../images/guess-the-number/selectSimulatorPlay.png" align="center" style="max-width: 75%"> </p>
 
-<p align="center"> <img src="../images/guess-the-number/simulatorView.png" align="center" style="max-width: 375px"> </p>
+<p align="center"> <img src="../images/guess-the-number/simulatorView.png" align="center" style="max-width: 375px !important"> </p>
 
 While this is great progress, we still need to be able to actually provide functionality to the app.
 
@@ -76,7 +77,7 @@ Now, let's start with linking the label in our ViewController to the actual Swif
 
 Then, once you release the blue line, a little screen will pop up as such:
 
-<p align="center"> <img src="../images/guess-the-number/addOutlet.png" align="center" style="max-width:300px"> </p>
+<p align="center"> <img src="../images/guess-the-number/addOutlet.png" align="center" style="max-width:300px !important"> </p>
 
 With this screen, you can specify what type of connection you'll make between the label and the code. The type of connection we will need for the label is an `IBOutlet`, which just allows you to edit the label within the code as needed. Go ahead and name the connection `guessLabel`, and then click on `Connect`. The end result should look like this:
 
@@ -94,4 +95,4 @@ Then go to the  **Attributes tab** for the text field and scroll until you find 
 
 Awesome! Now we have added connections for both the label and the text field to Swift code! In the next part, we will be adding some functionality for generating a random number to guess, and we will also be connecting the button to the code.
 
-#### [Part 3: Generate Random Numbers](guess-the-number-part3)
+[]({{ site.baseurl }}{% link tutorials/guess-the-number/part3.md %})

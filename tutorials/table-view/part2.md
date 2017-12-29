@@ -1,7 +1,8 @@
 ---
-title: Part 2 - Setting up your Table View in Interface Builder
-permalink: table-view-part2.html
-sidebar: tutorials
+layout: tutorial_pages
+part: 2
+title: Setting up your Table View in Interface Builder
+permalink: /table-view-part-2/
 ---
 
 Open your `Main.storyboard`. We start with a blank canvas:
@@ -20,7 +21,7 @@ We want the table view to fill the entire screen at all times. We could just dra
 
 The goal of Autolayout Constraints are to establish a set of relationships that define where a view should be on screen (its origin) and how big it should be (its size). Together, the origin and size of a view create its *frame*.
 
-*If you want an in-depth explanation of how constraints work, take a look at [Part 4 of our Calculator Tutorial](calculator-part4)*.
+*If you want an in-depth explanation of how constraints work, take a look at [Part 4 of our Calculator Tutorial]({{ site.baseurl }}{% link tutorials/calculator/part4.md %})*.
 
 We want the Table View to fill the entire screen. One way to represent this relationship is by setting the top, bottom, left, and right sides of the Table View to be zero pixels away from the edges of the screen.
 
@@ -72,4 +73,4 @@ We set up our Table View and constrained it to fill the screen. We discussed Aut
 
 We'll create a custom Cell for our Table View.
 
-#### [Part 3: Setting up your Custom Table View Cell](table-view-part3)
+[]({{ site.baseurl }}{% link tutorials/table-view/part3.md %})

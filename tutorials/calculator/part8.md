@@ -1,7 +1,8 @@
 ---
-title: Part 8 - Testing and Debugging your Calculator
-permalink: calculator-part8.html
-sidebar: tutorials
+layout: tutorial_pages
+part: 8
+title: Testing and Debugging your Calculator
+permalink: /calculator-part-8/
 ---
 
 In the last few parts, you set up the code to make your calculator actually do stuff. Congrats, because that was the hard part. Now you're gonna want to make sure what you did actually works.
@@ -33,4 +34,4 @@ You tested your calculator, and fixed any problems that popped up. Now you have 
 ### Next Time
 You aren't done yet though! We'll shake up your world and fill in that mysterious empty space at the top of the screen with a UITableView.
 
-#### [Part 9: Preparing your UITableView](calculator-part9)
+[]({{ site.baseurl }}{% link tutorials/calculator/part9.md %})

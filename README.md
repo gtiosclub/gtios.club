@@ -2,21 +2,40 @@
 
 Jekyll site for hosting iOS tutorials.
 
-### Critical Information:
+### Critical Information Regarding Redesign:
 
-Sidebar is configured in `_data/tutorials.yml`.
-
-Images must be stores in `images/..`.
-
-Every .md file should start with the following front-matter:
+**Tutorials**
+* Tutorial navbar is configured in `_data/tutorials/side-nav.yml`.
+* Images must be stores in `images/..`.
+* Every tutorial .md file should start with the following front-matter:
 ```
 ---
-title: Part 1 - Creating your Xcode Project
-permalink: calculator-part1.html
-sidebar: tutorials
+layout: tutorial_pages
+part: ( enter tutorial part number here )
+title: ( enter tutorial part title here )
+permalink: ( /hyphenated main tutorial title followed by part and number/ )
+---
+
+# Example
+---
+layout: tutorial_pages
+part: 2
+title: Setting Up Your View
+permalink: /guess-the-number-part-2/ # dont forget the leading and trailing /'s
 ---
 ```
 
-Permalinks cannot have subdirectories. `calculator/part1.html` is an invalid permalink.
+* Local links (meaning links linking to other pages on the site) in .md files should be formatted like so:
+```
+[]({{ site.baseurl }}{% link tutorials/guess-the-number/part3.md %})
 
-Links to pages should be formatted as `[name](permalink)` aka `[Part 1](calculator-part1)`.
+# where site.baseurl and link are keywords and everything following the link keyword
+# is a path to the page you want to link to, starting at the root directory
+```
+
+* .md files that aren't part of a series (as in they are standalone pages and don't have a link to the next part) should end with an empty paragraph tag on a new line in order to format correctly
+```
+# Example
+This is a stand alone .md file with no further links.
+<p></p>
+```

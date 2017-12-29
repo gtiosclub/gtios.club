@@ -1,7 +1,8 @@
 ---
-title: Part 3 - Creating your View Controllers
-permalink: notes-part3.html
-sidebar: tutorials
+layout: tutorial_pages
+part: 3
+title: Creating your View Controllers
+permalink: /notes-part-3/
 ---
 
 ### Create NoteListTableViewController.swift
@@ -69,4 +70,4 @@ Next we are going to design our UI (at this point we are assuming that you are f
 
 We have created a Navigation Controller containing `NoteListTableViewController` and a tableview. Tapping the row will segue to `NoteViewController` which contains a Text Field and Text View. 
 
-#### [Part 4: Implementing Notes List](notes-part4)
+[]({{ site.baseurl }}{% link tutorials/notes/part4.md %})

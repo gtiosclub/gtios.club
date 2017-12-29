@@ -1,12 +1,13 @@
 ---
-title: Part 4 - Setting up your Constraints
-permalink: calculator-part4.html
-sidebar: tutorials
+layout: tutorial_pages
+part: 4
+title: Setting up your Constraints
+permalink: /calculator-part-4/
 ---
 
 In Part 3, we designed the layout for our calculator. All of the buttons and labels exist on the canvas, but in absolute positions. This works fine and well if we use the app on the iPhone 5 simulator, because that device had the same screen size (4 inches) as the canvas that we're designing on. **What happens if we run the app on an iPhone 6 or 6 Plus?**
 
-<p align="center"> <img src="../images/calculator/P4/screenshot1.png" height="400px" align="center"> </p>
+<p align="center"> <img src="../images/calculator/P4/screenshot1.png" align="center"> </p>
 
 The interface doesn't grow to fill the screen. It actually stays the exact same pixel size on the screen, adding empty space to make up the difference. This is where Layout Constraints come in handy. **Constraints allow layouts to be represented as a set of relationships instead of pixel values**.
 
@@ -21,7 +22,7 @@ The goal is constraints is to Unambiguously represent the four following parts o
 
 All of these can be expressed in terms of relationships. Let's define these relationships for one of the buttons on screen.
 
-<p align="center"> <img src="../images/calculator/P4/screenshot2.png" height="205" align="center"> </p>
+<p align="center"> <img src="../images/calculator/P4/screenshot2.png" align="center"> </p>
 
 The frame of the **clr** button can be expressed as the following:
 
@@ -34,13 +35,13 @@ These four relationships **unambiguously** tell us the origin and size of the bu
 
 ### Adding Position Constraints
 
-<p align="center"> <img src="../images/calculator/P4/screenshot3.png" height="50px" align="center"> </p>
+<p align="center"> <img src="../images/calculator/P4/screenshot3.png" style="width:210px !important;" align="center"> </p>
 
 At the bottom right of the canvas, there are four buttons that have been left untouched so far. These buttons have to do with constraints. ***Surprise.*** The third button, lovingly referred to as the [*Tie Fighter*](http://darkimothep.deviantart.com/art/TIE-FIGHTER-front-408839013), is the simplest way to add constraints to the selected object.
 
 Select the **clr** button and then click the tie fighter. It should pop open and reveal a treasure-trove of useful tools.
 
-<p align="center"> <img src="../images/calculator/P4/screenshot4.png" height="400" align="center"> </p>
+<p align="center"> <img src="../images/calculator/P4/screenshot4.png" align="center"> </p>
 
 The top half of that popup is for setting Position constraints. The text boxes control the Top, Bottom, Leading, and Trailing constraints. You confirm the new constraint by clicking the red line.
 
@@ -52,11 +53,11 @@ The one catch to position constraints is that they either constrain to the **mar
 
 Step one to setting any constraints is to select the object in question (we're starting with the **clr** button). Then, click the Tie Fighter to bring up your constraint options. Uncheck *Constrain to margins*, and then set all of the position constraints to 0. It should look like this:
 
-<p align="center"> <img src="../images/calculator/P4/screenshot5.png" height="400" align="center"> </p>
+<p align="center"> <img src="../images/calculator/P4/screenshot5.png" align="center"> </p>
 
 If you did it right and are attentive, you should notice a dotted orange box inside the clr button.
 
-<p align="center"> <img src="../images/calculator/P4/screenshot6.png" height="120px" align="center"> </p>
+<p align="center"> <img src="../images/calculator/P4/screenshot6.png" align="center"> </p>
 
 This is the frame (size + origin) of the button once the constraints are applied. Notice how the origin is in the right place, but the size is still all wrong. That brings us to...
 
@@ -130,7 +131,7 @@ Now you have an interface that is fully laid out, designed, **and** constrained 
 
 Now, take a look at your app in different Simulators. It should *just work*.
 
-<p align="center"> <img src="../images/calculator/P4/screenshot15.png" height="300" align="center"> </p>
+<p align="center"> <img src="../images/calculator/P4/screenshot15.png" align="center"> </p>
 
 If it all works, good job!!!
 
@@ -142,4 +143,4 @@ Constraints are about unambiguously defining relationships between objects on sc
 ### Next Time
 We will learn how to connect objects in the Storyboard to variable and functions in the code. I highly recommend looking into the bonus section as that explains some really important notes about IBOutlets.
 
-#### [Part 5: Connecting Storyboard to Code](calculator-part5)
+[]({{ site.baseurl }}{% link tutorials/calculator/part5.md %})

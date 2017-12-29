@@ -1,7 +1,8 @@
 ---
-title: Part 2 - Getting the hang of Interface Builder
-permalink: calculator-part2.html
-sidebar: tutorials
+layout: tutorial_pages
+part: 2
+title: Getting the hang of Interface Builder
+permalink: /calculator-part-2/
 ---
 
 **Interface Builder** is Xcode's GUI editor. For most projects, the interface is contained in the `Main.storyboard` file. Open it up and have a look around.
@@ -41,7 +42,7 @@ Now's a good time to make sure we're on the right track. Lets run our app in the
 
 At the top of the Xcode window, you have your `Project Targets`. This is where you run your app, either on a physical device or the iOS Simulator.
 
-<p align="center"> <img src="../images/calculator/P2/screenshot5.png" height="37px" align="center"> </p>
+<p align="center"> <img src="../images/calculator/P2/screenshot5.png" align="center"> </p>
 
 On the very right, you have the target device. Change it to whichever device is listed on the bottom bar of Interface Builder. Press play and the Simulator should pop open. It takes some time to boot up, but give it a moment.
 
@@ -49,7 +50,7 @@ On the very right, you have the target device. Change it to whichever device is 
 
 If everything went according to plan, you should see your label. If you don't see it, try again. Delete the old label by clicking it and then pressing `backspace` on the keyboard. Then go through the same steps as before. If it helps you out, these are the attributes I used:
 
-<p align="center"> <img src="../images/calculator/P2/screenshot7.png" height="150" align="center"> </p>
+<p align="center"> <img src="../images/calculator/P2/screenshot7.png" align="center"> </p>
 
 ### Recap
 Interface Builder is very visual. What you see if what you get, *to an extent*. You can add and modify components to the canvas and see them in the Simulator.
@@ -57,4 +58,4 @@ Interface Builder is very visual. What you see if what you get, *to an extent*. 
 ### Next Time
 We will learn how to use Interface Builder to make layouts with multiple buttons and how to customize the look of components on screen.
 
-#### [Part 3: Designing your layout with Interface Builder](calculator-part3)
+[]({{ site.baseurl }}{% link tutorials/calculator/part3.md %})

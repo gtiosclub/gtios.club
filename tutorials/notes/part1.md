@@ -1,7 +1,8 @@
 ---
-title: Part 1 - Creating your Xcode Project
-permalink: notes-part1.html
-sidebar: tutorials
+layout: tutorial_pages
+part: 1
+title: Creating your Xcode Project
+permalink: /notes-part-1/
 ---
 
 In this tutorial you will be creating a notes app which has two screens:
@@ -33,4 +34,4 @@ Next, we're going to delete some stuff that we no longer need.
 
 You set up your Xcode project and deleted some of the default files that we won't need. 
 
-#### [Part 2: Creating your Note Object](notes-part2)
+[]({{ site.baseurl }}{% link tutorials/notes/part2.md %})

@@ -1,0 +1,14 @@
+
+<div class="team">
+    {% for person in site.data.officers.team %}
+    <div class="contact">
+        <a href="{{ person.github }}" target="_blank">
+            <img src="{{ site.baseurl }}{{ person.pic }}" />
+        </a>
+        <div class="name">
+            <h6>{{ person.name }}</h6>
+        </div>
+        <p>{{ person.job }}</p>
+    </div>
+    {% endfor %}
+</div>

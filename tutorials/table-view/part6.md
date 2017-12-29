@@ -1,7 +1,8 @@
 ---
-title: Part 6 - Populating your Table View Cells
-permalink: table-view-part6.html
-sidebar: tutorials
+layout: tutorial_pages
+part: 6
+title: Populating your Table View Cells
+permalink: /table-view-part-6/
 ---
 
 Now that we have a reference to the cell's label, we can customize it on-demand. We want to add a new method to the `ScoreCell` class that takes a person's name and can update the cell appropriately. Here's what we want:
@@ -99,4 +100,4 @@ You wrote a `decorate` function that lets the `ViewController` populate individu
 
 We'll wrap up by implementing the add and subtract buttons.
 
-#### [Part 7: Adding User Interaction](table-view-part7)
+[]({{ site.baseurl }}{% link tutorials/table-view/part7.md %})

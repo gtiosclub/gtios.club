@@ -1,7 +1,8 @@
 ---
-title: Part 1 - Creating your Xcode Project
-permalink: table-view-part1.html
-sidebar: tutorials
+layout: tutorial_pages
+part: 1
+title: Creating your Xcode Project
+permalink: /table-view-part-1/
 ---
 
 This tutorial will teach you how to build a Scorekeeping app using a Table View. To get started, open up Xcode. You should see a screen that looks like this: 
@@ -36,4 +37,4 @@ You set up your Xcode project and you're ready to get started with the real meat
 
 We will crack open Interface Builder and set up our Table View.
 
-#### [Part 2: Setting up your Table View in Interface Builder](table-view-part2)
+[]({{ site.baseurl }}{% link tutorials/table-view/part2.md %})
