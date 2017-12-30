@@ -1,7 +1,8 @@
 ---
-title: Part 6 - Adding and Saving Notes
-permalink: notes-part6.html
-sidebar: tutorials
+layout: tutorial_pages
+part: 6
+title: Adding and Saving Notes
+permalink: /notes-part-6/
 ---
 
 ### Saving notes
@@ -39,6 +40,7 @@ You may be wondering what the deal is with the `@objc` keyword. The keyword basi
 
 Let's go implement our save method. If we have an existing note just modify the fields. Otherwise create a new Note object. 
 
+```swift
     @objc private func save() {
         let newTitle = self.titleTextField.text ?? "New Note"
         let newBody = self.bodyTextView.text ?? ""
@@ -53,6 +55,7 @@ Let's go implement our save method. If we have an existing note just modify the 
         // Go back to the list of notes
         let _ = self.navigationController?.popViewController(animated: true)
     }
+```
 
 After the user hits the save button they probably expect to go back to the previous screen. The last line access the UINavigationController and tells it to remove the current UIViewController (the NoteViewController).
 
@@ -159,4 +162,4 @@ Build and run the app and you will be able to create, modify and view notes whil
 
 You learned about UIBarButtonItems and added save functionality. Right after you learned how to trigger storyboard segues from code when you implemented adding new notes. Finally, you learned about closures and used them to update the Note List and the Note Database when notes were changed.
 
-#### [Part 7: Intro to UserDefaults](notes-part7)
+[]({{ site.baseurl }}{% link tutorials/notes/part7.md %})

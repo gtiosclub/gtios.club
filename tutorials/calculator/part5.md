@@ -1,7 +1,8 @@
 ---
-title: Part 5 - Connecting Storyboard to Code
-permalink: calculator-part5.html
-sidebar: tutorials
+layout: tutorial_pages
+part: 5
+title: Connecting Storyboard to Code
+permalink: /calculator-part-5/
 ---
 
 In the past three parts, we laboriously created the interface for our calculator. It's been laid out, designed, *and* constrained to work on all screen sizes.
@@ -54,13 +55,13 @@ To access an object on the storyboard as a variable in the ViewController class,
 
 Control-drag from the `UILabel` above the buttons into the ViewController class (in-between the brackets.
 
-<p align="center"> <img src="../images/calculator/P5/screenshot9.png" height="400px" align="center"> </p>
+<p align="center"> <img src="../images/calculator/P5/screenshot9.png" align="center"> </p>
 
 In the popup, name the variable `resultLabel` and then press **Connect**. Now you should have a reference to the label.
 
-<p align="center"> <img src="../images/calculator/P5/screenshot10.png" height="72px" align="center"> </p>
+<p align="center"> <img src="../images/calculator/P5/screenshot10.png" align="center"> </p>
 
-Don't worry about what everything on that line means. The only parts that really matter for us is the name (`resultLabel`) and the type (`UILabel`). For a detailed explanation of the key words and what that exclamation mark is doing, read [Part 5 Bonus: Explaining @IBOutlets](calculator-part5-bonus).
+Don't worry about what everything on that line means. The only parts that really matter for us is the name (`resultLabel`) and the type (`UILabel`). For a detailed explanation of the key words and what that exclamation mark is doing, read [Part 5 Bonus: Explaining @IBOutlets]({{ site.baseurl }}{% link tutorials/calculator/part5-bonus.md %}).
 
 Funny enough, this `resultLabel` is the only IBOutlet we need to make for now.
 
@@ -96,9 +97,9 @@ Now we have all of our code connections established, and we're ready to make thi
 ### Recap
 You can connect Storyboard objects to code (both variables and functions) by using a control-drag across split-screened windows.
 
-If you missed it, I talked about more technical stuff in the [Part 5 Bonus: Explaining @IBOutlets](calculator-part5-bonus). Take a look at it if that sort of stuff interests you.
+If you missed it, I talked about more technical stuff in the [Part 5 Bonus: Explaining @IBOutlets]({{ site.baseurl }}{% link tutorials/calculator/part5-bonus.md %}). Take a look at it if that sort of stuff interests you.
 
 ### Next Time
 We set up the protocol that will be handling the calculator's calculations.
 
-#### [Part 6: Preparing your Calculator Delegate](calculator-part6)
+[]({{ site.baseurl }}{% link tutorials/calculator/part6.md %})

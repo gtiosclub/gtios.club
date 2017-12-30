@@ -1,0 +1,11 @@
+<nav class="navbar navbar-light fixed-top">
+    <a class="navbar-brand" href="{{ site.baseurl }}">
+      <img src="{{ site.baseurl }}/images/home/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+      <span id="site-title">{{ site.title }}</span>
+    </a>
+    <div class="nav justify-content-end">
+      <a class="nav-item nav-link {{ include.tutorial}}" href="{{ site.baseurl }}{{site.data.tutorials.side-nav.first.folderitems.first.page_url}}">Tutorials</a>
+      <a class="nav-item nav-link {{ include.schedule}}" href="{{ site.baseurl }}/schedule/">Schedule</a>
+      <a class="nav-item nav-link" href="https://github.com/iosgatech" target="_blank">GitHub</a>
+    </div>
+  </nav>

@@ -1,7 +1,8 @@
 ---
-title: Part 5 Bonus - Explaining @IBOutlets
-permalink: calculator-part5-bonus.html
-sidebar: tutorials
+layout: tutorial_pages
+part: 5
+title: Bonus - Explaining @IBOutlets
+permalink: /calculator-part-5-bonus/
 ---
 
 <p align="center"> <img src="../images/calculator/P5/screenshot10.png" height="72px" align="center"> </p>
@@ -44,4 +45,4 @@ This prevents issues like retain cycles, which is when two objects `retain` each
 
 `var` is necessary because we change the variable from nil to whatever it's supposed to be. If we used a `let`, then the variable would be immutable and could not change from nil at the appropriate point in the lifecycle, which is definitely not what we want.
 
-#### [Part 5: Connecting Storyboard to Code](calculator-part5)
+<p></p>

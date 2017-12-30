@@ -1,0 +1,107 @@
+# This is the sidebar for the tutorials page. The tutorial-nav code loops through sections here and provides appropriate formatting
+
+- tutorial_title: Guess the Number
+  folderitems:
+  - page_title: Part 1 - Getting Started
+    page_url: /guess-the-number-part-1/
+  - page_title: Part 2 - Setting up your View
+    page_url: /guess-the-number-part-2/
+  - page_title: Part 3- Generate Random Numbers
+    page_url: /guess-the-number-part-3/
+  - page_title: Part 4 - Writing the Game Logic
+    page_url: /guess-the-number-part-4/
+  - page_title: Part 5 - Adding Alerts
+    page_url: /guess-the-number-part-5/
+  - page_title: Part 6 - Pushing to GitHub
+    page_url: /guess-the-number-part-6/
+
+- tutorial_title: About Me
+  folderitems:
+  - page_title: Part 1 - Introduction to Autolayout
+    page_url: /about-me-part-1/
+  - page_title: Part 2 - Setting up your Xcode Project
+    page_url: /about-me-part-2/
+  - page_title: Part 3 - Designing the first View Controller
+    page_url: /about-me-part-3/
+  - page_title: Part 4 - Segues and Navigation Bars
+    page_url: /about-me-part-4/
+  - page_title: Part 5 - Stack Views
+    page_url: /about-me-part-5/
+
+- tutorial_title: Scorekeeper
+  folderitems:
+  - page_title: Part 1 - Creating your Xcode Project
+    page_url: /table-view-part-1/
+  - page_title: Part 2 - Setting up your Table View in Interface Builder
+    page_url: /table-view-part-2/
+  - page_title: Part 3 - Setting up your Custom Table View Cell
+    page_url: /table-view-part-3/
+  - page_title: Part 4 - Implementing your Table View Delegate
+    page_url: /table-view-part-4/
+  - page_title: Part 5 - Subclassing UITableViewCell
+    page_url: /table-view-part-5/
+  - page_title: Part 6 - Populating your Table View Cells
+    page_url: /table-view-part-6/
+  - page_title: Part 7 - Adding User Interaction
+    page_url: /table-view-part-7/
+
+- tutorial_title: Weather
+  folderitems:
+  - page_title: Part 1 - Creating your Xcode Project
+    page_url: /weather-part-1/
+  - page_title: Part 2 - Using CocoaPods
+    page_url: /weather-part-2/
+  - page_title: Part 3 - Preparing the ViewController
+    page_url: /weather-part-3/
+  - page_title: Part 4 - Reading from the Dark Sky API
+    page_url: /weather-part-4/
+  - page_title: Part 5 - Parsing with SwiftyJSON
+    page_url: /weather-part-5/
+  - page_title: Part 6 - Using CoreLocation
+    page_url: /weather-part-6/
+  - page_title: Part 7 - Updating the UI
+    page_url: /weather-part-7/
+
+- tutorial_title: Notes
+  folderitems:
+  - page_title: Part 1 - Creating your Xcode Project
+    page_url: /notes-part-1/
+  - page_title: Part 2 - Creating your Note Object
+    page_url: /notes-part-2/
+  - page_title: Part 3 - Creating your View Controllers
+    page_url: /notes-part-3/
+  - page_title: Part 4 - Implementing Notes List
+    page_url: /notes-part-4/
+  - page_title: Part 5 - Viewing and Editing Notes
+    page_url: /notes-part-5/
+  - page_title: Part 6 - Adding and Saving Notes
+    page_url: /notes-part-6/
+  - page_title: Part 7 - Persistence
+    page_url: /notes-part-7/
+
+- tutorial_title: Calculator (legacy)
+  folderitems:
+  - page_title: Part 1 - Creating your Xcode Project
+    page_url: /calculator-part-1/
+  - page_title: Part 2 - Getting the hang of Interface Builder
+    page_url: /calculator-part-2/
+  - page_title: Part 3 - Designing your layout with Interface Builder
+    page_url: /calculator-part-3/
+  - page_title: Part 4 - Setting up your Constraints
+    page_url: /calculator-part-4/
+  - page_title: Part 5 - Connecting Storyboard to Code
+    page_url: /calculator-part-5/
+  - page_title: Part 6 - Preparing your Calculation Delegate
+    page_url: /calculator-part-6/
+  - page_title: Part 7 - Implementing your Buttons
+    page_url: /calculator-part-7/
+  - page_title: Part 8 - Testing and Debugging your Calculator
+    page_url: /calculator-part-8/
+  - page_title: Part 9 - Preparing your Table View
+    page_url: /calculator-part-9/
+  - page_title: Part 10 - Implementing your Custom UITableViewCell
+    page_url: /calculator-part-10/
+  - page_title: Part 11 - Implementing your UITableViewDataSource
+    page_url: /calculator-part-11/
+  - page_title: Part 12 - Reloading and Animating your Table View
+    page_url: /calculator-part-12/

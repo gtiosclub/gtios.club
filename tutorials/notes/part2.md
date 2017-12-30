@@ -1,7 +1,8 @@
 ---
-title: Part 2 - Creating your Note Object
-permalink: notes-part2.html
-sidebar: tutorials
+layout: tutorial_pages
+part: 2
+title: Creating your Note Object
+permalink: /notes-part-2/
 ---
 
 We're going to need an object to store information about our notes. Each note is going to have three parts:
@@ -37,4 +38,4 @@ Second, we create a basic initializer which assigns values to all of the propert
 
 You created a Note class with a title, body and timestamp.
 
-#### [Part 3: Creating your View Controllers](notes-part3)
+[]({{ site.baseurl }}{% link tutorials/notes/part3.md %})

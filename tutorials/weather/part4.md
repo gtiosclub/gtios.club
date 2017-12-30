@@ -1,7 +1,8 @@
 ---
-title: Part 4 - Reading from the Dark Sky API
-permalink: weather-part4.html
-sidebar: tutorials
+layout: tutorial_pages
+part: 4
+title: Reading from the Dark Sky API
+permalink: /weather-part-4/
 ---
 
 To get access to the current weather forecast, we'll be using Alamofire to access the **Dark Sky** Weather API. We'll encapsulate this functionality in its own class called `DarkSkyService`. Create and open a new file called `DarkSkyService.swift`.
@@ -91,7 +92,7 @@ override func viewWillAppear(_ animated: Bool) {
 
 If you did everything right, you should see weather forecast at the bottom of your Xcode window:
 
-```
+```swift
 Optional({
     currently =     {
         apparentTemperature = "43.67";
@@ -106,4 +107,4 @@ Optional({
 
 We have a functional network call. In the next part, we'll use **SwiftyJSON** to parse the forecast text into a Swift object.
 
-#### [Part 5: Parsing with SwiftyJSON](weather-part5)
+[]({{ site.baseurl }}{% link tutorials/weather/part5.md %})

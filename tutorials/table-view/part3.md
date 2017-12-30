@@ -1,7 +1,8 @@
 ---
-title: Part 3 - Setting up your Custom Table View Cell
-permalink: table-view-part3.html
-sidebar: tutorials
+layout: tutorial_pages
+part: 3
+title: Setting up your Custom Table View Cell
+permalink: /table-view-part-3/
 ---
 
 In Part 2, we set up your Table View. It fills the entire screen, but it doesn't have any content yet. We need to add a custom Table View Cell.
@@ -46,7 +47,7 @@ We also need a way for the user to change the score. A plus and minus button on 
 
 As usual, we need to set up some constraints. These buttons are pinned to the left / right edges, but are centered vertically in the cell. These buttons have an intrinsic size too, so no need to worry about setting size constraints.
 
-The constraints are left as an exercise to the reader. *[(Answers)](table-view-part3-cheatsheet)*
+The constraints are left as an exercise to the reader. *[(Answers)]({{ site.baseurl }}{% link tutorials/table-view/part3_cheatsheet.md %})*
 
 ### Recap
 
@@ -56,4 +57,4 @@ We made a custom Table View Cell that uses constraints and intrinsic sizes to po
 
 We'll start writing some code to make the Table View actually do something.
 
-#### [Part 4: Implementing your Table View Delegate](table-view-part4)
+[]({{ site.baseurl }}{% link tutorials/table-view/part4.md %})

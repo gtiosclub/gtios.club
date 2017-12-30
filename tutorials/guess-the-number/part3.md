@@ -1,7 +1,8 @@
 ---
-title: Part 3 - Generate Random Numbers
-permalink: guess-the-number-part3.html
-sidebar: tutorials
+layout: tutorial_pages
+part: 3
+title: Generate Random Numbers
+permalink: /guess-the-number-part-3/
 ---
 
 In order for this guessing game to work, we first need to have a number to guess! Go to ViewController.swift and add a function that will generate a random number called `generateRandomNumber`. Before we add any code to this function, we need to first add four variables that we will need for this game:
@@ -39,7 +40,7 @@ An IBOutlet is a connected **variable** to a UI element. An IBAction is a connec
 
 Just like we did for the label and the textfield in Part 2, control-click the button and drag it to `ViewController.swift` right below everything. In the pop-up screen, **change the connection type** from `Outlet` to `Action`. Go ahead and name the function `submitButtonPressed`.
 
-<p align="center"> <img src="../images/guess-the-number/ibaction.png" align="center" style="max-width:300px"> </p>
+<p align="center"> <img src="../images/guess-the-number/ibaction.png" align="center" style="max-width:300px !important"> </p>
 
 After the IBAction function has been created, add two lines of code inside:
 
@@ -60,4 +61,4 @@ Run the app press the submit button. Your console should be outputting new rando
 
 Now we have successfully connected our button to our code through an `IBAction` connection! In the next part, we will work on the logic behind the game!
 
-#### [Part 4: Writing the Game Logic](guess-the-number-part4)
+[]({{ site.baseurl }}{% link tutorials/guess-the-number/part4.md %})

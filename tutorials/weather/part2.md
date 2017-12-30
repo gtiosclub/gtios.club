@@ -1,7 +1,8 @@
 ---
-title: Part 2 - Using CocoaPods
-permalink: weather-part2.html
-sidebar: tutorials
+layout: tutorial_pages
+part: 2
+title: Using CocoaPods
+permalink: /weather-part-2/
 ---
 
 **CocoaPods** is a dependency manager for Swift and Objective-C Cocoa projects. It has over 24,000 libraries and is used in over 1.2 million apps. You can learn more on the [CocoaPods website](https://cocoapods.org/).
@@ -46,4 +47,4 @@ Once it's up, you want to run the command `pod install`. This command will insta
 
 Now that we have our pods set up, we will start creating the interface for our Weather App!
 
-#### [Part 3: Preparing the ViewController](weather-part3)
+[]({{ site.baseurl }}{% link tutorials/weather/part3.md %})

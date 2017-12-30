@@ -1,7 +1,8 @@
 ---
-title: Part 2 - Setting up your Xcode Project
-permalink: about-me-part2.html
-sidebar: tutorials
+layout: tutorial_pages
+part: 2
+title: Setting up your Xcode Project
+permalink: /about-me-part-2/
 ---
 
 Open up Xcode, and you should be greeted with the splash screen. Click *Create a new Xcode project*.
@@ -38,4 +39,4 @@ Opening the storyboard bring us to *Interface Builder*. This is where we'll desi
  
 In the next part, we'll start designing our first View Controller.
 
-#### [Part 3: Designing the first View Controller](about-me-part3)
+[]({{ site.baseurl }}{% link tutorials/about-me/part3.md %})

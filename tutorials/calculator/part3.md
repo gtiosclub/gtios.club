@@ -1,7 +1,8 @@
 ---
-title: Part 3 - Designing your layout with Interface Builder
-permalink: calculator-part3.html
-sidebar: tutorials
+layout: tutorial_pages
+part: 3
+title: Designing your layout with Interface Builder
+permalink: /calculator-part-3/
 ---
 
 You understand the basics of working with Interface Builder, so you're ready to hit the ground running on an actual design. Let's revisit the checklist of what we need:
@@ -9,7 +10,7 @@ You understand the basics of working with Interface Builder, so you're ready to 
 1. Buttons. Lots of buttons. (Numbers and operators)
 2. One big output display.
 
-In [Part 2](calculator-part2), we finished with a UILabel in the center of the screen somewhere. That satisfies "One big output display", so now we just need some buttons.
+In [Part 2]({{ site.baseurl }}{% link tutorials/calculator/part2.md %}), we finished with a UILabel in the center of the screen somewhere. That satisfies "One big output display", so now we just need some buttons.
 
 ### Buttons. Lots of buttons.
 
@@ -105,4 +106,4 @@ Interface Builder's tools make it simple to design layouts with many different c
 ### Next Time
 We will learn how to use Constraints to enable your layouts to function on any display size.
 
-#### [Part 4: Setting up your Constraints](calculator-part4)
+[]({{ site.baseurl }}{% link tutorials/calculator/part4.md %})

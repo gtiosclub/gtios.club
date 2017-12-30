@@ -1,7 +1,8 @@
 ---
-title: Part 7 - Updating the UI
-permalink: weather-part7.html
-sidebar: tutorials
+layout: tutorial_pages
+part: 7
+title: Updating the UI
+permalink: /weather-part-7/
 ---
 
 Once we have a proper `WeatherData` object, we're ready to update our text labels. We'll write a dedicated function for this:
@@ -85,7 +86,7 @@ Now when we run the app again, we see everything works as expected!
 
 <p align="center"> <img src="../images/weather/weatherNewYork.png" align="center" height="500px"> </p>
 
-If you're having trouble, you can take a look at a copy of the [fully-completed View Controller](weather-completed).
+If you're having trouble, you can take a look at a copy of the [fully-completed View Controller]({{ site.baseurl }}{% link tutorials/weather/part7-finalViewController.md %}).
 
 
 ### And we're all done!

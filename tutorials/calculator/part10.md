@@ -1,7 +1,8 @@
 ---
-title: Part 10 - Implementing your Custom UITableViewCell
-permalink: calculator-part10.html
-sidebar: tutorials
+layout: tutorial_pages
+part: 10
+title: Implementing your Custom UITableViewCell
+permalink: /calculator-part-10/
 ---
 
 We have our `UITableView` in place, but it still needs rows, or cells.
@@ -79,7 +80,7 @@ Now we can use this custom class to customize the prototype.
 
 #### Customizing the Prototype Cell
 
-Before we can customize anything, we need to create an @IBOutlet to our UILabel sitting inside the cell. Like when we set up the @IBOutlets for the View Controller, you'll need to open up the `ViewController.swift` and the `Main.storyboard` side-by-side. Take a look at [Part 5: Connecting Storyboard to Code](calculator-part5) if you need a refreshed on how to do that.
+Before we can customize anything, we need to create an @IBOutlet to our UILabel sitting inside the cell. Like when we set up the @IBOutlets for the View Controller, you'll need to open up the `ViewController.swift` and the `Main.storyboard` side-by-side. Take a look at [Part 5: Connecting Storyboard to Code]({{ site.baseurl }}{% link tutorials/calculator/part5.md %}) if you need a refreshed on how to do that.
 
 Connect the UILabel to the `PaperTapeCell` class (using control-drag), and name it `label`.
 
@@ -113,4 +114,4 @@ You designed an implemented your custom prototype UITableViewCell using many of 
 ### Next Time
 We will implement code for the Table View, turning our `UIViewController` into a `UITableViewDataSource`.
 
-#### [Part 11: Implementing your TableViewDataSource](calculator-part11)
+[]({{ site.baseurl }}{% link tutorials/calculator/part11.md %})

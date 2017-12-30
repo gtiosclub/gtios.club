@@ -1,7 +1,8 @@
 ---
-title: Part 4 - Writing the Game Logic
-permalink: guess-the-number-part4.html
-sidebar: tutorials
+layout: tutorial_pages
+part: 4
+title: Writing the Game Logic
+permalink: /guess-the-number-part-4/
 ---
 
 In the past three parts, we created our Xcode project and the interface for our game. Pressing the "Submit" button generates a random number, but that's not what we really want...In this part, we're going to write the logic of our game so we can know if a player made the right guess or not.
@@ -72,4 +73,4 @@ Run your app and try it! Your console should output the proper messages based on
 ### Next Time
 The logic of our app looks great, but we need some way to notify the player that he or she has won, or that there is something wrong with their guess. We will do this by adding some alerts in part 5.
 
-#### [Part 5: Adding Alerts](guess-the-number-part5)
+[]({{ site.baseurl }}{% link tutorials/guess-the-number/part5.md %})

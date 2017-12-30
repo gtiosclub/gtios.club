@@ -1,7 +1,8 @@
 ---
+layout: tutorial_pages
+part: 7
 title: Completed WeatherViewController
-permalink: weather-completed.html
-sidebar: tutorials
+permalink: /weather-completed-part-7/
 ---
 
 ```swift
@@ -89,3 +90,5 @@ class WeatherViewController: UIViewController, CLLocationManagerDelegate {
     
 }
 ```
+
+<p></p>

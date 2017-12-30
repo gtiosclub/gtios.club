@@ -1,12 +1,13 @@
 ---
-title: Part 11 - Implementing your UITableViewDataSource
-permalink: calculator-part11.html
-sidebar: tutorials
+layout: tutorial_pages
+part: 11
+title: Implementing your UITableViewDataSource
+permalink: /calculator-part-11/
 ---
 
 In Parts 9 and 10, you did the leg work on adding a UITableView to your Storyboard. If we try it in the simulator, though, it doesn't actually do anything yet. (You may or may not see the lines, depending on the scaled resolution of your simulator.)
 
-<p align="center"> <img src="../images/calculator/P11/screenshot1.png" width="300px" align="center"> </p>
+<p align="center"> <img src="../images/calculator/P11/screenshot1.png" align="center"> </p>
 
 We need to add the code that controls the Table View itself. `UITableView` has two delegate-type classes: `UITableViewDelegate` and `UITableViewDataSource`. The *Delegate* controls aspects like row height and user interaction, while the *Data Source* actually provides the Table View with data. We only need to implement the **Data Source**.
 
@@ -111,4 +112,4 @@ We implemented `UITableViewDataSource` as a part of our `ViewController` and con
 ### Next Time
 We'll make the table view reload when it needs to, and add in an animation.
 
-#### [Part 12: Reloading and Animating your Table View](calculator-part12)
+[]({{ site.baseurl }}{% link tutorials/calculator/part12.md %})

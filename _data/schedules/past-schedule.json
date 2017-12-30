@@ -1,0 +1,174 @@
+{
+    "past-meetings": [
+        {
+            "semester": "Spring 2017",
+            "meetings": [
+                {
+                    "date": "01/17",
+                    "subject": "Tap Game",
+                    "description": "Introduction to iOS" 
+                },
+                {
+                    "date": "01/24",
+                    "subject": "No Meeting",
+                    "description": "" 
+                },
+                {
+                    "date": "01/31",
+                    "subject": "About Me App",
+                    "description": "Autolayout, Tab Bars, and Navigation Controllers" 
+                },
+                {
+                    "date": "02/07",
+                    "subject": "Reminders App",
+                    "description": "Table Views" 
+                },
+                {
+                    "date": "02/14",
+                    "subject": "Tech Talk hosted by MailChimp",
+                    "description": "Intro to Core Data" 
+                },
+                {
+                    "date": "02/21",
+                    "subject": "Places I’ve Been App",
+                    "description": "MapKit and CoreData" 
+                },
+                {
+                    "date": "02/28",
+                    "subject": "Chat App",
+                    "description": "Firebase" 
+                },
+                {
+                    "date": "03/07",
+                    "subject": "Photos App",
+                    "description": "Collection Views and Photos Framework" 
+                },
+                {
+                    "date": "03/14",
+                    "subject": "Flappy Buzz",
+                    "description": "SpriteKit Crash Course" 
+                },
+                {
+                    "date": "03/21",
+                    "subject": "No Meeting",
+                    "description": "Spring Break" 
+                },
+                {
+                    "date": "03/28",
+                    "subject": "Build Your Own App",
+                    "description": "Special Challenge" 
+                },
+                {
+                    "date": "04/04",
+                    "subject": "Build Your Own App",
+                    "description": "Special Challenge"  
+                },
+                {
+                    "date": "04/11",
+                    "subject": "Build Your Own App Session",
+                    "description": "" 
+                },
+                {
+                    "date": "04/18",
+                    "subject": "Demo Day",
+                    "description": "" 
+                },
+                {
+                    "date": "04/25",
+                    "subject": "No Meeting",
+                    "description": "Finals Week"  
+                },
+                {
+                    "date": "05/02",
+                    "subject": "No Meeting",
+                    "description": "Finals Week"  
+                }
+            ]
+        },
+        {
+            "semester": "Fall 2016",
+            "meetings": [
+                {
+                    "date": "08/30",
+                    "subject": "Introduction",
+                    "description": "" 
+                },
+                {
+                    "date": "09/06",
+                    "subject": "Guessing App",
+                    "description": "" 
+                },
+                {
+                    "date": "09/13",
+                    "subject": "AirWatch Presentation",
+                    "description": "Optionals" 
+                },
+                {
+                    "date": "09/20",
+                    "subject": "No Meeting",
+                    "description": "Career Fair Week" 
+                },
+                {
+                    "date": "09/27",
+                    "subject": "Calculator App",
+                    "description": "" 
+                },
+                {
+                    "date": "10/04",
+                    "subject": "ScoreKeeper App",
+                    "description": "MapKit and CoreData" 
+                },
+                {
+                    "date": "10/11",
+                    "subject": "No Meeting",
+                    "description": "Student Recess" 
+                },
+                {
+                    "date": "10/18",
+                    "subject": "Notes App",
+                    "description": "Part 1" 
+                },
+                {
+                    "date": "10/25",
+                    "subject": "Notes App",
+                    "description": "Part 2"  
+                },
+                {
+                    "date": "11/01",
+                    "subject": "Notes App",
+                    "description": "Part 3"  
+                },
+                {
+                    "date": "11/08",
+                    "subject": "Weather App",
+                    "description": "Part 1" 
+                },
+                {
+                    "date": "11/15",
+                    "subject": "Weather App",
+                    "description": "Part 2"  
+                },
+                {
+                    "date": "11/22",
+                    "subject": "No Meeting",
+                    "description": "Thanksgiving Break" 
+                },
+                {
+                    "date": "11/29",
+                    "subject": "Ice Cream App",
+                    "description": "Showcase" 
+                },
+                {
+                    "date": "12/06",
+                    "subject": "No Meeting",
+                    "description": "Dead Week"  
+                },
+                {
+                    "date": "12/13",
+                    "subject": "No Meeting",
+                    "description": "Finals Week"  
+                }
+            ]
+        }
+    ]
+}

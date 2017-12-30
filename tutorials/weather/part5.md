@@ -1,7 +1,8 @@
 ---
-title: Part 5 - Parsing with SwiftyJSON
-permalink: weather-part5.html
-sidebar: tutorials
+layout: tutorial_pages
+part: 5
+title: Parsing with SwiftyJSON
+permalink: /weather-part-5/
 ---
 
 We have our forecast JSON from Dark Sky, but we want to parse that into a natural Swift object. We'll create a new file called `WeatherData.swift` and start it off with a simple struct:
@@ -30,7 +31,7 @@ init(data: Any) {
 
 The JSON object that we saw in the Alamofire response looked like this:
 
-```
+```swift
 {
     currently = {
         apparentTemperature = "43.67";
@@ -121,8 +122,9 @@ static func weatherForCoordinates(latitude: String, longitude: String, completio
 }
 ```
 
-If you run the app again, you should see it print out a WeatherData object: 
-```
+If you run the app again, you should see it print out a WeatherData object:
+ 
+```swift
 Optional(Weather_App.WeatherData(temperature: "45 ºF", description: "Clear", icon: "clear-day"))
 ```
 
@@ -130,4 +132,4 @@ Optional(Weather_App.WeatherData(temperature: "45 ºF", description: "Clear", ic
 
 Now that we can request a forecast for a location, we'll use CoreLocation to get the user's longitude and latitude.
 
-#### [Part 6: Using CoreLocation](weather-part6)
+[]({{ site.baseurl }}{% link tutorials/weather/part6.md %})

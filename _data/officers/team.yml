@@ -1,0 +1,46 @@
+# This is the list of officers. To add or remove officers, update this list.
+
+- name: "Cal Stephens"
+  job: "President"
+  pic: "/images/home/officers/cal.jpg"
+  github: "https://github.com/calda"
+
+- name: "Brian Wang"
+  job: "Founder"
+  pic: "/images/home/officers/brian.jpg"
+  github: "https://github.com/brianwang9100"
+
+- name: "Ale Patron"
+  job: "Senior Tech Lead"
+  pic: "/images/home/officers/ale.jpg"
+  github: "https://github.com/apatronl"
+
+- name: "Komal Hirani"
+  job: "Tech Lead / Senior Designer"
+  pic: "/images/home/officers/komal.jpg"
+  github: "https://github.com/khirani6"
+
+- name: "Kevin Randrup"
+  job: "Senior Tech Lead"
+  pic: "/images/home/officers/kevin.jpg"
+  github: "https://github.com/kevinrandrup"
+
+- name: "Cliff Panos"
+  job: "Tech Lead / Designer"
+  pic: "/images/home/officers/cliff.jpg"
+  github: "https://github.com/cliffpanos"
+
+- name: "Mitchell Gant"
+  job: "Tech Lead / Corporate Relations"
+  pic: "/images/home/officers/mitchell.jpg"
+  github: "https://github.com/m-gant"
+
+- name: "Kay Yin" 
+  job: "Tech Lead"
+  pic: "/images/home/officers/kay.jpg"
+  github: "https://github.com/lumingyin"
+
+- name: "Rohan Rk"
+  job: "Tech Lead"
+  pic: "/images/home/officers/rohan.jpg"
+  github: "https://github.com/rohanrk"

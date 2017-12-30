@@ -1,7 +1,8 @@
 ---
-title: Part 1 - Creating your Xcode project
-permalink: weather-part1.html
-sidebar: tutorials
+layout: tutorial_pages
+part: 1
+title: Creating your Xcode project
+permalink: /weather-part-1/
 ---
 
 This tutorial will teach you how to build a Weather app! We will be using a REST API as well as Cocoapods, a dependency manager for Swift and Objective-C Cocoa projects.
@@ -24,4 +25,4 @@ Click "Next", and then save the project anywhere you want to on your computer.
 
 Now you have successfully created your new project on Xcode! In the next part, we will be setting up Cocoapods so we can then start working on our Weather App!
 
-#### [Part 2: Using CocoaPods](weather-part2)
+[]({{ site.baseurl }}{% link tutorials/weather/part2.md %})

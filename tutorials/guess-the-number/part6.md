@@ -1,7 +1,8 @@
 ---
-title: Part 6 - Pushing to GitHub
-permalink: guess-the-number-part6.html
-sidebar: tutorials
+layout: tutorial_pages
+part: 6
+title: Pushing to GitHub
+permalink: /guess-the-number-part-6/
 ---
 
 Now that you're done, you can push your changes to GitHub!

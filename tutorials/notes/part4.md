@@ -1,7 +1,8 @@
 ---
-title: Part 4 - Implementing Notes List
-permalink: notes-part4.html
-sidebar: tutorials
+layout: tutorial_pages
+part: 4
+title: Implementing Notes List
+permalink: /notes-part-4/
 ---
 
 ### Create our note database
@@ -132,4 +133,4 @@ Build and run and you should see a list of notes that looks like the screenshot 
 
 We created `NoteDatabase` to store and retrieve notes then used it to implement `UITableViewDataSource` to display the title and timestamp of notes.
 
-#### [Part 5: Viewing and Editing Notes](notes-part5)
+[]({{ site.baseurl }}{% link tutorials/notes/part5.md %})

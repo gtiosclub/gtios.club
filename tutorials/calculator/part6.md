@@ -1,12 +1,13 @@
 ---
-title: Part 6 - Preparing your Calculation Delegate
-permalink: calculator-part6.html
-sidebar: tutorials
+layout: tutorial_pages
+part: 6
+title: Preparing your Calculation Delegate
+permalink: /calculator-part-6/
 ---
 
 Programming the logic for a calculator is time consuming and not really the focus of this tutorial. *We have that covered for you.*
 
-Download this file and drop it in to your Xcode project: **[CalculationDelegate.swift](calculator-part6-calculation-delegate)**.
+Download this file and drop it in to your Xcode project: **[CalculationDelegate.swift]({{ site.baseurl }}{% link tutorials/calculator/part6-calculation-delegate.md %})**.
 
 Your project should look like this now:
 
@@ -71,4 +72,4 @@ Delegates allow classes to pass on information, allowing the delegate to perform
 ### Next Time
 We will use the CalculationProtocol to add actual behavior to our 16 buttons (the fun part).
 
-#### [Part 7: Implementing your Buttons](calculator-part7)
+[]({{ site.baseurl }}{% link tutorials/calculator/part7.md %})

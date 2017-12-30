@@ -1,7 +1,8 @@
 ---
-title: Part 12 - Reloading and Animating your Table View
-permalink: calculator-part12.html
-sidebar: tutorials
+layout: tutorial_pages
+part: 12
+title: Reloading and Animating your Table View
+permalink: /calculator-part-12/
 ---
 
 In Part 11, we found out our Table View doesn't actually work yet. We have the delegate set up and written out, but appears when the buttons are pressed.

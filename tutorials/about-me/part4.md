@@ -1,7 +1,8 @@
 ---
-title: Part 4 - Segues and Navigation Bars
-permalink: about-me-part4.html
-sidebar: tutorials
+layout: tutorial_pages
+part: 4
+title: Segues and Navigation Bars
+permalink: /about-me-part-4/
 ---
 
 Let's add another View Controller to the canvas. You can drag one in from the View Pallete.
@@ -104,4 +105,4 @@ If you run the app in the simulator again, you should see everything is working 
 
 In Part 5, we'll start working on the app's other tab.
 
-#### [Part 5: Stack Views](about-me-part5)
+[]({{ site.baseurl }}{% link tutorials/about-me/part5.md %})
