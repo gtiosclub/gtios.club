@@ -16,7 +16,7 @@
 title: GT iOS Club
 description: An iOS development club hosted at the Georgia Institute of Technology.
 baseurl: "www.iosgatech.xyz" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://iosgatech.xyz" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: pretty
 
 # Build settings
