@@ -7,7 +7,7 @@ permalink: /calculator-part-2/
 
 **Interface Builder** is Xcode's GUI editor. For most projects, the interface is contained in the `Main.storyboard` file. Open it up and have a look around.
 
-<p align="center"> <img src="../images/calculator/P2/screenshot1.png" height="500px" align="center"> </p>
+<p align="center"> <img src="../images/calculator/P2/screenshot1.png"> </p>
 
 You should see something that looks like this. There are three important parts worth knowing:
 
@@ -27,7 +27,7 @@ Interface Builder has our backs. Among the many tools at our disposal, we have t
 
 You can drag components from the UI Palette into your View Controller. Go ahead and drag a `Label` over and drop it on somewhere on the view. The process should look something like this:
 
-<p align="center"> <img src="../images/calculator/P2/screenshot4.png" height="350px" align="center"> </p>
+<p align="center"> <img src="../images/calculator/P2/screenshot4.png"> </p>
 
 ### And he said, "Let there be Label"
 You can customize the label to your heart's content, too. Select the label and select the fourth tab in the Inspector. You should see a treasure-trove of customization options. Some are very clear..

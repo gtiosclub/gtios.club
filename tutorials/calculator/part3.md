@@ -60,7 +60,7 @@ Points allow code to make sense and work the same regardless of the pixel-densit
 #### Back to Interface Builder again
 If the main view is 320 points wide, then that means each button needs 80 points wide and 80 points tall. Click on the `Button` in the view hierarchy and then open the Size Inspector again. This time, you should be able to modify the width and height values. Change them both to 80, and then reposition the button as necessary.
 
-<p align="center"> <img src="../images/calculator/P3/screenshot5.png" height="600px" align="center"> </p>
+<p align="center"> <img src="../images/calculator/P3/screenshot5.png"> </p>
 
 Now you should have a button that is exactly 1/4th the width of the main view. This will tile exceptionally well, which is great for us and our 15 other buttons.
 

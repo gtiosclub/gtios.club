@@ -9,12 +9,12 @@ permalink: /notes-part-3/
 
 We're going to create a UIViewController subclass that displays a list of notes. Bring up the template using File -> New -> File and choosing "Cocoa Touch Class".
 
-<p align="center"> <img src="../images/notes/P3/screenshot1.png" height="450px" align="center"> </p>
+<p align="center"> <img src="../images/notes/P3/screenshot1.png"> </p>
 
 
 Tell Xcode to make the new NoteListTableViewController a subclass of UIViewController. 
 
-<p align="center"> <img src="../images/notes/P3/screenshot2.png" height="450px" align="center"> </p>
+<p align="center"> <img src="../images/notes/P3/screenshot2.png"> </p>
 
 Once the class has been created, go ahead and remove the `didReceiveMemoryWarning()` function. Don't delete the `viewDidLoad()` and `prepareForSegue()` methods; they will be used later.
 
@@ -54,7 +54,7 @@ Next we are going to design our UI (at this point we are assuming that you are f
 6. Drag out another View Controller scene and set the class to `NoteViewController`.
 7. Control+Drag from the Cell in the Note List Table View Controller to the Note View Controller to create a segue that will be triggered when the cell is tapped.
 
-<p align="center"> <img src="../images/notes/P3/screenshot3.gif" height="200px" align="center"> </p>
+<p align="center"> <img src="../images/notes/P3/screenshot3.gif"> </p>
 
 8. Drag out a Text Field, set the placeholder to "Title", and pin the left right and top constraints to the superview with standard spacing.
 9. Drag out a Text View below the Text Field
@@ -63,7 +63,7 @@ Next we are going to design our UI (at this point we are assuming that you are f
 	* Pin the top constraint to the bottom of the Text Field
 10. Connect the two outlets on the Note View Controller (`titleTextField` and `bodyTextView`) to the Text Field and Text View you just added
 
-<p align="center"> <img src="../images/notes/P3/screenshot4.png" height="450px" align="center"> </p>
+<p align="center"> <img src="../images/notes/P3/screenshot4.png"> </p>
 
 
 ### Recap

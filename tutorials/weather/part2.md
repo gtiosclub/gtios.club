@@ -23,19 +23,19 @@ Once you're there, run the command `pod init`. This command will create a `Podfi
 
 Your Podfile should look something like this:
 
-<p align="center"> <img src="../images/weather/Podfile.png" height="170px" align="center"> </p>
+<p align="center"> <img src="../images/weather/Podfile.png" align="center"> </p>
 
 Go ahead and uncomment the lines that say `platform :ios, '8.0'` and `use_frameworks!`. Also make sure to change iOS 8.0 to iOS 10.0, or whatever the most recent version is.
 
 You add your specific pods between `target 'Weather App' do` and `end`. We're using Alamofire 4.0 and SwiftyJSON, so add them in this format:
-```
+```swift
 pod 'Alamofire', '~> 4.0'
 pod 'SwiftyJSON'
 ```
 
 Your completed Podfile should look like this:
 
-<p align="center"> <img src="../images/weather/podfileWithPods.png" height="210px" align="center"> </p>
+<p align="center"> <img src="../images/weather/podfileWithPods.png" align="center"> </p>
 
 ### Installing our Pods
 

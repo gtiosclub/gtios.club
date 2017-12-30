@@ -42,7 +42,8 @@ This is a stand alone .md file with no further links.
 <p></p>
 ```
 
-* images in .md files will automatically be the right size. No need to declare a width/height anymore. However, if you want an image to be a particular size you can specify a size less than 350px in the image tag like so: `<img src="..." style="max-width:325px !important" />`
+* Images in .md files will automatically be the right size (100% width on small screens, 75% width on medium and up screens). No need to declare a width/height anymore. The code for putting images in .md files should follow this format: `<p align="center"><img src="..images/path-to-your-img/screenshot1.png"></p>`
+* However, if you want an image to be smaller you can specify an absolute pixel size that is equal to or less than 350px in the image tag like so: `<img src="..." style="max-width:325px !important" />`
 
 ### Schedules
 * The schedules file has been changed from markdown to JSON.
