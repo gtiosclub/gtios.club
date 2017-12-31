@@ -59,6 +59,15 @@
     margin-bottom: 1.8rem;
 }
 
+.post-header h1, .post-header h6 {
+    word-wrap: break-word;
+} 
+
+.post-content h2, .post-content h3, .post-content h4,
+.post-content h5, .post-content h6, .post-content code {
+    word-wrap: break-word;
+}
+
 div.item {
     padding: 0.5rem 0;
 }

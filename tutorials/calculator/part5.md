@@ -14,7 +14,7 @@ The rest of this tutorial assumes you know how to program but doesn't actually r
 
 In our storyboard, we have a View Controller. Every View Controller should also have a corresponding *.swift* file. In this case, we have the default **ViewController.swift**. Open that file in the file viewer in the left-most pane of the window.
 
-<p align="center"> <img src="../images/calculator/P5/screenshot1.png" height="400px" align="center"> </p>
+<p align="center"> <img src="../images/calculator/P5/screenshot1.png"> </p>
 
 **To actually write code that interacts with out interface**, we have to connect items on screen to counterparts in code. Even before that, we have to make it so we can see both the storyboard and the code at the same time.
 
@@ -37,7 +37,7 @@ Mouse over to **Manual**, and then navigate all the way to **Main.storyboard (ba
 <br>
 
 Now you probably see something entirely unhelpful like this:
-<p align="center"> <img src="../images/calculator/P5/screenshot6.png" height="400px" align="center"> </p>
+<p align="center"> <img src="../images/calculator/P5/screenshot6.png"> </p>
 
 Another caveat about Xcode is that it's more designed for a 27" iMac than a 13" Mac Book Pro. We're gonna have to close some of these sidebars so we can actually see our content. Again, Xcode has buttons to do exactly what we need.
 
@@ -45,7 +45,7 @@ Another caveat about Xcode is that it's more designed for a 27" iMac than a 13" 
 
 Right next to the Counterparts button, there's another set of buttons that control the left and right sidebars. Close any number of them until you have enough space to work comfortably. (You can also close the View Hierarchy with a similar looking button at the bottom-right corner of the storyboard canvas.)
 
-<p align="center"> <img src="../images/calculator/P5/screenshot8.png" height="400px" align="center"> </p>
+<p align="center"> <img src="../images/calculator/P5/screenshot8.png"> </p>
 
 This is the setup I tend to prefer, with the File Browser (left sidebar) and the Storyboard's View Hierarchy closed. The Inspector is something that gets used fairly often so it's a good idea to have it open.
 

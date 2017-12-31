@@ -127,7 +127,7 @@ func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> U
 
 Build and run and you should see a list of notes that looks like the screenshot below.
  
-<p align="center"> <img src="../images/notes/P4/screenshot1.png" height="300px" align="center"> </p>
+<p align="center"> <img src="../images/notes/P4/screenshot1.png" style="max-width:350px !important;"> </p>
 
 ### Recap
 

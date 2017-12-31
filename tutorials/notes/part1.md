@@ -9,11 +9,11 @@ In this tutorial you will be creating a notes app which has two screens:
 
 1. A note list screen containing a tableview used to display a list of notes
 
-<p align="center"> <img src="../images/notes/P1/screenshot1.png" height="300px" align="center"> </p>
+<p align="center"> <img src="../images/notes/P1/screenshot1.png" style="max-width:350px !important;"> </p>
 
 2. A note list screen containing a text field and text view where notes can be created, edited, or viewed. 
 
-<p align="center"> <img src="../images/notes/P1/screenshot2.png" height="300px" align="center"> </p>
+<p align="center"> <img src="../images/notes/P1/screenshot2.png" style="max-width:350px !important;"> </p>
 
 First, create a new Xcode project the same way as in previous tutorials. 
 
