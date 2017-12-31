@@ -64,7 +64,7 @@
 } 
 
 .post-content h2, .post-content h3, .post-content h4,
-.post-content h5, .post-content h6, .post-content code {
+.post-content h5, .post-content h6, .post-content code.highlighter-rouge {
     word-wrap: break-word;
 }
 
