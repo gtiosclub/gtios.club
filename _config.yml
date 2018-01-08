@@ -18,6 +18,8 @@ description: An iOS development club hosted at the Georgia Institute of Technolo
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.iosgatech.xyz" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: pretty
+facebook_url: https://www.facebook.com/groups/iosgatech/
+facebook_ios_uri: fb://group/?id=501207600034394
 
 # Build settings
 markdown: kramdown
