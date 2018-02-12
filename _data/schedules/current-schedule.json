@@ -1,80 +1,75 @@
 {
-    "semester": "Fall 2017",
+    "semester": "Spring 2018",
     "meetings": [
         {
-            "date": "08/29",
-            "subject": "Tap Game",
-            "description": "Introduction to iOS development - Part 1" 
+            "date": "1/16",
+            "subject": "Sound Board",
+            "description": "Introduction to iOS development" 
         },
         {
-            "date": "09/05",
+            "date": "1/23",
             "subject": "Guess the Number",
-            "description": "Introduction to iOS development - Part 2" 
+            "description": "Introduction to iOS development" 
         },
         {
-            "date": "09/12",
-            "subject": "Meeting Canceled",
-            "description": "" 
-        },
-        {
-            "date": "09/19",
-            "subject": "About Me",
-            "description": "Autolayout & Interface Builder" 
-        },
-        {
-            "date": "09/26",
+            "date": "1/30",
             "subject": "No Meeting",
             "description": "College of Computing Career Fair" 
         },
         {
-            "date": "10/03",
-            "subject": "Shopping List",
+            "date": "2/6",
+            "subject": "About Me",
+            "description": "Autolayout & Interface Builder" 
+        },
+        {
+            "date": "2/13",
+            "subject": "Reminders",
             "description": "Intro to UITableView" 
         },
         {
-            "date": "10/10",
-            "subject": "No Meeting",
-            "description": "Fall Break" 
-        },
-        {
-            "date": "10/17",
-            "subject": "Colors List",
-            "description": "Intro to Multi-Screen Apps" 
-        },
-        {
-            "date": "10/24",
-            "subject": "Pin Drop",
-            "description": "Data Persistence & MapKit" 
-        },
-        {
-            "date": "10/31",
-            "subject": "Tunes App",
-            "description": "Networking & JSON Decoding" 
-        },
-        {
-            "date": "11/07",
-            "subject": "News App",
-            "description": "Special Challenge" 
-        },
-        {
-            "date": "11/14",
-            "subject": "Learning",
-            "description": "Animations" 
-        },
-        {
-            "date": "11/21",
-            "subject": "No Meeting",
-            "description": "Thanksgiving Break" 
-        },
-        {
-            "date": "11/28",
+            "date": "2/20",
             "subject": "TBA",
             "description": "" 
         },
         {
-            "date": "12/05",
+            "date": "2/27",
+            "subject": "TBA",
+            "description": "" 
+        },
+        {
+            "date": "3/6",
+            "subject": "TBA",
+            "description": "" 
+        },
+        {
+            "date": "3/13",
+            "subject": "TBA",
+            "description": "" 
+        },
+        {
+            "date": "3/20",
             "subject": "No Meeting",
-            "description": "Finals week" 
+            "description": "Spring Break" 
+        },
+        {
+            "date": "3/27",
+            "subject": "TBA",
+            "description": "" 
+        },
+        {
+            "date": "4/3",
+            "subject": "TBA",
+            "description": "" 
+        },
+        {
+            "date": "4/10",
+            "subject": "TBA",
+            "description": "" 
+        },
+        {
+            "date": "4/17",
+            "subject": "Demo Day",
+            "description": "Food, Presentations, and Prizes!" 
         }
     ]
 }
