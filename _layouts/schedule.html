@@ -1,95 +1,79 @@
 --- 
 layout: master
 ---
-<nav class="navbar second-nav fixed-top">
-    <div class="container">
-        <a class="navbar-brand">{{ page.title }}</a>
-       
-    </div>
-</nav>
 
-<div class="container my-fluid-container top-space-on-fixed">
+<div class="container">
     <div class="row">
-        <div class="col-lg-3 side-menu">
-            <h1 class="page-header">{{ page.title }}</h1>
-            <div class="side-nav-box">
-            <div id="schedule-menu" class="side-nav">
-                <div class="item">
-                    <a class="cal">View Past Semesters</a>
-                </div>
-            </div>
-            </div>
+        <!-- Repeat structure below for second calender -->
+        <div class="post-header spacer">
+            <!-- <div class="options nav">
+                <a class="past-cal nav-link">View Past Semesters</a>
+            </div> -->
+            <h6 class="sub-heading">
+                {% if site.data.schedules.current-schedule.semester contains "Fall" %} August - December {% elsif site.data.schedules.current-schedule.semester
+                contains "Spring" %} January - May {% endif %}
+            </h6>
+            <h1 class="heading">{{ site.data.schedules.current-schedule.semester }}</h1>
         </div>
-        <div class="col-lg-9">
-            <!-- Repeat structure below for second calender -->
-            <div class="post-header spacer">
-                <h6 class="sub-heading">
-                    {% if site.data.schedules.current-schedule.semester contains "Fall" %}
-                    August - December
-                    {% elsif site.data.schedules.current-schedule.semester contains "Spring" %}
-                    January - May
-                    {% endif %}
-                </h6>
-                <h1 class="heading">{{ site.data.schedules.current-schedule.semester }}</h1>
-            </div>
-            <div class="row schedule-container">
-                <div class="col-xl">
-                    <ul class="calender">
-                        {% for entry in site.data.schedules.current-schedule.meetings %}
-                        <li class="meeting">
-                            <div class="row entry">
-                                <div class="col-xl-4 col-lg-3 col-md-2 col-sm-3 col-xs-2 date">
-                                    <h3 class="text-right">{{ entry.date }}</h3>
+    </div>
+    <div class="row schedule-container">
+        <div class="col-lg">
+            <ul class="calender">
+                {% for entry in site.data.schedules.current-schedule.meetings %}
+                <li class="meeting">
+                    <div class="row entry">
+                        <div class="cal-card">
+                            <div class="date text-center">
+                                <p>{{ site.data.schedules.months[entry.month] }}</p>
+                                <h3>{{ entry.day }}</h3>
+                            </div>
+                            <div class="content">
+                                <h5 class="topic">{{ entry.subject }}</h5>
+                                <p class="card-text">{{ entry.description }}</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+    <!-- END: Repeat structure -->
+
+    <div id="pastSemester" style="padding-top: 10px;"></div>
+    <div class="past-schedules">
+        {% for schedule in site.data.schedules.past-schedule.past-meetings %}
+        <div class="post-header large-spacer">
+            <h6 class="sub-heading">
+                {% if schedule.semester contains "Fall" %} August - December {% elsif schedule.semester contains "Spring" %} January - May
+                {% endif %}
+            </h6>
+            <h1 class="heading">{{ schedule.semester }}</h1>
+        </div>
+        <div class="row schedule-container">
+            <div class="col-lg">
+                <ul class="calender">
+                    {% for entry in schedule.meetings %}
+                    <li class="meeting">
+                        <div class="row entry">
+                            <div class="cal-card">
+                                <div class="date text-center">
+                                    <p>{{ site.data.schedules.months[entry.month] }}</p>
+                                    <h3>{{ entry.day }}</h3>
                                 </div>
-                                <div class="col-xl-8 col-lg-9 col-md-10 col-sm-9 col-xs-10 content">
+                                <div class="content">
                                     <h5 class="topic">{{ entry.subject }}</h5>
                                     <p class="card-text">{{ entry.description }}</p>
                                 </div>
                             </div>
-                        </li>
-                        {% endfor %}
-                    </ul>
-                </div>
-            </div>
-            <!-- END: Repeat structure -->
-            <div id="pastSemester" style="padding-top: 10px;"></div>
-
-            <div class="past-schedules">
-                {% for schedule in site.data.schedules.past-schedule.past-meetings %}
-                <div class="post-header large-spacer">
-                    <h6 class="sub-heading">
-                        {% if schedule.semester contains "Fall" %}
-                        August - December
-                        {% elsif schedule.semester contains "Spring" %}
-                        January - May
-                        {% endif %}
-                    </h6>
-                    <h1 class="heading">{{ schedule.semester }}</h1>
-                </div>
-                <div class="row schedule-container">
-                    <div class="col-xl">
-                        <ul class="calender">
-                            {% for entry in schedule.meetings %}
-                            <li class="meeting">
-                                <div class="row entry">
-                                    <div class="col-xl-4 col-lg-3 col-md-2 col-sm-3 col-xs-2 date">
-                                        <h3 class="text-right">{{ entry.date }}</h3>
-                                    </div>
-                                    <div class="col-xl-8 col-lg-9 col-md-10 col-sm-9 col-xs-10 content">
-                                        <h5 class="topic">{{ entry.subject }}</h5>
-                                        <p class="card-text">{{ entry.description }}</p>
-                                    </div>
-                                </div>
-                            </li>
-                            {% endfor %}
-                        </ul>
-                    </div>
-                </div>
-                {% endfor %}
+                        </div>
+                    </li>
+                    {% endfor %}
+                </ul>
             </div>
         </div>
-
+        {% endfor %}
     </div>
-
-
 </div>
+
+{% include footer.html %}

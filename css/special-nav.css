@@ -1,0 +1,41 @@
+@media (max-width: 991px) {
+    .fixed-top {
+        position: relative;
+    }
+
+    .navbar-light {
+        box-shadow: 0 0 13px 0 rgba(47,47,47,.1);
+        z-index: 99;
+    }
+
+    .second-nav {
+        position: -webkit-sticky;
+        position: sticky;
+        z-index: 50;
+        top: -1px;
+        background: rgb(250, 250, 250);
+        box-shadow: 0 0 13px 0 rgba(47,47,47,.1);
+    }
+
+    .second-nav-collapsible {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 54px;
+        background: rgb(250, 250, 250);
+        z-index: 30;
+        max-height: calc(100vh - 57px);
+        overflow-y: auto;
+    }
+
+    .nav .sublink:hover {
+        background-color: initial;
+    }
+
+    #mainAccordion {
+        padding: 1rem 2rem 2rem 2rem;
+    }
+
+    div.item:last-child {
+        border-bottom: none;
+    }
+}

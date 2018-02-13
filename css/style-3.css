@@ -13,12 +13,30 @@ ul.calender li {
 }
 
 .entry .date > h3 {
- color: rgb(247, 57, 48);
- font-weight: 700;
+ font-weight: 400;
+ font-size: 2rem;
+}
+
+.entry .date > p {
+    color: rgb(247, 57, 48);
+    margin-bottom: 0.2rem;
+    margin-top: 0.2rem;
+    font-weight: 500;
+    font-size: .85rem;
+    text-transform: uppercase;
 }
 
 .entry .content {
   border-left: 1px solid rgb(204, 204, 204);
+}
+
+.entry .content > h5 {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.entry .content > p {
+    font-size: 0.92rem;
 }
 
 .past-schedules {
@@ -30,29 +48,75 @@ ul.calender li {
     color: rgb(247, 57, 48);
 }
 
-a.cal {
-    cursor: pointer;
+/* .options {
+    justify-content: flex-end;
+    padding-bottom: 1.5rem;
 }
 
+.options a {
+    cursor: pointer;
+    font-size: 0.8rem;
+} */
+
+.post-header {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cal-card {
+    width: 450px;
+    background-color: white;
+    border-radius: 4px;
+    padding: 10px 0 10px 0;
+    box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.12);
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.cal-card .date {
+    width: 20%;
+    vertical-align: top;
+}
+
+.cal-card .content {
+    padding: 8px 16px;
+    width: 79%;
+}
+
+/* Extra large devices (tablets, greater than or equal 1200px) */
+@media (min-width: 1200px) {
+    .post-header {
+        width: 1020px;
+    }
+}
+
+/* Large devices (tablets, less than 1200px) */
+@media (max-width: 1199px) {
+    .post-header {
+        width: 930px;
+    }
+}
 
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 991px) {
     #schedule-menu {
         display: none;
     }
+
+    .post-header {
+        width: 450px;
+        text-align: center;
+    }
 }
 
-/* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575px) {
-    h3.text-right {
-        text-align: left !important;
-    }
-
-    .entry .content {
-        border: none;
+/* Smaller than xs (portrait phones, less than 500px) */
+@media (max-width: 500px) {
+    .cal-card, .post-header {
+        width: 350px;
     }
 
     ul.calender li {
-        border-bottom: 1px solid rgb(204, 204, 204);
+        padding: .4rem 0;
     }
 }

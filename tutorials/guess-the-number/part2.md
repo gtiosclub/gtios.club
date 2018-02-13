@@ -51,13 +51,13 @@ Here at the Attributes tab, you can edit the text of your label, the color, the 
 
 Now, in order to actually input a guess, you will need a `Text Field`, and you will also need a `Button` in order to submit your guess. From the UI Palette, drag a `Button` and `Text Field` to your screen. Also edit the textfield and the button in any way you want. For this tutorial, edit all the features in the view so that it looks like this:
 
-<p align="center"> <img src="../images/guess-the-number/finalLayout.png" align="center" style="max-width: 375px !important"> </p>
+<p align="center"> <img src="../images/guess-the-number/finalLayout.png" align="center" style="max-width: 325px !important"> </p>
 
 Awesome! Now we have our view! If you run the application on the simulator, then you should be able to see the image above as the final layout on your phone! On the top left of XCode, **select iPhone X or iPhone 8 Plus** in the device/simulator dropdown and then press the **Play Button**.
 
 <p align="center"> <img src="../images/guess-the-number/selectSimulatorPlay.png" align="center" style="max-width: 75%"> </p>
 
-<p align="center"> <img src="../images/guess-the-number/simulatorView.png" align="center" style="max-width: 375px !important"> </p>
+<p align="center"> <img src="../images/guess-the-number/simulatorView.png" align="center" style="max-width: 325px !important"> </p>
 
 While this is great progress, we still need to be able to actually provide functionality to the app.
 

@@ -20,6 +20,7 @@
   <link rel="stylesheet" href="{{ site.baseurl }}/css/style-1.css">
   {% if page.url contains "part" or page.url contains "tutorials" %}
   <link rel="stylesheet" href="{{ site.baseurl }}/css/style-2.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/special-nav.css">
   {% elsif page.url contains "schedule" %}
   <link rel="stylesheet" href="{{ site.baseurl }}/css/style-2.css">
   <link rel="stylesheet" href="{{ site.baseurl }}/css/style-3.css">
@@ -27,19 +28,6 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
   <link rel="shortcut icon" href="{{site.baseurl}}/images/favicon.ico">
 </head>
-
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
-  crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
-  crossorigin="anonymous"></script>
-
-<script src="//cdn.jsdelivr.net/npm/jquery.scrollto@2.1.2/jquery.scrollTo.min.js"></script>
-
-<script type="text/javascript" src="{{ site.baseurl }}/js/open-facebook.js"></script>
-
 
 <body>
   {% if page.url contains "schedule" %}
@@ -51,6 +39,18 @@
   {% endif %}
 
   {{ content }}
+  
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+    crossorigin="anonymous"></script>
+    
+  <script src="//cdn.jsdelivr.net/npm/jquery.scrollto@2.1.2/jquery.scrollTo.min.js"></script>
+  <script type="text/javascript" src="{{ site.baseurl }}/js/open-facebook.js"></script>
 
     <!-- Optional JavaScript -->
   {% if page.permalink contains "schedule" %}
@@ -58,6 +58,10 @@
   {% elsif page.permalink contains "part" %}
   <script type="text/javascript" src="{{ site.baseurl }}/js/tutorial-page-adjustments.js"></script>
   {% endif %}
+
+  {% unless page.permalink contains "schedule" or page.permalink contains "part" %}
+  <script type="text/javascript" src="{{ site.baseurl }}/js/homepage-carousel.js"></script>
+  {% endunless %}
 
 </body>
 
