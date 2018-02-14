@@ -2,83 +2,127 @@
 layout: master
 ---
 
-<div class="container top-space-on-fixed">
-    <div class="row med-spacer">
-        <div class="col intro">
-            <h1>What's on our mind?</h1>
-            <h4>Dedication to building a community of iOS developers at Georgia Tech.</h4>
-        </div>
-    </div>
-    <div class="row spacer card-space">
-        <div class="col-md">
-            <a class="clickable-card" href="{{ site.baseurl }}/schedule/">
-                <div class="card" style="width: 20rem">
-                    <img class="card-img-top" src="{{ site.baseurl }}/images/home/cal.png">
-                    <div class="card-body">
-                        <h6 class="card-subtitle mb-2 text-muted text-uppercase">Save the Date</h6>
-                        <h4 class="card-title">Learn Something New</h4>
-                        <p class="card-text small-spacer">Want to know when the next meeting is? View the schedule for information on all events and activities.</p>
-                    </div>
-                </div>
-            </a>
-        </div>
-        <div class="col-md">
-            <a class="clickable-card" href="{{ site.facebook_url }}" onclick="openFacebook(); return false;" target="_blank">
-                <div class="card" style="width: 20rem">
-                    <img class="card-img-top" src="{{ site.baseurl }}/images/home/facebook.jpg">
-                    <div class="card-body">
-                        <h6 class="card-subtitle mb-2 text-muted text-uppercase">Get Social</h6>
-                        <h4 class="card-title">Join the Facebook
-                            <br> Group</h4>
-                        <p class="card-text small-spacer">For all the latest news and updates about club meetings and events follow us on Facebook.</p>
-                    </div>
-                </div>
-            </a>
-        </div>
-    </div>
-</div>
-
-<div class="bg large-spacer">
+<div class="bg">
     <div class="container">
         <div class="row">
-            <div class="col">
+            <div class="col-lg-8">
                 <img class="devices" src="{{ site.baseurl }}/images/home/devices_watch.png">
             </div>
-        </div>
-        <div class="row med-spacer">
-            <div class="col about-us">
-                <h1>About Us</h1>
-                <h4>We support our members through a strong curriculum spanning iOS development and design. We host beginner-friendly
-                    meetings every
-                    <span style="color:#1D2129; font-weight:500;">Tuesday at 6:00pm in Klaus 1456.</span> After just one semester, our members go on to develop their own
-                    apps and receive internships in the industry.</h4>
+            <div class="col-lg-4 opener">
+                <h1>Building a community of developers.</h1>
+                <p class="no-mar">We support our members through a strong curriculum spanning iOS development and design. After just one semester, our members go on to develop their own
+                    apps and receive internships in the industry.</p>
             </div>
         </div>
     </div>
 </div>
 
-<div class="bg thanks">
+<div class="bg ">
     <div class="container">
-        <!-- <div class="row">
+        <div class="row info">
+            <div class="col-lg">
+                <div class="content">
+                    <img src="{{ site.baseurl }}/images/home/zuck.png"/>
+                    <h1>Get social.</h1>
+                    <p>Join our Facebook group to connect with club officers and fellow club attendees. It's also the best resource for all the latest news about club meetings.</p>
+                    <a href="{{ site.facebook_url }}" onclick="openFacebook()" target="_blank">Click to View &rsaquo;</a>
+                </div>
+            </div>
+            <div class="col-lg">
+                <div class="content">
+                    <img src="{{ site.baseurl }}/images/home/learn.png"/>
+                    <h1>Get involved.</h1>
+                    <p>We host beginner friendly meetings every Tuesday at 6:00pm in Klaus 1456. For more information on event dates and activities view the schedule.</p>
+                    <a href="{{ site.baseurl }}/schedule/">Click to View &rsaquo;</a>
+                </div>
+            </div>
+            <div class="col-lg">
+                <div class="content">
+                    <img src="{{ site.baseurl }}/images/home/app-store.png"/>
+                    <h1>Get started.</h1>
+                    <p>View the tutorials page for detailed, step-by-step guides on how to create your own apps. All of the code is up on our GitHub repo as well.</p>
+                    <a href="{{ site.baseurl }}{{site.data.tutorials.side-nav.first.folderitems.first.page_url}}">Click to View &rsaquo;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="bg">
+    <div class="container">
+        <div class="row extra">
+            <div class="col">
+                <div class="label">
+                    <span>New</span>
+                </div>
+            </div>
+        </div>
+        <div class="row opener extra">
+            <div class="col-lg-4">
+                <h1>Ready to take the next step?</h1>
+            </div>
+            <div class="col-lg-8">
+                <p class="no-mar">Visit iOS Lab on Tuesdays at 5:00pm in CCB 340. It’s a new initiative we’re starting for intermediate/advanced iOS developers to come in and work on their projects. This includes getting time to build your own apps, viewing presentations on advanced topics, participating in discussions, and getting development help.</p>
+            </div>
+        </div>
+
+        <div class="row info checks">
+            <div class="col-lg">
+                <div class="content">
+                    <img src="{{ site.baseurl }}/images/home/check.png"/>
+                    <div class="words">
+                        <h3>Step 1</h3>
+                        <p>Learn about the basics in iOS Club and get a feel for mobile development.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg">
+                <div class="content">
+                    <img src="{{ site.baseurl }}/images/home/check.png"/>
+                    <div class="words">
+                        <h3>Step 2</h3>
+                        <p>Build your own apps, get more practice, and expand on your knowledge in iOS Lab.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg">
+                <div class="content">
+                    <img src="{{ site.baseurl }}/images/home/check.png"/>
+                    <div class="words">
+                        <h3>Step 3</h3>
+                        <p class="no-mar">Become an officer and teach the next generation or land an internship and gain industry experience.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="bg">
+    <div class="container">
+        <div class="row opener ty">
             <div class="col">
                 <h1>A Special Thanks</h1>
+                <p>We want to recognize all of our sponsors who helped during the 2016-2017 year with tech talks, prizes,
+                    and support.</p>
             </div>
-        </div> -->
-        <!-- <div class="row med-spacer note">
-            <div class="col about-us">
-                <h4>We want to recognize all of our sponsors who helped during the 2016-2017 year with tech talks, prizes,
-                    and support.</h4>
-            </div>
-        </div> -->
-        <div class="row logos">
-            <div class="col">
-                <img src="{{ site.baseurl }}/images/home/sponsors/mailChimp-dark.png" />
-            </div>
-            <div class="col">
-                <img src="{{ site.baseurl }}/images/home/sponsors/ingeniousMed-dark.png" />
-            </div>
-            <div class="col">
-                <img src="{{ site.baseurl }}/images/home/sponsors/airwatch-dark.png" />
+        </div>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner logos">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="{{ site.baseurl }}/images/home/sponsors/mailchimp-color.png">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="{{ site.baseurl }}/images/home/sponsors/ingenious-color.png">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="{{ site.baseurl }}/images/home/sponsors/airwatch-color.png">
+                </div>
             </div>
         </div>
     </div>
@@ -87,8 +131,9 @@ layout: master
 <div class="bg">
     <div class="container">
         <div class="row">
-            <div class="col about-us">
-                <h1 class="meet">Meet the Team</h1>
+            <div class="col opener ty">
+                <h1>Who We Are</h1>
+                <p class="team-description">A collective group of seasoned iOS developers.</p>
             </div>
         </div>
         <div class="row">
