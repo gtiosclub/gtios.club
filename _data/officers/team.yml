@@ -15,23 +15,18 @@
   pic: "/images/home/officers/ale.jpg"
   github: "https://github.com/apatronl"
 
-- name: "Komal Hirani"
-  job: "Tech Lead / Senior Designer"
-  pic: "/images/home/officers/komal.jpg"
-  github: "https://github.com/khirani6"
-
 - name: "Kevin Randrup"
   job: "Senior Tech Lead"
   pic: "/images/home/officers/kevin.jpg"
   github: "https://github.com/kevinrandrup"
 
 - name: "Cliff Panos"
-  job: "Tech Lead / Designer"
+  job: "Tech Lead"
   pic: "/images/home/officers/cliff.jpg"
   github: "https://github.com/cliffpanos"
 
 - name: "Mitchell Gant"
-  job: "Tech Lead / Corporate Relations"
+  job: "Tech Lead"
   pic: "/images/home/officers/mitchell.jpg"
   github: "https://github.com/m-gant"
 
@@ -39,8 +34,3 @@
   job: "Tech Lead"
   pic: "/images/home/officers/kay.jpg"
   github: "https://github.com/lumingyin"
-
-- name: "Rohan Rk"
-  job: "Tech Lead"
-  pic: "/images/home/officers/rohan.jpg"
-  github: "https://github.com/rohanrk"
