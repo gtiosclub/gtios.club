@@ -40,19 +40,19 @@
         {
             "month": 2,
             "day": 27,
-            "subject": "TBA",
-            "description": "" 
+            "subject": "Simon Says",
+            "description": "Animations" 
         },
         {
             "month": 3,
             "day": 6,
-            "subject": "TBA",
+            "subject": "Networking",
             "description": "" 
         },
         {
             "month": 3,
             "day": 13,
-            "subject": "TBA",
+            "subject": "Using Multiple View Controllers",
             "description": "" 
         },
         {
@@ -64,7 +64,7 @@
         {
             "month": 3,
             "day": 27,
-            "subject": "TBA",
+            "subject": "App Challenge",
             "description": "" 
         },
         {
