@@ -34,3 +34,8 @@
   job: "Tech Lead"
   pic: "/images/home/officers/kay.jpg"
   github: "https://github.com/lumingyin"
+
+- name: "Nate Thompson"
+  job: "Tech Lead"
+  pic: "/images/home/officers/nate.jpg"
+  github: "https://github.com/thompsonate"
