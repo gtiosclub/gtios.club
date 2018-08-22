@@ -2,77 +2,119 @@
 layout: master
 ---
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+    
+    // find and display the next meeting
+    // Jekyll sites are static/compiled, so we have to check for the current date at display-time in the browser.
+
+    $(document).ready(function() {    
+        var meetings = Array.from($('#current-schedule').children())
+        meetings.reverse()
+
+        const now = new Date()
+        var nextMeeting = undefined;
+
+        // find the next meeting from the list
+        for (var meeting in meetings) {
+            // id format: 2018-8-3
+            var meetingDateComponents = meetings[meeting].id.split('-')
+            var meetingDate = new Date(1)
+            meetingDate.setFullYear(meetingDateComponents[0])
+            meetingDate.setMonth(parseInt(meetingDateComponents[1]) - 1, meetingDateComponents[2])
+            meetingDate.setHours(16, 0) // meeting ends at ~8:00pm
+
+            if ((nextMeeting == undefined && meetingDate > now)
+                || (nextMeeting != undefined && meetingDate < nextMeeting.date))
+            {
+                nextMeeting = {
+                    date:  meetingDate,
+                    month: $(meetings[meeting]).find('.meeting-month').text(),
+                    day:   $(meetings[meeting]).find('.meeting-day').text(),
+                    topic: $(meetings[meeting]).find('.meeting-topic').text(),
+                    desc:  $(meetings[meeting]).find('.meeting-description').text()
+                }
+            }
+        }
+
+        if (nextMeeting == undefined) {
+            $('#no-next-meeting').show();
+            $('#next-meeting').hide();
+        } else {
+            $('#no-next-meeting').hide();
+            $('#next-meeting').show();
+
+            $('#next-meeting').find('.meeting-month').text(nextMeeting.month);
+            $('#next-meeting').find('.meeting-day').text(nextMeeting.day);
+            $('#next-meeting').find('.meeting-topic').text(nextMeeting.topic);
+            $('#next-meeting').find('.meeting-description').text(nextMeeting.desc);
+        }
+    })
+</script>
+
+
+
 <div class="container">
     <div class="row">
-        <!-- Repeat structure below for second calender -->
-        <div class="post-header spacer">
-            <!-- <div class="options nav">
-                <a class="past-cal nav-link">View Past Semesters</a>
-            </div> -->
-            <h6 class="sub-heading">
-                {% if site.data.schedules.current-schedule.semester contains "Fall" %} August - December {% elsif site.data.schedules.current-schedule.semester
-                contains "Spring" %} January - May {% endif %}
-            </h6>
-            <h1 class="heading">{{ site.data.schedules.current-schedule.semester }}</h1>
-        </div>
-    </div>
-    <div class="row schedule-container">
-        <div class="col-lg">
+        <div class="schedule-column schedule-meta col" style="max-width: 435px;">
+            <div style="margin: 0 auto; margin-bottom: 15px;">
+                <h1 class="row post-header heading">Schedule</h1>
+                <p class="no-mar">We host beginner-friends meetings every week at 6:30pm in Klaus 1456.</p><br>
+                <p class="no-mar">Subscribe to our <a href="webcal://p48-calendars.icloud.com/published/2/M5Pgm5bwbvW5nPVP611TT8PD5UoYrSv1BdKDu5rFhfs_LqHjQYZeEM0yBocWuFUn46fDcJVFz82bbD2Z6tJGn3ray9CQ4mkg5uaQvY9lCgk">shared calendar</a> to stay updated, and join our <a href="{{ site.facebook_url }}" onclick="openFacebook()" target="_blank">Facebook group</a> for announcements.</p><br>
+            </div>
+            
+            <div style="max-width: 425px; margin: 0 auto; margin-bottom: 10px;">
+                <h1 class="row post-header heading" style="font-size: 1.5em; ">Next Meeting</h1>
+            </div>
+            
             <ul class="calender">
-                {% for entry in site.data.schedules.current-schedule.meetings %}
-                <li class="meeting">
+                <li class="meeting" id="next-meeting" style="margin: 0 auto;">
                     <div class="row entry">
                         <div class="cal-card">
                             <div class="date text-center">
-                                <p>{{ site.data.schedules.months[entry.month] }}</p>
-                                <h3>{{ entry.day }}</h3>
+                                <p class="meeting-month">...</p>
+                                <h3 class="meeting-day">...</h3>
                             </div>
                             <div class="content">
-                                <h5 class="topic">{{ entry.subject }}</h5>
-                                <p class="card-text">{{ entry.description }}</p>
+                                <h5 class="topic meeting-topic">Loading next meeting...</h5>
+                                <p class="card-text meeting-description">iOS Development</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <p id="no-next-meeting" style="display: none;">Weekly meetings will resume next semester. Enjoy your break! Until then, you can walk through our <a href="{{site.data.tutorials.side-nav.first.folderitems.first.page_url}}">online tutorials</a>.</p>
+            </ul>
+            
+        </div>
+        <div class="schedule-column  col-lg-6">
+            
+            {% capture current-year %}{{'now' | date: '%y'}}{% endcapture %}
+            
+            <div style="max-width: 425px; margin: 0 auto; margin-bottom: 10px;">
+                <h1 class="row post-header heading" style="font-size: 1.5em; ">{{ site.data.schedules.current-schedule.semester }}</h1>
+            </div>
+            
+            <ul class="calender" id="current-schedule" style="max-width: 400px; margin: 0 auto;">
+                {% for entry in site.data.schedules.current-schedule.meetings %}
+                <li class="meeting" id="{{ '20' | append: current-year | append: '-' | append: entry.month | append: '-' | append: entry.day }}">
+                    <div class="row entry">
+                        <div class="cal-card">
+                            <div class="date text-center">
+                                <p class="meeting-month">{{ site.data.schedules.months[entry.month] }}</p>
+                                <h3 class="meeting-day">{{ entry.day }}</h3>
+                            </div>
+                            <div class="content">
+                                <h5 class="topic meeting-topic">{{ entry.subject }}</h5>
+                                <p class="card-text meeting-description">{{ entry.description }}</p>
                             </div>
                         </div>
                     </div>
                 </li>
                 {% endfor %}
             </ul>
+            
+            <div style="max-width: 420px; margin: 15px auto; text-align: right;"><p><a href="/schedule/archive/">Archive of Past Schedules</a></p></div>
         </div>
-    </div>
-    <!-- END: Repeat structure -->
-
-    <div id="pastSemester" style="padding-top: 10px;"></div>
-    <div class="past-schedules">
-        {% for schedule in site.data.schedules.past-schedule.past-meetings %}
-        <div class="post-header large-spacer">
-            <h6 class="sub-heading">
-                {% if schedule.semester contains "Fall" %} August - December {% elsif schedule.semester contains "Spring" %} January - May
-                {% endif %}
-            </h6>
-            <h1 class="heading">{{ schedule.semester }}</h1>
-        </div>
-        <div class="row schedule-container">
-            <div class="col-lg">
-                <ul class="calender">
-                    {% for entry in schedule.meetings %}
-                    <li class="meeting">
-                        <div class="row entry">
-                            <div class="cal-card">
-                                <div class="date text-center">
-                                    <p>{{ site.data.schedules.months[entry.month] }}</p>
-                                    <h3>{{ entry.day }}</h3>
-                                </div>
-                                <div class="content">
-                                    <h5 class="topic">{{ entry.subject }}</h5>
-                                    <p class="card-text">{{ entry.description }}</p>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    {% endfor %}
-                </ul>
-            </div>
-        </div>
-        {% endfor %}
     </div>
 </div>
 

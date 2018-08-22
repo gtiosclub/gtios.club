@@ -1,6 +1,95 @@
 {
     "past-meetings": [
         {
+            "semester": "Spring 2018",
+            "meetings": [
+                {
+                    "month": 1,
+                    "day": 16,
+                    "subject": "Sound Board",
+                    "description": "Introduction to iOS development" 
+                },
+                {
+                    "month": 1,
+                    "day": 23,
+                    "subject": "Guess the Number",
+                    "description": "Introduction to iOS development" 
+                },
+                {
+                    "month": 1,
+                    "day": 30,
+                    "subject": "No Meeting",
+                    "description": "College of Computing Career Fair" 
+                },
+                {
+                    "month": 2,
+                    "day": 6,
+                    "subject": "About Me",
+                    "description": "Autolayout & Interface Builder" 
+                },
+                {
+                    "month": 2,
+                    "day": 13,
+                    "subject": "Reminders",
+                    "description": "Intro to UITableView" 
+                },
+                {
+                    "month": 2,
+                    "day": 20,
+                    "subject": "Pin Drop",
+                    "description": "MapKit and Data Persistence" 
+                },
+                {
+                    "month": 2,
+                    "day": 27,
+                    "subject": "Simon Says",
+                    "description": "Animations" 
+                },
+                {
+                    "month": 3,
+                    "day": 6,
+                    "subject": "Networking",
+                    "description": "" 
+                },
+                {
+                    "month": 3,
+                    "day": 13,
+                    "subject": "Using Multiple View Controllers",
+                    "description": "" 
+                },
+                {
+                    "month": 3,
+                    "day": 20,
+                    "subject": "No Meeting",
+                    "description": "Spring Break" 
+                },
+                {
+                    "month": 3,
+                    "day": 27,
+                    "subject": "App Challenge",
+                    "description": "" 
+                },
+                {
+                    "month": 4,
+                    "day": 3,
+                    "subject": "TBA",
+                    "description": "" 
+                },
+                {
+                    "month": 4,
+                    "day": 10,
+                    "subject": "TBA",
+                    "description": "" 
+                },
+                {
+                    "month": 4,
+                    "day": 17,
+                    "subject": "Demo Day",
+                    "description": "Food, Presentations, and Prizes!" 
+                }
+            ]
+        },
+        {
             "semester": "Fall 2017",
             "meetings": [
                 {

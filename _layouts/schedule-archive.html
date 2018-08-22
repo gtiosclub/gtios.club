@@ -1,0 +1,47 @@
+--- 
+layout: master
+---
+
+<div class="container">
+    
+    <div id="pastSemester" style="padding-top: 10px;"></div>
+    
+    <div class="post-header" style="margin-top: 45px; margin-bottom: -20px;">
+        <h2>Schedule Archive</h2>
+        <a href="/schedule/">View Current Schedule</a>
+    </div>
+    
+    
+    
+    <div class="past-schedules">
+        {% for schedule in site.data.schedules.past-schedule.past-meetings %}
+        <div class="post-header large-spacer">
+            <h1 class="heading">{{ schedule.semester }}</h1>
+        </div>
+        <div class="row schedule-container">
+            <div class="col-lg">
+                <ul class="calender">
+                    {% for entry in schedule.meetings %}
+                    <li class="meeting">
+                        <div class="row entry">
+                            <div class="cal-card">
+                                <div class="date text-center">
+                                    <p>{{ site.data.schedules.months[entry.month] }}</p>
+                                    <h3>{{ entry.day }}</h3>
+                                </div>
+                                <div class="content">
+                                    <h5 class="topic">{{ entry.subject }}</h5>
+                                    <p class="card-text">{{ entry.description }}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+{% include footer.html %}

@@ -1,89 +1,89 @@
 {
-    "semester": "Spring 2018",
+    "semester": "Fall 2018",
     "meetings": [
         {
-            "month": 1,
-            "day": 16,
-            "subject": "Sound Board",
-            "description": "Introduction to iOS development" 
+            "month": 8,
+            "day": 28,
+            "subject": "Intro to iOS Development",
+            "description": "Learn the basics of iOS Development by building a fun Tap Game!" 
         },
         {
-            "month": 1,
-            "day": 23,
-            "subject": "Guess the Number",
-            "description": "Introduction to iOS development" 
+            "month": 9,
+            "day": 4,
+            "subject": "Interface Builder and Autolayout",
+            "description": "Learn more about using Inteface Builder and Autolayout to create apps that look good on every screen size." 
         },
         {
-            "month": 1,
-            "day": 30,
+            "month": 9,
+            "day": 11,
+            "subject": "Intro to UITableView",
+            "description": "Table Views are a common component in iOS apps. Learn how to harness them by building a Reminders app." 
+        },
+        {
+            "month": 9,
+            "day": 18,
+            "subject": "Data Persistence with UserDefaults",
+            "description": "Learn how to save your data between launches by building a Pin Drop app (bonus content: MapKit and Gesture Recognizers!)." 
+        },
+        {
+            "month": 9,
+            "day": 25,
             "subject": "No Meeting",
             "description": "College of Computing Career Fair" 
         },
         {
-            "month": 2,
-            "day": 6,
-            "subject": "About Me",
-            "description": "Autolayout & Interface Builder" 
-        },
-        {
-            "month": 2,
-            "day": 13,
-            "subject": "Reminders",
-            "description": "Intro to UITableView" 
-        },
-        {
-            "month": 2,
-            "day": 20,
-            "subject": "Pin Drop",
-            "description": "MapKit and Data Persistence" 
-        },
-        {
-            "month": 2,
-            "day": 27,
-            "subject": "Simon Says",
-            "description": "Animations" 
-        },
-        {
-            "month": 3,
-            "day": 6,
-            "subject": "Networking",
+            "month": 10,
+            "day": 2,
+            "subject": "TBD",
             "description": "" 
         },
         {
-            "month": 3,
-            "day": 13,
-            "subject": "Using Multiple View Controllers",
+            "month": 10,
+            "day": 9,
+            "subject": "No Meeting",
+            "description": "Fall Break" 
+        },
+        {
+            "month": 10,
+            "day": 16,
+            "subject": "TBD",
             "description": "" 
         },
         {
-            "month": 3,
+            "month": 10,
+            "day": 23,
+            "subject": "TBD",
+            "description": "" 
+        },
+        {
+            "month": 10,
+            "day": 30,
+            "subject": "TBD",
+            "description": "" 
+        },
+        {
+            "month": 11,
+            "day": 6,
+            "subject": "TBD",
+            "description": "" 
+        },
+        {
+            "month": 11,
+            "day": 13,
+            "subject": "TBD",
+            "description": "" 
+        },
+        {
+            "month": 11,
             "day": 20,
             "subject": "No Meeting",
-            "description": "Spring Break" 
+            "description": "Thanksgiving Break" 
         },
         {
-            "month": 3,
+            "month": 11,
             "day": 27,
-            "subject": "App Challenge",
-            "description": "" 
-        },
-        {
-            "month": 4,
-            "day": 3,
-            "subject": "TBA",
-            "description": "" 
-        },
-        {
-            "month": 4,
-            "day": 10,
-            "subject": "TBA",
-            "description": "" 
-        },
-        {
-            "month": 4,
-            "day": 17,
-            "subject": "Demo Day",
-            "description": "Food, Presentations, and Prizes!" 
+            "subject": "End-of-Semester Event!",
+            "description": "Stay tuned for more information about our fun end-of-semester event." 
         }
     ]
 }

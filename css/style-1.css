@@ -41,7 +41,12 @@ body {
 
 .nav {
     font-size: 0.85rem;
-    /* text-transform: uppercase; */
+}
+
+@media (min-width: 350px) {
+    .nav {
+        font-size: 1.0rem;
+    }
 }
 
 .my-box .nav-link {
@@ -97,7 +102,7 @@ img.devices {
 }
 
 .card-text {
-    color: #818182;
+    color: #606060;
 }
 
 body .bg:nth-child(n+3) {
@@ -180,6 +185,11 @@ body .bg:nth-child(n+3) {
     align-items: flex-start;
 }
 
+.schedule-column {
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
 /* Medium screens */
 @media (max-width: 991px) {
     .opener:not(.extra) {
@@ -223,6 +233,10 @@ body .bg:nth-child(n+3) {
 
     .checks img {
         width: 33px;
+    }
+    
+    .schedule-column {
+        margin-top: 25px;
     }
 }
 
@@ -305,18 +319,20 @@ body .bg:nth-child(n+3) {
     border-radius: 65px;
     box-shadow: 1px 3px 8px 0px rgba(0, 0, 0, 0.16);
     width: 100%;
-    max-width: 85px;
+    max-width: 130;
     margin-bottom: 0.6rem;
 }
 
 .team {
     text-align: center;
+    max-width: 750px;
+    margin: 0 auto;
 }
 
 .contact {
     text-align: center;
-    width: 130px;
-    padding: 15px;
+    width: 150px;
+    padding: 10px;
     display: inline-block;
     vertical-align: top;
 }
@@ -469,7 +485,7 @@ body .bg:nth-child(n+3) {
 /* Extra large devices (greater than 1200px) */
 @media (min-width: 1200px) {
     .contact {
-        width: 110px;
+        width: 135px;
     }
 
     .e-special {
