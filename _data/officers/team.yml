@@ -3,39 +3,45 @@
 - name: "Cal Stephens"
   job: "President"
   pic: "/images/home/officers/cal.jpg"
-  github: "https://github.com/calda"
-
-- name: "Brian Wang"
-  job: "Founder"
-  pic: "/images/home/officers/brian.jpg"
-  github: "https://github.com/brianwang9100"
-
-- name: "Ale Patron"
-  job: "Senior Tech Lead"
-  pic: "/images/home/officers/ale.jpg"
-  github: "https://github.com/apatronl"
-
-- name: "Kevin Randrup"
-  job: "Senior Tech Lead"
-  pic: "/images/home/officers/kevin.jpg"
-  github: "https://github.com/kevinrandrup"
+  github: "https://calstephens.tech"
 
 - name: "Cliff Panos"
-  job: "Tech Lead"
+  job: "Senior Tech Lead"
   pic: "/images/home/officers/cliff.jpg"
   github: "https://github.com/cliffpanos"
 
-- name: "Mitchell Gant"
-  job: "Tech Lead"
-  pic: "/images/home/officers/mitchell.jpg"
-  github: "https://github.com/m-gant"
-
-- name: "Kay Yin" 
-  job: "Tech Lead"
-  pic: "/images/home/officers/kay.jpg"
+- name: "Luming Yin" 
+  job: "Senior Tech Lead"
+  pic: "/images/home/officers/luming.jpg"
   github: "https://github.com/lumingyin"
 
+- name: "Mitchell Gant"
+  job: "Senior Tech Lead"
+  pic: "/images/home/officers/mitchell.jpg"
+  github: "https://github.com/m-gant"
+  
 - name: "Nate Thompson"
-  job: "Tech Lead"
+  job: "Senior Tech Lead"
   pic: "/images/home/officers/nate.jpg"
-  github: "https://github.com/thompsonate"
+  github: "https://natethompson.io"
+  
+- name: "Abhi Tirath"
+  job: "Tech Lead"
+  pic: "/images/home/officers/placeholder.png"
+  github: "https://github.com/iosgatech"
+  
+- name: "Lauren Kearley"
+  job: "Tech Lead"
+  pic: "/images/home/officers/placeholder.png"
+  github: "https://github.com/iosgatech"
+  
+- name: "Rohan Rk"
+  job: "Tech Lead"
+  pic: "/images/home/officers/rohan.jpg"
+  github: "https://github.com/iosgatech"
+  
+- name: "Will Said"
+  job: "Tech Lead"
+  pic: "/images/home/officers/placeholder.png"
+  github: "https://github.com/iosgatech"
+  
