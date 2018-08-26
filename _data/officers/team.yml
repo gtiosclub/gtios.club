@@ -32,8 +32,8 @@
   
 - name: "Lauren Kearley"
   job: "Tech Lead"
-  pic: "/images/home/officers/placeholder.png"
-  github: "https://github.com/iosgatech"
+  pic: "/images/home/officers/lauren.png"
+  github: "http://laurenkearley.com/"
 
 - name: "Mert Dumenci"
   job: "Tech Lead"
@@ -43,7 +43,7 @@
 - name: "Rohan Rk"
   job: "Tech Lead"
   pic: "/images/home/officers/rohan.jpg"
-  github: "https://github.com/iosgatech"
+  github: "https://github.com/rohanrk"
   
 - name: "Will Said"
   job: "Tech Lead"
