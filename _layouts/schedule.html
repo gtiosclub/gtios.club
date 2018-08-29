@@ -24,8 +24,9 @@ layout: master
             meetingDate.setMonth(parseInt(meetingDateComponents[1]) - 1, meetingDateComponents[2])
             meetingDate.setHours(16, 0) // meeting ends at ~8:00pm
 
-            if ((nextMeeting == undefined && meetingDate > now)
-                || (nextMeeting != undefined && meetingDate < nextMeeting.date))
+            if ((meetingDate > now)
+                && ((nextMeeting == undefined) ||
+                    (nextMeeting != undefined && meetingDate < nextMeeting.date)))
             {
                 nextMeeting = {
                     date:  meetingDate,
