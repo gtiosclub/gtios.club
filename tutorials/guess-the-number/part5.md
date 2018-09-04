@@ -92,9 +92,9 @@ When you run your app and play, you should see something like this:
 
 <p align="center"> <img src="../images/guess-the-number/alerts.png" align="center" style="max-width: 75%"> </p>
 
-Voila! You are done with your app! You are now a master iOS Developer and make $1000 an hour doing freelance work! Great Job!
+### Recap
+You created your very first iOS app, congrats!
 
-### Next Time
-Since the app is all done now, save for some more design work, we can get your code pushed up to GitHub.
+You learned how to use Interface Builder, how to link your storyboard to your code, and how to create custom alerts.
 
-[]({{ site.baseurl }}{% link tutorials/guess-the-number/part6.md %})
+If you have any feedback for this tutorial, contact us at iosgatech@gmail.com.
