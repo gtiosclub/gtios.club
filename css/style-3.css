@@ -120,3 +120,11 @@ ul.calender li {
         padding: .4rem 0;
     }
 }
+
+@media (prefers-color-scheme: dark) {
+    .cal-card {
+        background-color: rgb(52, 52, 52);
+        box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.12);
+    }
+    
+}
