@@ -367,10 +367,10 @@ code {
 
 @media (prefers-color-scheme: dark) {
     .highlight pre {
-        background-color: rgb(247, 241, 227);
+        filter: invert(0.8) saturate(8) hue-rotate(180deg);
     }
 
-    code {
-        background-color: rgb(247, 241, 227);
+    .post-content code.highlighter-rouge {
+        filter: invert(0.85) saturate(8) hue-rotate(180deg);
     }
 }
