@@ -255,3 +255,52 @@ pre {
         max-width: 1140px !important;
     } */
 }
+
+@media (prefers-color-scheme: dark) {
+    code {
+        color: #343a40;
+    }
+
+    div.item {
+        padding: 0.5rem 0;
+        border-bottom: 0.3px solid #e3e3e35e;
+    }
+    
+    .post-content h3 {
+        color: rgb(248,31,100);
+        /* color: #646a6f; */
+    }
+    
+    .pill {
+        background: linear-gradient(to right, rgb(33, 166, 252) 0%, rgb(35, 207, 252) 100%);
+        color: #fff;
+    }
+    
+    .pill > a {
+        color: white;
+    }
+    
+    .post-header .sub-heading {
+        color: #868e96;
+    }
+    
+    div.item > a{
+        color:white;
+    }
+    
+    #expand-icon > i {
+        color: rgba(0,0,0,.9);
+    }
+    
+    .nav .sublink {
+        color: rgba(255, 255, 255, .76);
+    }
+    
+    .nav .sublink.active {
+        color:white;
+    }
+    
+    .nav .sublink:hover {
+        background-color: rgba(52, 52, 52, 1);
+    }    
+}

@@ -364,3 +364,13 @@ code {
     color: transparent;
     background-color: transparent;
 }
+
+@media (prefers-color-scheme: dark) {
+    .highlight pre {
+        background-color: rgb(247, 241, 227);
+    }
+
+    code {
+        background-color: rgb(247, 241, 227);
+    }
+}

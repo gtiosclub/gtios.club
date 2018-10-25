@@ -514,3 +514,85 @@ body .bg:nth-child(n+3) {
         margin-top: 6rem;
     }
 }
+
+
+@media (prefers-color-scheme: dark) {
+    html {
+        background-color: black;
+    }
+    body {
+        background-color:rgb(32, 32, 32);
+        color:white !important;
+    }
+
+    .navbar {
+        background: rgba(0,0,0,0.5);
+        border-bottom: none;
+        box-shadow: 0px 1px 30px rgba(0, 0, 0, 0.07);
+        box-shadow: 0 0 13px 0 rgba(47,47,47,.1);    
+        -webkit-backdrop-filter: saturate(180%) blur(20px);
+        backdrop-filter: saturate(180%) blur(20px);
+    }
+
+    .nav .nav-link.active {
+        color: rgba(255, 255, 255, 0.5);
+    }
+    
+    .nav .nav-link {
+        color: rgba(255, 255, 255, 1);
+        transition: opacity 0.2s ease;
+    }
+
+    #site-title {
+        color: white;
+    }
+    
+    .card-text {
+        color:white;
+    }
+    
+    .opener h1, .info h1  {
+        color: white;
+    }
+    
+    .opener p, .info p {
+        color: white;
+    }
+
+    .white {
+        background-color: white;
+    }
+
+    .label span {
+        border-color: #e85d00;
+        color: #e85d00;
+    }
+    
+    .carousel-indicators li {
+        background-color: #d6d6d6;
+    }
+    
+    .carousel-indicators .active {
+        background-color: #666;
+    }
+    .copyright {
+        color: #90949C;
+    }
+    
+    .footer p a {
+        color: #797979;
+    }
+
+    body .bg:nth-child(n+3) {
+        border-top: 12px solid rgb(40, 40, 40);
+    }
+
+    a {
+        color:rgb(120, 152, 244);
+    }
+
+    a:hover {
+        color:rgb(69, 113, 244);
+    }
+    
+}
