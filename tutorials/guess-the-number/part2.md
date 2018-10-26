@@ -88,7 +88,7 @@ Notice in the bottom left corner of the Editor Canvas a button that says `View a
 
 <p align="center"> <img id="vcSize" src="../images/guess-the-number/vcSize.png" align="center" style="max-width:75%"> </p>
 
-Here is where you can view your app in different screen sizes and orientation. The cool thing about XCode is that you can layout your views to fit any screen size and orientation, all on one app. For the purpose of this tutorial, keep the setting at iPhone 7.
+Here is where you can view your app in different screen sizes and orientation. The cool thing about Xcode is that you can layout your views to fit any screen size and orientation, all on one app. For the purpose of this tutorial, keep the setting at iPhone 8.
 
 Now, for this Guess the Number game, there are 3 parts in the interface we're building:
 1. A label to display the title of the game
@@ -117,7 +117,7 @@ Now, in order to actually input a guess, you will need a `Text Field`, and you w
 
 <p align="center"> <img id="finalLayout" src="../images/guess-the-number/finalLayout.png" align="center" style="max-width: 325px !important"> </p>
 
-Awesome! Now we have our view! If you run the application on the simulator, then you should be able to see the image above as the final layout on your phone! On the top left of XCode, **select iPhone X or iPhone 8 Plus** in the device/simulator dropdown and then press the **Play Button**.
+Awesome! Now we have our view! If you run the application on the simulator, then you should be able to see the image above as the final layout on your phone! On the top left of Xcode, **select iPhone XR, iPhone XS or iPhone XS Max** in the device/simulator dropdown and then press the **Play Button**.
 
 <p align="center"> <img id="selectSimulatorPlay" src="../images/guess-the-number/selectSimulatorPlay.png" align="center" style="max-width: 75%"> </p>
 
