@@ -27,6 +27,17 @@ permalink: /guess-the-number-part-2/
             content:url("../images/guess-the-number/dragLabel-dark.png");
         }
 
+        #editLabel {
+            content:url("../images/guess-the-number/editLabel-dark.png");
+        }
+
+        #finalLayout {
+            content:url("../images/guess-the-number/finalLayout-dark.png");
+        }
+
+        #selectSimulatorPlay {
+            content:url("../images/guess-the-number/selectSimulatorPlay-dark.png");
+        }
     }
 </style>
 
@@ -70,17 +81,17 @@ You can drag components from the UI Palette into your View Controller. Go ahead 
 
 Voila! There is a label now on your screen! You can actually customize the label by clicking on it and going to the **Attributes tab** on the right of the screen:
 
-<p align="center"> <img src="../images/guess-the-number/editLabel.png" align="center" style="max-width:75%"> </p>
+<p align="center"> <img id="editLabel" src="../images/guess-the-number/editLabel.png" align="center" style="max-width:75%"> </p>
 
 Here at the Attributes tab, you can edit the text of your label, the color, the font, the size, and many more! For this tutorial, edit the text of the label so that it reads `Guess the Number`.
 
 Now, in order to actually input a guess, you will need a `Text Field`, and you will also need a `Button` in order to submit your guess. From the UI Palette, drag a `Button` and `Text Field` to your screen. Also edit the textfield and the button in any way you want. For this tutorial, edit all the features in the view so that it looks like this:
 
-<p align="center"> <img src="../images/guess-the-number/finalLayout.png" align="center" style="max-width: 325px !important"> </p>
+<p align="center"> <img id="finalLayout" src="../images/guess-the-number/finalLayout.png" align="center" style="max-width: 325px !important"> </p>
 
 Awesome! Now we have our view! If you run the application on the simulator, then you should be able to see the image above as the final layout on your phone! On the top left of XCode, **select iPhone X or iPhone 8 Plus** in the device/simulator dropdown and then press the **Play Button**.
 
-<p align="center"> <img src="../images/guess-the-number/selectSimulatorPlay.png" align="center" style="max-width: 75%"> </p>
+<p align="center"> <img id="selectSimulatorPlay" src="../images/guess-the-number/selectSimulatorPlay.png" align="center" style="max-width: 75%"> </p>
 
 <p align="center"> <img src="../images/guess-the-number/simulatorView.png" align="center" style="max-width: 325px !important"> </p>
 
