@@ -80,7 +80,7 @@ You should see something that looks like this. There are three important parts w
 
 1. **Editor Canvas:** This is where you design your layouts. What you see here is what you will get when you run the app on your phone, to an extent.
 3. **The Inspector:** This pane is where you modify anything and everything. It shows options for whatever you have selected.
-4. **UI Palette:** Nestled at the bottom of the inspector, the UI Palette is where you find the components that you use to build your interfaces.
+4. **UI Palette:** After clicking on the object library icon that resembles a hollowed coin, Xcode reveals a floating UI palette. Here, you will find many UI components that can be used to build the app's interface.
 
 That screen in the middle is your first View Controller. Any changes you make to this view will appear on your screen when you run the app.
 
