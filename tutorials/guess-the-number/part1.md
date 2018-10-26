@@ -5,10 +5,6 @@ title: Getting Started
 permalink: /guess-the-number-part-1/
 ---
 
-This tutorial will teach you how to build a Guess the Number game through the use of Interface builder and Storyboards!
-
-The first thing that you will do is create the project within Xcode. So, open up Xcode, and you should be able to see this screen:
-
 <style>
     @media (prefers-color-scheme: dark) {
         #xcodeMainScreen {
@@ -28,6 +24,10 @@ The first thing that you will do is create the project within Xcode. So, open up
         }
     }
 </style>
+
+This tutorial will teach you how to build a Guess the Number game through the use of Interface builder and Storyboards!
+
+The first thing that you will do is create the project within Xcode. So, open up Xcode, and you should be able to see this screen:
 
 <p align="center"> <img id="xcodeMainScreen" src="../images/guess-the-number/xcodeMainScreen.png" align="center" style="max-width:100%"> </p>
 

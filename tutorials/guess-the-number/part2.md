@@ -5,10 +5,30 @@ title: Setting Up Your View
 permalink: /guess-the-number-part-2/
 ---
 
+<style>
+    @media (prefers-color-scheme: dark) {
+        #projectSettings {
+            content:url("../images/guess-the-number/projectSettings-dark.png");
+        }
+
+        #createProject {
+            content:url("../images/guess-the-number/createProject-dark.png");
+        }
+
+        #inputProjectName {
+            content:url("../images/guess-the-number/inputProjectName-dark.png");
+        }
+
+        #saveProject {
+            content:url("../images/guess-the-number/saveProject-dark.png");
+        }
+    }
+</style>
+
 **Interface builder** is Xcode's GUI editor. For most projects, the interface is contained in the `Main.storyboard` file. Open it up 
 and have a look around:
 
-<p align="center"> <img src="../images/guess-the-number/projectSettings.png" align="center" style="max-width:75%"> </p>
+<p align="center"> <img id="projectSettings" src="../images/guess-the-number/projectSettings.png" align="center" style="max-width:75%"> </p>
 
 You should see something that looks like this. There are three important parts worth knowing:
 
