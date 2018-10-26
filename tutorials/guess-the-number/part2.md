@@ -11,17 +11,22 @@ permalink: /guess-the-number-part-2/
             content:url("../images/guess-the-number/projectSettings-dark.png");
         }
 
-        #createProject {
-            content:url("../images/guess-the-number/createProject-dark.png");
+        #storyboardPic {
+            content:url("../images/guess-the-number/storyboardPic-dark.png");
         }
 
-        #inputProjectName {
-            content:url("../images/guess-the-number/inputProjectName-dark.png");
+        #vcSize {
+            content:url("../images/guess-the-number/vcSize-dark.png");
         }
 
-        #saveProject {
-            content:url("../images/guess-the-number/saveProject-dark.png");
+        #uiPalette {
+            content:url("../images/guess-the-number/uiPalette-dark.png");
         }
+
+        #dragLabel {
+            content:url("../images/guess-the-number/dragLabel-dark.png");
+        }
+
     }
 </style>
 
@@ -32,7 +37,7 @@ and have a look around:
 
 You should see something that looks like this. There are three important parts worth knowing:
 
-<p align="center"> <img src="../images/guess-the-number/storyboardPic.png" align="center" style="max-width:75%"> </p>
+<p align="center"> <img id="storyboardPic" src="../images/guess-the-number/storyboardPic.png" align="center" style="max-width:75%"> </p>
 
 1. **Editor Canvas:** This is where you design your layouts. What you see here is what you will get when you run the app on your phone, to an extent.
 3. **The Inspector:** This pane is where you modify anything and everything. It shows options for whatever you have selected.
@@ -42,7 +47,7 @@ That screen in the middle is your first View Controller. Any changes you make to
 
 Notice in the bottom left corner of the Editor Canvas a button that says `View as: iPhone 8 (wC, hR)`. If you click on it it should pop up your Size and Orientation panel:
 
-<p align="center"> <img src="../images/guess-the-number/vcSize.png" align="center" style="max-width:75%"> </p>
+<p align="center"> <img id="vcSize" src="../images/guess-the-number/vcSize.png" align="center" style="max-width:75%"> </p>
 
 Here is where you can view your app in different screen sizes and orientation. The cool thing about XCode is that you can layout your views to fit any screen size and orientation, all on one app. For the purpose of this tutorial, keep the setting at iPhone 7.
 
@@ -57,11 +62,11 @@ Let's start building the screen!
 
 In order to display the title of the game, we are going to work with the Interface builder and the UI Palette. Scroll through the UI Palette until you find `Label`:
 
-<p align="center"> <img src="../images/guess-the-number/uiPalette.png" align="center" style="max-width:250px !important"> </p>
+<p align="center"> <img id="uiPalette" src="../images/guess-the-number/uiPalette.png" align="center" style="max-width:250px !important"> </p>
 
 You can drag components from the UI Palette into your View Controller. Go ahead and drag a `Label` over and drop it on somewhere on the view. The process should look something like this:
 
-<p align="center"> <img src="../images/guess-the-number/dragLabel.png" align="center" style="max-width:75%"> </p>
+<p align="center"> <img id="dragLabel" src="../images/guess-the-number/dragLabel.png" align="center" style="max-width:75%"> </p>
 
 Voila! There is a label now on your screen! You can actually customize the label by clicking on it and going to the **Attributes tab** on the right of the screen:
 
