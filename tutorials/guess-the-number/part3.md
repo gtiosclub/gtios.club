@@ -5,6 +5,16 @@ title: Generate Random Numbers
 permalink: /guess-the-number-part-3/
 ---
 
+<style>
+    @media (prefers-color-scheme: dark) {
+        #ibaction {
+            content:url("../images/guess-the-number/ibaction-dark.png");
+        }
+        #endPart3 {
+            content:url("../images/guess-the-number/endPart3-dark.png");
+        }
+</style>
+
 In order for this guessing game to work, we first need to have a number to guess! Go to ViewController.swift and add a function that will generate a random number called `generateRandomNumber`. Before we add any code to this function, we need to first add four variables that we will need for this game:
 
 ```swift
@@ -40,7 +50,7 @@ An IBOutlet is a connected **variable** to a UI element. An IBAction is a connec
 
 Just like we did for the label and the textfield in Part 2, control-click the button and drag it to `ViewController.swift` right below everything. In the pop-up screen, **change the connection type** from `Outlet` to `Action`. Go ahead and name the function `submitButtonPressed`.
 
-<p align="center"> <img src="../images/guess-the-number/ibaction.png" align="center" style="max-width:300px !important"> </p>
+<p align="center"> <img id="ibaction" src="../images/guess-the-number/ibaction.png" align="center" style="max-width:300px !important"> </p>
 
 After the IBAction function has been created, add two lines of code inside:
 
@@ -53,7 +63,7 @@ After the IBAction function has been created, add two lines of code inside:
 
 Your code should look like such: 
 
-<p align="center"> <img src="../images/guess-the-number/endPart3.png" align="center" style="max-width:75%"> </p>
+<p align="center"> <img id="endPart3" src="../images/guess-the-number/endPart3.png" align="center" style="max-width:75%"> </p>
 
 Run the app press the submit button. Your console should be outputting new randomly generated numbers every time! Dope.
 

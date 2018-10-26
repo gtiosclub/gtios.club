@@ -5,6 +5,13 @@ title: Writing the Game Logic
 permalink: /guess-the-number-part-4/
 ---
 
+<style>
+    @media (prefers-color-scheme: dark) {
+        #endPart4 {
+            content:url("../images/guess-the-number/endPart4-dark.png");
+        }
+</style>
+
 In the past three parts, we created our Xcode project and the interface for our game. Pressing the "Submit" button generates a random number, but that's not what we really want...In this part, we're going to write the logic of our game so we can know if a player made the right guess or not.
 
 ### submitButtonPressed
@@ -68,7 +75,7 @@ We have our `validateGuess` function ready, now all we need to do is call it eve
 
 Run your app and try it! Your console should output the proper messages based on your text field input when you press submit.
 
-<p align="center"> <img src="../images/guess-the-number/endPart4.png" align="center" style="max-width:75%"> </p>
+<p align="center"> <img id="endPart4" src="../images/guess-the-number/endPart4.png" align="center" style="max-width:75%"> </p>
 
 ### Next Time
 The logic of our app looks great, but we need some way to notify the player that he or she has won, or that there is something wrong with their guess. We will do this by adding some alerts in part 5.

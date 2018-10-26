@@ -39,3 +39,14 @@
         border-bottom: none;
     }
 }
+
+@media (max-width: 991px) and (prefers-color-scheme: dark) {
+    .second-nav-collapsible {
+        background: rgb(24, 24, 24);
+    }
+
+    .second-nav {
+        background: none;
+    }
+
+}
