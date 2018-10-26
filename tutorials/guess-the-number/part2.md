@@ -38,6 +38,34 @@ permalink: /guess-the-number-part-2/
         #selectSimulatorPlay {
             content:url("../images/guess-the-number/selectSimulatorPlay-dark.png");
         }
+
+        #optionClickDoubleLinks {
+            content:url("../images/guess-the-number/optionClickDoubleLinks-dark.png");
+        }
+
+        #splitScreen {
+            content:url("../images/guess-the-number/splitScreen-dark.png");
+        }
+
+        #linkage {
+            content:url("../images/guess-the-number/linkage-dark.png");
+        }
+
+        #addOutlet {
+            content:url("../images/guess-the-number/addOutlet-dark.png");
+        }
+
+        #guessLabel {
+            content:url("../images/guess-the-number/guessLabel-dark.png");
+        }
+
+        #guessTextField {
+            content:url("../images/guess-the-number/guessTextField-dark.png");
+        }
+
+        #keyboardType {
+            content:url("../images/guess-the-number/keyboardType-dark.png");
+        }
     }
 </style>
 
@@ -101,31 +129,31 @@ While this is great progress, we still need to be able to actually provide funct
 
 In order to provide functionality to the app, there must be a way to connect the label, text field, and button to actual code. Luckily, there is a way! The ViewController displayed in front of you is automatically connected to a file called `ViewController.swift`. Before you open the file up, first click on the view you have in front of you. Now, at the top right corner of the Xcode interface, there is a toolbar. Go ahead and click on what looks like **two circles intertwining**. Alternatively you can **option-click** on the file you want to open in order to do the same thing.:
 
-<p align="center"> <img src="../images/guess-the-number/optionClickDoubleLinks.png" align="center" style="max-width:75%"> </p>
+<p align="center"> <img id="optionClickDoubleLinks" src="../images/guess-the-number/optionClickDoubleLinks.png" align="center" style="max-width:75%"> </p>
 
 This allows you to see both the view from the storyboard and the swift file connected to that view simultaneously. You should be on the `ViewController.swift` file. 
 
-<p align="center"> <img src="../images/guess-the-number/splitScreen.png" align="center" style="max-width:75%"> </p>
+<p align="center"> <img id="splitScreen" src="../images/guess-the-number/splitScreen.png" align="center" style="max-width:75%"> </p>
 
 Now, let's start with linking the label in our ViewController to the actual Swift code. In order to do this, you click on the label, **control-click-hold** on it, and drag your mouse to the swift file. A blue line should appear. Insert your `IBOutlet` right above the `viewDidLoad()` function like so:
 
-<p align="center"> <img src="../images/guess-the-number/linkage.png" align="center" style="max-width:75%"> </p>
+<p align="center"> <img id="linkage" src="../images/guess-the-number/linkage.png" align="center" style="max-width:75%"> </p>
 
 Then, once you release the blue line, a little screen will pop up as such:
 
-<p align="center"> <img src="../images/guess-the-number/addOutlet.png" align="center" style="max-width:300px !important"> </p>
+<p align="center"> <img id="addOutlet" src="../images/guess-the-number/addOutlet.png" align="center" style="max-width:300px !important"> </p>
 
 With this screen, you can specify what type of connection you'll make between the label and the code. The type of connection we will need for the label is an `IBOutlet`, which just allows you to edit the label within the code as needed. Go ahead and name the connection `guessLabel`, and then click on `Connect`. The end result should look like this:
 
-<p align="center"> <img src="../images/guess-the-number/guessLabel.png" align="center" style="max-width:75%"> </p>
+<p align="center"> <img id="guessLabel" src="../images/guess-the-number/guessLabel.png" align="center" style="max-width:75%"> </p>
 
 Do the same linking process to the text field in the view, and name that connection `guessTextField`. 
 
-<p align="center"> <img src="../images/guess-the-number/guessTextField.png" align="center" style="max-width:75%"> </p>
+<p align="center"> <img id="guessTextField" src="../images/guess-the-number/guessTextField.png" align="center" style="max-width:75%"> </p>
 
 Then go to the  **Attributes tab** for the text field and scroll until you find `Keyboard Type`. Change it to `Number Pad`. This will only allow numbers to be inputted into the text field.
 
-<p align="center"> <img src="../images/guess-the-number/keyboardType.png" align="center" style="max-width:75%"> </p>
+<p align="center"> <img id="keyboardType" src="../images/guess-the-number/keyboardType.png" align="center" style="max-width:75%"> </p>
 
 ### Next Time
 
