@@ -44,7 +44,7 @@ layout: master
             </div>
             <div class="col-lg">
                 <div class="content">
-                    <img src="{{ site.baseurl }}/images/home/app-store.png"/>
+                    <img src="{{ site.baseurl }}/images/home/online-tutorials.png"/>
                     <h1>Online Tutorials</h1>
                     <p>View the tutorials page for detailed, step-by-step guides on how to create your own apps. All of the code is up on our GitHub repo as well.</p>
                     <a href="{{ site.baseurl }}/{{site.data.tutorials.side-nav.first.folderitems.first.page_url}}">View Tutorials &rsaquo;</a>
@@ -110,10 +110,17 @@ layout: master
             </ol>
             <div class="carousel-inner logos">
                 <div class="carousel-item active">
-                    <picture>
-                        <source srcset="{{ site.baseurl }}/images/home/sponsors/NCR_dark.png" media="(prefers-color-scheme:dark)">
-                        <img class="d-block w-100" src="{{ site.baseurl }}/images/home/sponsors/NCR.png">
-                    </picture>
+                    <style>
+                        #ncr-image {
+                            content:url("{{ site.baseurl }}/images/home/sponsors/NCR.png");
+                        }
+                        @media (prefers-color-scheme: dark) {
+                            #ncr-image {
+                                content:url("{{ site.baseurl }}/images/home/sponsors/NCR_dark.png");
+                            }
+                        }
+                    </style>
+                    <img class="d-block w-100" id="ncr-image" src="{{ site.baseurl }}/images/home/sponsors/NCR.png">
                 </div>
                 <div class="carousel-item">
                     <img class="d-block w-100" src="{{ site.baseurl }}/images/home/sponsors/sage.png">
@@ -122,10 +129,17 @@ layout: master
                     <img class="d-block w-100" src="{{ site.baseurl }}/images/home/sponsors/google.png">
                 </div>
                 <div class="carousel-item">
-                    <picture>
-                        <source srcset="{{ site.baseurl }}/images/home/sponsors/mailchimp_dark.png" media="(prefers-color-scheme:dark)">        
-                        <img class="d-block w-100" src="{{ site.baseurl }}/images/home/sponsors/mailchimp.png">
-                    </picture>
+                    <style>
+                        #mailchimp-image {
+                            content:url("{{ site.baseurl }}/images/home/sponsors/mailchimp.png");
+                        }
+                        @media (prefers-color-scheme: dark) {
+                            #mailchimp-image {
+                                content:url("{{ site.baseurl }}/images/home/sponsors/mailchimp_dark.png");
+                            }
+                        }
+                    </style>
+                    <img class="d-block w-100" id="mailchimp-image" src="{{ site.baseurl }}/images/home/sponsors/mailchimp.png">
                 </div>
                 <div class="carousel-item">
                     <img class="d-block w-100" src="{{ site.baseurl }}/images/home/sponsors/ingenious-med.png">
