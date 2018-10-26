@@ -5,13 +5,33 @@ title: Introduction to Autolayout
 permalink: /about-me-part-1/
 ---
 
+<style>
+    @media (prefers-color-scheme: dark) {
+        #pixelValues {
+            content:url("../images/about-me/pixelValues-dark.png");
+        }
+
+        #basicConstraints {
+            content:url("../images/about-me/basicConstraints-dark.png");
+        }
+
+        #multipleViews {
+            content:url("../images/about-me/multipleViews-dark.png");
+        }
+
+        #multipleVewsAndSizes {
+            content:url("../images/about-me/multipleVewsAndSizes-dark.png");
+        }
+    }
+</style>
+
 This tutorial will teach you how to build an About Me app using Interface Builder and Autolayout. Before we start building our app, though, let's talk about Autolayout.
 
 ### In The Beginning
 
 When the iPhone first came out (over ten years ago!), there was only one screen size. Back then, it was ok to specify everything on screen in terms of pixels. We could set a view to be at (100, 300) with size (200, 200) and it would always look the same, no matter what phone it ran on.
 
-<p align="center"> <img src="../images/about-me/pixel values.png" align="center" style="max-width:500px"> </p>
+<p align="center"> <img id="pixelValues" src="../images/about-me/pixelValues.png" align="center" style="max-width:500px"> </p>
 
 This isn't true anymore. We have 4 different iPhone sizes and 3 different iPad sizes. It would be a nightmare to manually specify pixels values for every device.
 
@@ -33,7 +53,7 @@ We can reconstruct the previous example using constraints instead of pixel value
  * Centered horizontally
  * Centered vertically
  
- <p align="center"> <img src="../images/about-me/basic constraints.png" align="center" style="max-width:500px"> </p>
+ <p align="center"> <img id="basicConstraints" src="../images/about-me/basicConstraints.png" align="center" style="max-width:500px"> </p>
  
  With these constraints, the rectangle stays centered as the screen gets larger.
 
@@ -41,7 +61,7 @@ We can reconstruct the previous example using constraints instead of pixel value
 
 We can also constrain views relative to eachtother. This is what makes Autolayout useful for complex app layouts.
 
- <p align="center"> <img src="../images/about-me/multiple views.png" align="center" style="max-width:250px !important"> </p>
+ <p align="center"> <img id="multipleViews" src="../images/about-me/multipleViews.png" align="center" style="max-width:250px !important"> </p>
 
 In this example, we have two views with four constraints each. The <b style="color: blue;">blue</b> view has these constraints:
 
@@ -61,7 +81,7 @@ Notably, these constraints never specify how tall <b style="color: red;">red</b>
 
 As we decrease the screen size, <b style="color: blue;">blue</b> stays the same height and in the same relative position while <b style="color: red;">red</b> gets progressively smaller:
 
- <p align="center"> <img src="../images/about-me/multiple views and sizes.png" align="center" style="max-width:600px;"> </p>
+ <p align="center"> <img id="multipleViewsAndSizes" src="../images/about-me/multipleViewsAndSizes.png" align="center" style="max-width:600px;"> </p>
 
 With a basic understanding of Autolayout, we can start working on our About Me app.
 
