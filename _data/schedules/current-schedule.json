@@ -58,14 +58,14 @@
         {
             "month": 10,
             "day": 30,
-            "subject": "TBD",
-            "description": "" 
+            "subject": "Intro to Animations",
+            "description": "Learn the fundamentals of Animations in Swift by building a gallery app that displays several Transforms and Events!" 
         },
         {
             "month": 11,
             "day": 6,
-            "subject": "TBD",
-            "description": "" 
+            "subject": "Intro to Firebase",
+            "description": "Learn how to build a Chat app that uses Firebase's Realtime Database to store data in the cloud." 
         },
         {
             "month": 11,
