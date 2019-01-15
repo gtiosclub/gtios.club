@@ -5,6 +5,11 @@
   pic: "/images/home/officers/will.jpg"
   github: "http://willsaid.com"
 
+- name: "Cal Stephens"
+  job: "Advisor"
+  pic: "/images/home/officers/cal.jpg"
+  github: "https://calstephens.tech"
+
 - name: "Cliff Panos"
   job: "Senior Tech Lead"
   pic: "/images/home/officers/cliff.jpg"
@@ -35,17 +40,12 @@
   pic: "/images/home/officers/lauren.png"
   github: "http://laurenkearley.com/"
 
-- name: "Mert Dumenci"
-  job: "Tech Lead"
-  pic: "/images/home/officers/mert.jpg"
-  github: "https://dumenci.me"
-
 - name: "Rohan Rk"
   job: "Tech Lead"
   pic: "/images/home/officers/rohan.jpg"
   github: "https://github.com/rohanrk"
-
-- name: "Cal Stephens"
-  job: "Advisor"
-  pic: "/images/home/officers/cal.jpg"
-  github: "https://calstephens.tech"
+  
+- name: "Malek Amiri"
+  job: "Tech Lead"
+  pic: "/images/home/officers/malek.jpg"
+  github: "https://github.com/malekamiri"
