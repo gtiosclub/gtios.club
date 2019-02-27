@@ -10,6 +10,11 @@
   pic: "/images/home/officers/cal.jpg"
   github: "https://calstephens.tech"
 
+- name: "Malek Amiri"
+  job: "Vice President"
+  pic: "/images/home/officers/malek.jpg"
+  github: "https://github.com/malekamiri"
+
 - name: "Cliff Panos"
   job: "Senior Tech Lead"
   pic: "/images/home/officers/cliff.jpg"
@@ -45,7 +50,3 @@
   pic: "/images/home/officers/rohan.jpg"
   github: "https://github.com/rohanrk"
   
-- name: "Malek Amiri"
-  job: "Tech Lead"
-  pic: "/images/home/officers/malek.jpg"
-  github: "https://github.com/malekamiri"
