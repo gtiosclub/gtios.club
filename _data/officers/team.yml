@@ -1,34 +1,38 @@
 # This is the list of officers. To add or remove officers, update this list.
 
-- name: "Will Said"
-  job: "President"
-  pic: "/images/home/officers/will.jpg"
-  github: "http://willsaid.com"
-
-- name: "Cal Stephens"
-  job: "Advisor"
-  pic: "/images/home/officers/cal.jpg"
-  github: "https://calstephens.tech"
-
 - name: "Malek Amiri"
-  job: "Vice President"
+  job: "President"
   pic: "/images/home/officers/malek.jpg"
   github: "https://github.com/malekamiri"
-
+  
 - name: "Cliff Panos"
   job: "Senior Tech Lead"
   pic: "/images/home/officers/cliff.jpg"
   github: "https://github.com/cliffpanos"
 
-- name: "Luming Yin"
-  job: "Senior Tech Lead"
-  pic: "/images/home/officers/luming.jpg"
-  github: "https://github.com/lumingyin"
+- name: "Will Said"
+  job: "On leave"
+  pic: "/images/home/officers/will.jpg"
+  github: "http://willsaid.com"
 
-- name: "Mitchell Gant"
-  job: "Senior Tech Lead"
-  pic: "/images/home/officers/mitchell.jpg"
-  github: "https://github.com/m-gant"
+#- name: "Cal Stephens"
+#  job: "Advisor"
+#  pic: "/images/home/officers/cal.jpg"
+#  github: "https://calstephens.tech"
+
+
+
+
+
+#- name: "Luming Yin"
+#  job: "Senior Tech Lead"
+#  pic: "/images/home/officers/luming.jpg"
+#  github: "https://github.com/lumingyin"
+
+#- name: "Mitchell Gant"
+#  job: "Senior Tech Lead"
+#  pic: "/images/home/officers/mitchell.jpg"
+#  github: "https://github.com/m-gant"
 
 - name: "Nate Thompson"
   job: "Senior Tech Lead"
@@ -40,10 +44,10 @@
   pic: "/images/home/officers/abhi.jpg"
   github: "https://github.com/abhinav1127"
 
-- name: "Lauren Kearley"
-  job: "Tech Lead"
-  pic: "/images/home/officers/lauren.png"
-  github: "http://laurenkearley.com/"
+#- name: "Lauren Kearley"
+#  job: "Tech Lead"
+#  pic: "/images/home/officers/lauren.png"
+#  github: "http://laurenkearley.com/"
 
 - name: "Rohan Rk"
   job: "Tech Lead"
