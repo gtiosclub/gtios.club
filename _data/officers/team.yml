@@ -51,6 +51,11 @@
   pic: "/images/home/officers/rohan.jpg"
   github: "https://github.com/rohanrk"
   
+- name: "John Jones"
+  job: "Tech Lead"
+  pic: "/images/home/officers/john.jpg"
+  github: "https://johntj.github.io"
+  
 - name: "Will Said"
   job: "Advisor"
   pic: "/images/home/officers/will.jpg"
