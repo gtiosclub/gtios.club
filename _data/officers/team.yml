@@ -10,10 +10,7 @@
   pic: "/images/home/officers/cliff.jpg"
   github: "https://github.com/cliffpanos"
 
-- name: "Will Said"
-  job: "On leave"
-  pic: "/images/home/officers/will.jpg"
-  github: "http://willsaid.com"
+
 
 #- name: "Cal Stephens"
 #  job: "Advisor"
@@ -53,4 +50,9 @@
   job: "Tech Lead"
   pic: "/images/home/officers/rohan.jpg"
   github: "https://github.com/rohanrk"
+  
+- name: "Will Said"
+  job: "Advisor"
+  pic: "/images/home/officers/will.jpg"
+  github: "http://willsaid.com"
   
