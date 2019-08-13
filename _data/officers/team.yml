@@ -2,7 +2,7 @@
 
 - name: "Malek Amiri"
   job: "President"
-  pic: "/images/home/officers/malek2.png"
+  pic: "/images/home/officers/malek.jpg"
   github: "https://github.com/malekamiri"
   
 - name: "Cliff Panos"
@@ -53,7 +53,7 @@
   
 - name: "John Jones"
   job: "Tech Lead"
-  pic: "/images/home/officers/john.jpg"
+  pic: "/images/home/officers/john.png"
   github: "https://johntj.github.io"
   
 - name: "Will Said"
