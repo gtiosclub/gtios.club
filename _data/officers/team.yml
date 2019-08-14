@@ -55,6 +55,11 @@
   job: "Tech Lead"
   pic: "/images/home/officers/john.png"
   github: "https://johntj.github.io"
+
+- name: "Prabir Vora"
+  job: "Tech Lead"
+  pic: "/images/home/officers/prabir.jpg"
+  github: "https://github.com/prabir-vora"
   
 - name: "Will Said"
   job: "Advisor"
