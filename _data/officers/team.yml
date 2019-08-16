@@ -61,6 +61,11 @@
   pic: "/images/home/officers/prabir.jpg"
   github: "https://github.com/prabir-vora"
   
+- name: "Yassine Attia"
+  job: "Tech Lead"
+  pic: "/images/home/officers/yassine.png"
+  github: "https://github.com/yassineattia"
+  
 - name: "Will Said"
   job: "Advisor"
   pic: "/images/home/officers/will.jpg"
