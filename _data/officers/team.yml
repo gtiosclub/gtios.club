@@ -37,7 +37,7 @@
   github: "https://natethompson.io"
 
 - name: "Abhi Tirath"
-  job: "Tech Lead"
+  job: "Senior Tech Lead"
   pic: "/images/home/officers/abhi.jpg"
   github: "https://github.com/abhinav1127"
 
@@ -46,10 +46,6 @@
 #  pic: "/images/home/officers/lauren.png"
 #  github: "http://laurenkearley.com/"
 
-- name: "Rohan Rk"
-  job: "Tech Lead"
-  pic: "/images/home/officers/rohan.jpg"
-  github: "https://github.com/rohanrk"
   
 - name: "John Jones"
   job: "Tech Lead"
@@ -65,6 +61,11 @@
   job: "Tech Lead"
   pic: "/images/home/officers/yassine.png"
   github: "https://github.com/yassineattia"
+  
+- name: "Rohan Rk"
+  job: "Tech Lead"
+  pic: "/images/home/officers/rohan.jpg"
+  github: "https://github.com/rohanrk"
   
 - name: "Will Said"
   job: "Advisor"
