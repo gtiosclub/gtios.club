@@ -64,12 +64,12 @@
   
 - name: "Phil Zet"
   job: "Tech Lead"
-  pic: "/images/home/officers/phil.JPG"
+  pic: "/images/home/officers/phil2.png"
   github: "https://zetstudios.com"
 
 - name: "Yassin Alsahlani"
   job: "Tech Lead"
-  pic: "/images/home/officers/yassin2.jpg"
+  pic: "/images/home/officers/yassin2.png"
   github: "https://github.com/TigerYassin"
   
 # - name: "Yassine Attia"
