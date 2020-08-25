@@ -73,6 +73,11 @@
   pic: "/images/home/officers/yassine.png"
   github: "https://github.com/yassineattia"
   
+- name: "Tanmoy Panigrahi"
+  job: "Tech Lead"
+  pic: "/images/home/officers/tanmoy.png"
+  github: "https://tanmoy.tech"
+  
   
 - name: "Will Said"
   job: "Advisor"
