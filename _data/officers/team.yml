@@ -5,6 +5,10 @@
   pic: "/images/home/officers/malek.jpg"
   github: "https://github.com/malekamiri"
  
+- name: "Phil Zakharchenko"
+  job: "Vice President"
+  pic: "/images/home/officers/phil2.png"
+  github: "https://zetstudios.com"
   
 # - name: "Cliff Panos"
 #   job: "Senior Tech Lead"
@@ -57,11 +61,7 @@
   job: "Tech Lead"
   pic: "/images/home/officers/prabir.jpg"
   github: "https://github.com/prabir-vora"
-  
-- name: "Phil Zakharchenko"
-  job: "Tech Lead"
-  pic: "/images/home/officers/phil2.png"
-  github: "https://zetstudios.com"
+
 
 - name: "Yassin Alsahlani"
   job: "Tech Lead"
