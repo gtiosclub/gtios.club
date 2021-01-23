@@ -1,30 +1,24 @@
 # This is the list of officers. To add or remove officers, update this list.
 
-- name: "Malek Amiri"
+- name: "Phil Zakharchenko"
   job: "President"
+  pic: "/images/home/officers/phil3.jpg"
+  github: "https://zetstudios.com"
+
+- name: "Malek Amiri"
+  job: "Vice President"
   pic: "/images/home/officers/malek.jpg"
   github: "https://github.com/malekamiri"
- 
-- name: "Phil Zakharchenko"
-  job: "Vice President"
-  pic: "/images/home/officers/phil2.png"
-  github: "https://zetstudios.com"
-  
+
 # - name: "Cliff Panos"
 #   job: "Senior Tech Lead"
 #   pic: "/images/home/officers/cliff.jpg"
 #   github: "https://github.com/cliffpanos"
 
-
-
 #- name: "Cal Stephens"
 #  job: "Advisor"
 #  pic: "/images/home/officers/cal.jpg"
 #  github: "https://calstephens.tech"
-
-
-
-
 
 #- name: "Luming Yin"
 #  job: "Senior Tech Lead"
@@ -41,17 +35,16 @@
 #   pic: "/images/home/officers/nate.jpg"
 #   github: "https://natethompson.io"
 
-- name: "Abhi Tirath"
-  job: "Senior Tech Lead"
-  pic: "/images/home/officers/abhi.jpg"
-  github: "https://github.com/abhinav1127"
+# - name: "Abhi Tirath"
+#   job: "Senior Tech Lead"
+#   pic: "/images/home/officers/abhi.jpg"
+#   github: "https://github.com/abhinav1127"
 
 #- name: "Lauren Kearley"
 #  job: "Tech Lead"
 #  pic: "/images/home/officers/lauren.png"
 #  github: "http://laurenkearley.com/"
 
-  
 - name: "John Jones"
   job: "Tech Lead"
   pic: "/images/home/officers/john.png"
@@ -62,25 +55,27 @@
   pic: "/images/home/officers/prabir.jpg"
   github: "https://github.com/prabir-vora"
 
+# - name: "Yassin Alsahlani"
+#   job: "Tech Lead"
+#   pic: "/images/home/officers/yassin2.png"
+#   github: "https://github.com/TigerYassin"
 
-- name: "Yassin Alsahlani"
-  job: "Tech Lead"
-  pic: "/images/home/officers/yassin2.png"
-  github: "https://github.com/TigerYassin"
-  
-- name: "Yassine Attia"
-  job: "Tech Lead"
-  pic: "/images/home/officers/yassine.png"
-  github: "https://github.com/yassineattia"
-  
+# - name: "Yassine Attia"
+#   job: "Tech Lead"
+#   pic: "/images/home/officers/yassine.png"
+#   github: "https://github.com/yassineattia"
+
 - name: "Tanmoy Panigrahi"
   job: "Tech Lead"
   pic: "/images/home/officers/tanmoy2.png"
   github: "https://tanmoy.tech"
-  
-  
-- name: "Will Said"
-  job: "Advisor"
-  pic: "/images/home/officers/will.jpg"
-  github: "http://willsaid.com"
-  
+
+- name: "Michael Koohang"
+  job: "Tech Lead"
+  pic: "/images/home/officers/michael.jpeg"
+  github: "https://michaelkoohang.github.io/#/"
+# - name: "Will Said"
+#   job: "Advisor"
+#   pic: "/images/home/officers/will.jpg"
+#   github: "http://willsaid.com"
+
