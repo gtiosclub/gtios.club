@@ -79,3 +79,7 @@
 #   pic: "/images/home/officers/will.jpg"
 #   github: "http://willsaid.com"
 
+- name: "Maksim Tochilkin"
+  job: "Tech Lead"
+  pic: "/images/home/officers/maksim.jpeg"
+  github: "https://github.com/atlant04"
