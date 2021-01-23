@@ -6,19 +6,19 @@
   github: "https://github.com/cliffpanos"
 
 - name: "Cal Stephens"
- job: "Advisor"
- pic: "/images/home/officers/cal.jpg"
- github: "https://calstephens.tech"
+  job: "Advisor"
+  pic: "/images/home/officers/cal.jpg"
+  github: "https://calstephens.tech"
 
 - name: "Luming Yin"
- job: "Senior Tech Lead"
- pic: "/images/home/officers/luming.jpg"
- github: "https://github.com/lumingyin"
+  job: "Senior Tech Lead"
+  pic: "/images/home/officers/luming.jpg"
+  github: "https://github.com/lumingyin"
 
 - name: "Mitchell Gant"
- job: "Senior Tech Lead"
- pic: "/images/home/officers/mitchell.jpg"
- github: "https://github.com/m-gant"
+  job: "Senior Tech Lead"
+  pic: "/images/home/officers/mitchell.jpg"
+  github: "https://github.com/m-gant"
 
 - name: "Nate Thompson"
   job: "Senior Tech Lead"
@@ -31,9 +31,9 @@
   github: "https://github.com/abhinav1127"
 
 - name: "Lauren Kearley"
- job: "Tech Lead"
- pic: "/images/home/officers/lauren.png"
- github: "http://laurenkearley.com/"
+  job: "Tech Lead"
+  pic: "/images/home/officers/lauren.png"
+  github: "http://laurenkearley.com/"
 
 - name: "Yassin Alsahlani"
   job: "Tech Lead"
@@ -49,4 +49,3 @@
   job: "Advisor"
   pic: "/images/home/officers/will.jpg"
   github: "http://willsaid.com"
-
