@@ -1,51 +1,51 @@
 # This is the list of alumni. To add or remove, update this list.
 
 - name: "Cliff Panos"
-  job: "Senior Tech Lead"
+  job: "Apple"
   pic: "/images/home/officers/cliff.jpg"
   github: "https://github.com/cliffpanos"
 
 - name: "Cal Stephens"
-  job: "Advisor"
+  job: "Airbnb"
   pic: "/images/home/officers/cal.jpg"
   github: "https://calstephens.tech"
 
 - name: "Luming Yin"
-  job: "Senior Tech Lead"
+  job: "Apple"
   pic: "/images/home/officers/luming.jpg"
   github: "https://github.com/lumingyin"
 
 - name: "Mitchell Gant"
-  job: "Senior Tech Lead"
+  job: "Apple"
   pic: "/images/home/officers/mitchell.jpg"
   github: "https://github.com/m-gant"
 
 - name: "Nate Thompson"
-  job: "Senior Tech Lead"
+  job: "Apple"
   pic: "/images/home/officers/nate.jpg"
   github: "https://natethompson.io"
 
 - name: "Abhi Tirath"
-  job: "Senior Tech Lead"
+  job: "Amazon"
   pic: "/images/home/officers/abhi.jpg"
   github: "https://github.com/abhinav1127"
 
 - name: "Lauren Kearley"
-  job: "Tech Lead"
+  job: "Verizon"
   pic: "/images/home/officers/lauren.png"
   github: "http://laurenkearley.com/"
 
 - name: "Yassin Alsahlani"
-  job: "Tech Lead"
+  job: "MealMe"
   pic: "/images/home/officers/yassin2.png"
   github: "https://github.com/TigerYassin"
 
 - name: "Yassine Attia"
-  job: "Tech Lead"
+  job: "NCR"
   pic: "/images/home/officers/yassine.png"
   github: "https://github.com/yassineattia"
 
 - name: "Will Said"
-  job: "Advisor"
+  job: "MealMe"
   pic: "/images/home/officers/will.jpg"
   github: "http://willsaid.com"
