@@ -1,4 +1,8 @@
 # This is the list of alumni. To add or remove, update this list.
+- name: "Malek Amiri"
+  job: "Apple"
+  pic: "/images/home/officers/malek.jpg"
+  github: "https://github.com/malekamiri"
 
 - name: "Cliff Panos"
   job: "Apple"

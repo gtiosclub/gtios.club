@@ -5,10 +5,10 @@
   pic: "/images/home/officers/phil3.jpg"
   github: "https://zetstudios.com"
 
-- name: "Malek Amiri"
+- name: "Tanmoy Panigrahi"
   job: "Vice President"
-  pic: "/images/home/officers/malek.jpg"
-  github: "https://github.com/malekamiri"
+  pic: "/images/home/officers/tanmoy2.png"
+  github: "https://tanmoy.tech"
 
 # - name: "Cliff Panos"
 #   job: "Senior Tech Lead"
@@ -65,11 +65,6 @@
 #   pic: "/images/home/officers/yassine.png"
 #   github: "https://github.com/yassineattia"
 
-- name: "Tanmoy Panigrahi"
-  job: "Tech Lead"
-  pic: "/images/home/officers/tanmoy2.png"
-  github: "https://tanmoy.tech"
-
 - name: "Michael Koohang"
   job: "Tech Lead"
   pic: "/images/home/officers/michael.jpeg"
@@ -83,3 +78,8 @@
   job: "Tech Lead"
   pic: "/images/home/officers/maksim.jpeg"
   github: "https://github.com/atlant04"
+
+- name: "Jai Chawla"
+  job: "Tech Lead"
+  pic: "/images/home/officers/jai.png"
+  github: "#"
