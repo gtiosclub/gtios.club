@@ -3,6 +3,16 @@
   job: "Apple"
   pic: "/images/home/officers/malek.jpg"
   github: "https://github.com/malekamiri"
+  
+- name: "Michael Koohang"
+  job: "Nike"
+  pic: "/images/home/officers/michael.jpeg"
+  github: "https://michaelkoohang.github.io/#/"
+ 
+- name: "John Jones"
+  job: "Intuit"
+  pic: "/images/home/officers/john.png"
+  github: "https://johntj.github.io"
 
 - name: "Cliff Panos"
   job: "Apple"
