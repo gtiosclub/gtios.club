@@ -45,13 +45,13 @@
 #  pic: "/images/home/officers/lauren.png"
 #  github: "http://laurenkearley.com/"
 
-- name: "John Jones"
-  job: "Tech Lead"
-  pic: "/images/home/officers/john.png"
-  github: "https://johntj.github.io"
+# - name: "John Jones"
+#   job: "Tech Lead"
+#   pic: "/images/home/officers/john.png"
+#   github: "https://johntj.github.io"
 
 - name: "Prabir Vora"
-  job: "Tech Lead"
+  job: "Senior Tech Lead"
   pic: "/images/home/officers/prabir.jpg"
   github: "https://github.com/prabir-vora"
 
@@ -65,10 +65,11 @@
 #   pic: "/images/home/officers/yassine.png"
 #   github: "https://github.com/yassineattia"
 
-- name: "Michael Koohang"
-  job: "Tech Lead"
-  pic: "/images/home/officers/michael.jpeg"
-  github: "https://michaelkoohang.github.io/#/"
+# - name: "Michael Koohang"
+#   job: "Tech Lead"
+#   pic: "/images/home/officers/michael.jpeg"
+#   github: "https://michaelkoohang.github.io/#/"
+
 # - name: "Will Said"
 #   job: "Advisor"
 #   pic: "/images/home/officers/will.jpg"
@@ -83,3 +84,15 @@
   job: "Tech Lead"
   pic: "/images/home/officers/jai.png"
   github: "#"
+
+- name: "Christina Zhao"
+  job: "Tech Lead"
+  pic: "/images/home/officers/Christina.JPG"
+  github: "https://www.linkedin.com/in/christina-zhao43"
+
+- name: "Rachel Mills"
+  job: "Tech Lead"
+  pic: "/images/home/officers/Rachel.JPG"
+  github: "#"
+  
+  
