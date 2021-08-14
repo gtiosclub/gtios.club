@@ -2,97 +2,37 @@
 
 - name: "Phil Zakharchenko"
   job: "President"
-  pic: "/images/home/officers/phil3.jpg"
+  pic: "/images/home/officers/phil.jpg"
   github: "https://zetstudios.com"
 
 - name: "Tanmoy Panigrahi"
   job: "Vice President"
-  pic: "/images/home/officers/tanmoy2.png"
+  pic: "/images/home/officers/tanmoy.jpg"
   github: "https://tanmoy.tech"
-
-# - name: "Cliff Panos"
-#   job: "Senior Tech Lead"
-#   pic: "/images/home/officers/cliff.jpg"
-#   github: "https://github.com/cliffpanos"
-
-#- name: "Cal Stephens"
-#  job: "Advisor"
-#  pic: "/images/home/officers/cal.jpg"
-#  github: "https://calstephens.tech"
-
-#- name: "Luming Yin"
-#  job: "Senior Tech Lead"
-#  pic: "/images/home/officers/luming.jpg"
-#  github: "https://github.com/lumingyin"
-
-#- name: "Mitchell Gant"
-#  job: "Senior Tech Lead"
-#  pic: "/images/home/officers/mitchell.jpg"
-#  github: "https://github.com/m-gant"
-
-# - name: "Nate Thompson"
-#   job: "Senior Tech Lead"
-#   pic: "/images/home/officers/nate.jpg"
-#   github: "https://natethompson.io"
-
-# - name: "Abhi Tirath"
-#   job: "Senior Tech Lead"
-#   pic: "/images/home/officers/abhi.jpg"
-#   github: "https://github.com/abhinav1127"
-
-#- name: "Lauren Kearley"
-#  job: "Tech Lead"
-#  pic: "/images/home/officers/lauren.png"
-#  github: "http://laurenkearley.com/"
-
-# - name: "John Jones"
-#   job: "Tech Lead"
-#   pic: "/images/home/officers/john.png"
-#   github: "https://johntj.github.io"
 
 - name: "Prabir Vora"
   job: "Senior Tech Lead"
   pic: "/images/home/officers/prabir.jpg"
   github: "https://github.com/prabir-vora"
 
-# - name: "Yassin Alsahlani"
-#   job: "Tech Lead"
-#   pic: "/images/home/officers/yassin2.png"
-#   github: "https://github.com/TigerYassin"
-
-# - name: "Yassine Attia"
-#   job: "Tech Lead"
-#   pic: "/images/home/officers/yassine.png"
-#   github: "https://github.com/yassineattia"
-
-# - name: "Michael Koohang"
-#   job: "Tech Lead"
-#   pic: "/images/home/officers/michael.jpeg"
-#   github: "https://michaelkoohang.github.io/#/"
-
-# - name: "Will Said"
-#   job: "Advisor"
-#   pic: "/images/home/officers/will.jpg"
-#   github: "http://willsaid.com"
-
 - name: "Maksim Tochilkin"
   job: "Tech Lead"
-  pic: "/images/home/officers/maksim.jpeg"
+  pic: "/images/home/officers/maksim.jpg"
   github: "https://github.com/atlant04"
 
 - name: "Jai Chawla"
   job: "Tech Lead"
-  pic: "/images/home/officers/jai.png"
+  pic: "/images/home/officers/jai.jpg"
   github: "#"
 
 - name: "Christina Zhao"
   job: "Tech Lead"
-  pic: "/images/home/officers/Christina.JPG"
+  pic: "/images/home/officers/christina.jpg"
   github: "https://www.linkedin.com/in/christina-zhao43"
 
 - name: "Rachel Mills"
   job: "Tech Lead"
-  pic: "/images/home/officers/Rachel.JPG"
+  pic: "/images/home/officers/rachel.jpg"
   github: "#"
   
   

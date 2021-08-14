@@ -6,12 +6,12 @@
   
 - name: "Michael Koohang"
   job: "Nike"
-  pic: "/images/home/officers/michael2.jpeg"
+  pic: "/images/home/officers/michael.jpg"
   github: "https://michaelkoohang.github.io/#/"
  
 - name: "John Jones"
   job: "Intuit"
-  pic: "/images/home/officers/john.png"
+  pic: "/images/home/officers/john.jpg"
   github: "https://johntj.github.io"
 
 - name: "Cliff Panos"
@@ -46,17 +46,17 @@
 
 - name: "Lauren Kearley"
   job: "Verizon"
-  pic: "/images/home/officers/lauren.png"
+  pic: "/images/home/officers/lauren.jpg"
   github: "http://laurenkearley.com/"
 
 - name: "Yassin Alsahlani"
   job: "MealMe"
-  pic: "/images/home/officers/yassin2.png"
+  pic: "/images/home/officers/yassin.jpg"
   github: "https://github.com/TigerYassin"
 
 - name: "Yassine Attia"
   job: "NCR"
-  pic: "/images/home/officers/yassine.png"
+  pic: "/images/home/officers/yassine.jpg"
   github: "https://github.com/yassineattia"
 
 - name: "Will Said"
