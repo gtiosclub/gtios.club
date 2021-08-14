@@ -3,36 +3,33 @@
 - name: "Phil Zakharchenko"
   job: "President"
   pic: "/images/home/officers/phil.jpg"
-  github: "https://zetstudios.com"
+  website: "https://zetstudios.com"
 
 - name: "Tanmoy Panigrahi"
   job: "Vice President"
   pic: "/images/home/officers/tanmoy.jpg"
-  github: "https://tanmoy.tech"
+  website: "https://tanmoy.tech"
 
 - name: "Prabir Vora"
   job: "Senior Tech Lead"
   pic: "/images/home/officers/prabir.jpg"
-  github: "https://github.com/prabir-vora"
+  website: "https://github.com/prabir-vora"
 
 - name: "Maksim Tochilkin"
   job: "Tech Lead"
   pic: "/images/home/officers/maksim.jpg"
-  github: "https://github.com/atlant04"
+  website: "https://github.com/atlant04"
 
 - name: "Jai Chawla"
   job: "Tech Lead"
   pic: "/images/home/officers/jai.jpg"
-  github: "#"
 
 - name: "Christina Zhao"
   job: "Tech Lead"
   pic: "/images/home/officers/christina.jpg"
-  github: "https://www.linkedin.com/in/christina-zhao43"
+  website: "https://www.linkedin.com/in/christina-zhao43"
 
 - name: "Rachel Mills"
   job: "Tech Lead"
   pic: "/images/home/officers/rachel.jpg"
-  github: "#"
-  
   
