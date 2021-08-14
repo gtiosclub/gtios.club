@@ -63,3 +63,27 @@
   job: "MealMe"
   pic: "/images/home/officers/will.jpg"
   github: "http://willsaid.com"
+
+- name: "Brian Wang"
+  job: "Square"
+  pic: "/images/home/officers/brian.jpg"
+  github: "https://brianwang9100.github.io"
+
+- name: "Ale Patrón"
+  job: "Google"
+  pic: "/images/home/officers/ale.jpg"
+  github: "https://github.com/apatronl"
+
+- name: "Kevin Randrup"
+  job: "Big Nerd Ranch"
+  pic: "/images/home/officers/kevin.jpg"
+  github: "https://github.com/kevinrandrup"
+
+- name: "Komal Hirani"
+  job: "Ingenious Med"
+  pic: "/images/home/officers/komal.jpg"
+  github: "https://www.komalhirani.com"
+
+- name: "Rohan Rk"
+  pic: "/images/home/officers/rohan.jpg"
+  github: "https://github.com/rohanrk"
