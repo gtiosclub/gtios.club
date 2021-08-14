@@ -2,9 +2,13 @@
 <div class="team">
     {% for person in site.data.officers.team %}
     <div class="contact">
-        <a href="{{ person.github }}" target="_blank">
+        {% if person.website and person.website != "" %}
+        <a href="{{ person.website }}" target="_blank">
             <img src="{{ site.baseurl }}{{ person.pic }}" />
         </a>
+        {% else %}
+        <img src="{{ site.baseurl }}{{ person.pic }}" />
+        {% endif%}
         <div class="name">
             <h6>{{ person.name }}</h6>
         </div>
