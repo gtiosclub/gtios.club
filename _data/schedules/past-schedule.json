@@ -1,5 +1,92 @@
 {
     "past-meetings": [
+        {"semester": "Spring 2021", "meetings": [
+            {
+                "month": 1,
+                "day": 26,
+                "subject": "Intro to iOS Development, Part 1",
+                "description": "Learn the basics of iOS Development by building a fun Tap Game!"
+            },
+            {
+                "month": 2,
+                "day": 2,
+                "subject": "Intro to iOS Development, Part 2",
+                "description": "Learn more about basics of iOS Development by building a 'Guess the Number' game!"
+            },
+            {
+                "month": 2,
+                "day": 9,
+                "subject": "Intro to UICollectionView",
+                "description": "Collection Views are a common component in iOS apps. Learn how to harness them by building a Reminders app."
+            },
+            {
+                "month": 2,
+                "day": 16,
+                "subject": "Interface Builder and Autolayout",
+                "description": "Learn about using Inteface Builder and Autolayout to create apps that look good on every screen size."
+            },
+            {
+                "month": 2,
+                "day": 23,
+                "subject": "Data Persistence with UserDefaults",
+                "description": "Learn how to save your data between launches by building a Pin Drop app (bonus content: MapKit and Gesture Recognizers!)."
+            },
+            {
+                "month": 3,
+                "day": 2,
+                "subject": "Using Multiple View Controllers",
+                "description": "Learn how to pass data between multiple View Controllers by building a 'Colors' app. (Bonus content: more UICollectionView!)"
+            },
+            {
+                "month": 3,
+                "day": 9,
+                "subject": "Networking with Codable",
+                "description": "Learn how to use URLSession to request data from online APIs, and how to parse the response using Swift's Codable protocol."
+            },
+            {
+                "month": 3,
+                "day": 16,
+                "subject": "No Meeting",
+                "description": "Spring Break"
+            },
+            {
+                "month": 3,
+                "day": 23,
+                "subject": "Intro to SwiftUI",
+                "description": "Learn the fundamentals of the new SwiftUI framework to build professionally looking cross-platform user interfaces in minutes."
+            },
+            {
+                "month": 3,
+                "day": 30,
+                "subject": "Intro to Animations",
+                "description": "Learn the fundamentals of Animations in Swift by building a gallery app that displays several Transforms and Events!"
+            },
+            
+            {
+                "month": 4,
+                "day": 6,
+                "subject": "Intro to Firebase",
+                "description": "Learn how to build a Chat app that uses Firebase's Realtime Database to store data in the cloud."
+            },
+            {
+                "month": 4,
+                "day": 13,
+                "subject": "App Challenge",
+                "description": "See if you can use what you have learned to make a News App!"
+            },
+            {
+                "month": 4,
+                "day": 20,
+                "subject": "TBD",
+                "description": "Surprise Event"
+            },
+            {
+                "month": 4,
+                "day": 27,
+                "subject": "TBD",
+                "description": "Surprise Event"
+            }
+        ]},
         {
             "semester": "Fall 2019",
             "meetings": [

@@ -1,6 +1,95 @@
 {
     "semester": "Fall 2021",
     "meetings": [
-        
+        {
+            "month": 8,
+            "day": 31,
+            "subject": "Intro to iOS Development, Part 1",
+            "description": "Learn the basics of iOS Development by building a fun Tap Game!",
+            "author": "Phil Zakharchenko"
+        },
+        {
+            "month": 9,
+            "day": 7,
+            "subject": "Intro to iOS Development, Part 2",
+            "description": "Learn more about basics of iOS Development by building a 'Guess the Number' game!",
+            "author": "Christina Zhao"
+        },
+        {
+            "month": 9,
+            "day": 14,
+            "subject": "Interface Builder and Autolayout",
+            "description": "Learn about using Inteface Builder and Autolayout to create apps that look good on every screen size.",
+            "author": "Phil Zakharchenko"
+        },
+        {
+            "month": 9,
+            "day": 21,
+            "subject": "Intro to SwiftUI",
+            "description": "Learn about Apple's groundbreaking new UI framework. Learn the fundamentals of the new SwiftUI framework to build professionally looking cross-platform user interfaces in minutes.",
+            "author": "Tanmoy Panigrahi"
+        },
+        {
+            "month": 9,
+            "day": 28,
+            "subject": "Using Multiple View Controllers",
+            "description": "Learn how to pass data between multiple View Controllers by building a 'Colors' app. (Bonus content: more UICollectionView!)",
+            "author": "Prabir Vora"
+        },
+        {
+            "month": 10,
+            "day": 5,
+            "subject": "Data Persistence with UserDefaults",
+            "description": "Learn how to save your data between launches by building a Pin Drop app (bonus content: MapKit and Gesture Recognizers!).",
+            "author": "Jai Chawla"
+        },
+        {
+            "month": 10,
+            "day": 12,
+            "subject": "No Meeting",
+            "description": "Fall Break"
+        },
+        {
+            "month": 10,
+            "day": 19,
+            "subject": "Intro to UICollectionView",
+            "description": "Collection Views are a common component in iOS apps. Learn how to harness them by building a Reminders app.",
+            "author": "Maksim Tochilkin"
+        },
+        {
+            "month": 10,
+            "day": 26,
+            "subject": "Intro to Animations",
+            "description": "Learn the fundamentals of Animations in Swift by building a gallery app that displays several Transforms and Events!",
+            "author": "Shahar Ben-Dor"
+        },
+        {
+            "month": 11,
+            "day": 2,
+            "subject": "Intro to Firebase",
+            "description": "Learn how to build a Chat app that uses Firebase's Realtime Database to store data in the cloud.",
+            "author": "Jai Chawla"
+        },
+        {
+            "month":11,
+            "day": 9,
+            "subject": "Networking with Codable, Part 1",
+            "description": "Learn how to use URLSession to request data from online APIs, and how to parse the response using Swift's Codable protocol.",
+            "author": "Maksim Tochilkin"
+        },
+        {
+            "month":11,
+            "day": 16,
+            "subject": "Networking with Codable, Part 1",
+            "description": "Learn how to use URLSession to request data from online APIs, and how to parse the response using Swift's Codable protocol.",
+            "author": "Tanmoy Panigrahi"
+        },
+        {
+            "month": 11,
+            "day": 23,
+            "subject": "TBD",
+            "description": "Surprise Event",
+            "author": "iOS Club & Our Sponsors"
+        }
     ]
 }
