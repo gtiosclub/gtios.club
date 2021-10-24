@@ -64,11 +64,31 @@ layout: master
                 <p class="no-mar">Join our <a href="{{ site.facebook_url }}" onclick="openFacebook()" target="_blank">Facebook group</a> for announcements.</p><br>
             </div>
 
-            <div style="margin: 0 auto; margin-bottom: 15px;">
-                <h1 class="row post-header heading">iOS Lab Schedule</h1>
-                <p class="no-mar">We host intermediate and advanced sessions and office hours every Thursday at 5:30pm in College of Computing Building (CCB) 340. Join our Facebook group to stay updated and never miss a meeting.</p><br>
-                <p class="no-mar">Join our <a href="{{ site.facebook_url }}" onclick="openFacebook()" target="_blank">Facebook group</a> for announcements.</p><br>
+            {% capture current-year %}{{'now' | date: '%y'}}{% endcapture %}
+            
+            <div style="max-width: 425px; margin: 0 auto; margin-bottom: 10px;">
+                <h1 class="row heading" style="font-size: 1.5em; ">{{ site.data.schedules.current-schedule.semester }}</h1>
             </div>
+            
+            <ul class="calender" id="current-schedule" style="max-width: 400px; margin: 0 auto;">
+                {% for entry in site.data.schedules.club-schedule.meetings %}
+                <li class="meeting" id="{{ '20' | append: current-year | append: '-' | append: entry.month | append: '-' | append: entry.day }}">
+                    <div class="row entry">
+                        <div class="cal-card">
+                            <div class="date text-center">
+                                <p class="meeting-month">{{ site.data.schedules.months[entry.month] }}</p>
+                                <h3 class="meeting-day">{{ entry.day }}</h3>
+                            </div>
+                            <div class="content">
+                                <h5 class="topic meeting-topic">{{ entry.subject }}</h5>
+                                <p class="card-text meeting-description"><b>{{ entry.author }}</b></p>
+                                <p class="card-text meeting-description">{{ entry.description }}</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                {% endfor %}
+            </ul>
             
             <!-- <div style="max-width: 425px; margin: 0 auto; margin-bottom: 10px;">
                 <h1 class="row heading" style="font-size: 1.5em; ">Next Meeting</h1>
@@ -94,6 +114,12 @@ layout: master
             
         </div>
         <div class="schedule-column  col-lg-6">
+
+            <div style="margin: 0 auto; margin-bottom: 15px;">
+                <h1 class="row post-header heading">iOS Lab Schedule</h1>
+                <p class="no-mar">We host intermediate and advanced sessions and office hours every Thursday at 5:30pm in College of Computing Building (CCB) 340. Join our Facebook group to stay updated and never miss a meeting.</p><br>
+                <p class="no-mar">Join our <a href="{{ site.facebook_url }}" onclick="openFacebook()" target="_blank">Facebook group</a> for announcements.</p><br>
+            </div>
             
             {% capture current-year %}{{'now' | date: '%y'}}{% endcapture %}
             
@@ -102,7 +128,7 @@ layout: master
             </div>
             
             <ul class="calender" id="current-schedule" style="max-width: 400px; margin: 0 auto;">
-                {% for entry in site.data.schedules.current-schedule.meetings %}
+                {% for entry in site.data.schedules.lab-schedule.meetings %}
                 <li class="meeting" id="{{ '20' | append: current-year | append: '-' | append: entry.month | append: '-' | append: entry.day }}">
                     <div class="row entry">
                         <div class="cal-card">
@@ -112,7 +138,7 @@ layout: master
                             </div>
                             <div class="content">
                                 <h5 class="topic meeting-topic">{{ entry.subject }}</h5>
-                                <p class="card-text meeting-description"><b>{{ entry.presenter }}</b></p>
+                                <p class="card-text meeting-description"><b>{{ entry.author }}</b></p>
                                 <p class="card-text meeting-description">{{ entry.description }}</p>
                             </div>
                         </div>
