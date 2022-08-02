@@ -1,51 +1,39 @@
 # This is the list of officers. To add or remove officers, update this list.
-
-- name: "Tanmoy Panigrahi"
-  job: "President"
-  pic: "/images/home/officers/tanmoy.jpg"
-  website: "https://tanmoy.tech"
-
-- name: "Maksim Tochilkin"
-  job: "Vice President Technology"
-  pic: "/images/home/officers/maksim.jpg"
-  website: "https://github.com/atlant04"
-
 - name: "Jai Chawla"
-  job: "Vice President Operations"
+  job: "President"
   pic: "/images/home/officers/jai.jpg"
   website: "https://linkedin.com/in/jai-chawla"
 
-- name: "Phil Zakharchenko"
-  job: "Senior Tech Lead & Advisor"
-  pic: "/images/home/officers/phil1.jpg"
-  website: "https://zetstudios.com"
-
-- name: "Prabir Vora"
-  job: "Senior Tech Lead"
-  pic: "/images/home/officers/prabir.jpg"
-  website: "https://github.com/prabir-vora"
-
 - name: "Christina Zhao"
-  job: "Senior Tech Lead"
+  job: "Vice President"
   pic: "/images/home/officers/christina1.jpg"
   website: "https://www.linkedin.com/in/christina-zhao43"
-  
-- name: "Shahar Ben-Dor"
-  job: "Senior Tech Lead"
-  pic: "/images/home/officers/shahar.jpg"
-  website: "https://apps.apple.com/us/developer/spectre-software-inc/id1439952651"
-
-- name: "Graham Fletcher Wells"
-  job: "Tech Lead"
-  pic: "/images/home/officers/fletcher.jpeg"
-  website: "https://wellsfletcher.com"
 
 - name: "Allen Su"
-  job: "Tech Lead"
+  job: "Senior Tech Lead"
   pic: "/images/home/officers/allen.JPEG"
   website: "https://www.linkedin.com/in/allensu02"
 
 - name: "Amogh Mantri"
-  job: "Tech Lead"
+  job: "Senior Tech Lead"
   pic: "/images/home/officers/amogh.jpeg"
   website: "https://www.linkedin.com/in/amoman/"
+
+  
+- name: "Amogh Mantri"
+  job: "Senior Tech Lead"
+  pic: "/images/home/officers/amogh.jpeg"
+  website: "https://www.linkedin.com/in/amoman/"
+
+
+- name: "Khushi Bhardwaj"
+  job: "Tech Lead"
+  pic: "/images/home/officers/amogh.jpeg"
+  website: "https://www.linkedin.com/in/khushibhardwaj/"
+
+
+
+- name: "Maksim Tochilkin"
+  job: "Internship - Apple"
+  pic: "/images/home/officers/maksim.jpg"
+  website: "https://github.com/atlant04"
