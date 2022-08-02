@@ -19,21 +19,69 @@
   pic: "/images/home/officers/amogh.jpeg"
   website: "https://www.linkedin.com/in/amoman/"
 
-  
 - name: "Amogh Mantri"
   job: "Senior Tech Lead"
   pic: "/images/home/officers/amogh.jpeg"
   website: "https://www.linkedin.com/in/amoman/"
 
-
 - name: "Khushi Bhardwaj"
   job: "Tech Lead"
-  pic: "/images/home/officers/amogh.jpeg"
+  pic: "/images/home/officers/khushi.jpg"
   website: "https://www.linkedin.com/in/khushibhardwaj/"
+
+- name: "Rahul Narayanan"
+  job: "Tech Lead"
+  pic: "/images/home/officers/khushi.jpg"
+  website: "https://www.linkedin.com/in/rahul-ozhur-narayanan-0899a8217/"
+
+- name: "Hyelin Lee"
+  job: "Tech Lead"
+  pic: "/images/home/officers/hyelin.jpg"
+  website: "https://www.linkedin.com/in/lhyelinn/"
+
+
+
+
+
+- name: "Hajin Kim"
+  job: "Senior Developer"
+  pic: "/images/home/officers/hajin.jpg"
+  website: "https://www.linkedin.com/in/hajin-kim-3015121a1/"
+
+- name: "Viren Mirchandani"
+  job: "Senior Developer"
+  pic: "/images/home/officers/viren.jpg"
+  website: "https://www.linkedin.com/in/viren-m/"
+
+- name: "Claire"
+  job: "Senior Developer"
+  pic: "/images/home/officers/hyelin.jpg"
+  website: "https://www.linkedin.com/in/lhyelinn/"
+
+- name: "Eric Zhou"
+  job: "Senior Developer"
+  pic: "/images/home/officers/khushi.jpg"
+  website: "https://www.linkedin.com/in/ericzhou000/"
+
+- name: "Ethan Fox"
+  job: "Senior Developer"
+  pic: "/images/home/officers/khushi.jpg"
+  website: "https://www.linkedin.com/in/iwatger/"
+
+- name: "Nicolas Rios"
+  job: "Senior Developer"
+  pic: "/images/home/officers/hyelin.jpg"
+  website: "https://www.linkedin.com/in/nicolas-rios/"
+
+- name: "Amit Kulkarni"
+  job: "Senior Developer"
+  pic: "/images/home/officers/hyelin.jpg"
+  website: "https://www.linkedin.com/in/amitkulk123/"
+
 
 
 
 - name: "Maksim Tochilkin"
-  job: "Internship - Apple"
+  job: "Intern - Apple, ex-VP"
   pic: "/images/home/officers/maksim.jpg"
   website: "https://github.com/atlant04"
