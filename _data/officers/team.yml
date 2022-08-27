@@ -34,6 +34,11 @@
   pic: "/images/home/officers/hyelin.jpg"
   website: "https://www.linkedin.com/in/lhyelinn/"
 
+- name: "Ajay Moturi"
+  job: "Tech Lead"
+  pic: "/images/home/officers/ajay.jpg"
+  website: "http://linkedin.com/in/ajaymoturi"
+
 - name: "Hajin Kim"
   job: "Senior Developer"
   pic: "/images/home/officers/hajin.jpg"
@@ -68,6 +73,16 @@
   job: "Senior Developer"
   pic: "/images/home/officers/amit.jpg"
   website: "https://www.linkedin.com/in/amitkulk123/"
+
+- name: "Arina Shah"
+  job: "Senior Developer"
+  pic: "/images/home/officers/arina.jpeg"
+  website: "https://www.linkedin.com/in/arina-shah/"
+
+- name: "Abdulaziz Albahar"
+  job: "Senior Developer"
+  pic: "/images/home/officers/aziz.jpg"
+  website: "https://www.linkedin.com/in/azizalbahar/"
 
 - name: "Maksim Tochilkin"
   job: "Intern - Apple, ex-VP"
