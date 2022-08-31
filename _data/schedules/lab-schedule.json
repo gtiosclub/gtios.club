@@ -1,47 +1,12 @@
 {
-    "semester": "Fall 2021",
+    "semester": "Fall 2022",
     "meetings": [
         {
-            "month":9,
-            "day": 9,
-            "subject": "Welcome Session",
-            "description": "Learn about the iOS Lab and brainstorm our sessions for the semester. We create our Lab schedule based on your interests.",
-            "author": "Phil Zakharchenko"
-        },
-        {
             "month": 9,
-            "day": 16,
-            "subject": "Mac Catalyst",
-            "description": "Build fully functional Mac apps using your existing UIKit knowledge.",
-            "author": "Phil Zakharchenko"
-        },
-        {
-            "month": 9,
-            "day": 23,
-            "subject": "App Clips",
-            "description": "Learn about the benefits of using App Clips, as well as how to build them.",
-            "author": "Tanmoy Panigrahi"
-        },
-        {
-            "month": 9,
-            "day": 30,
-            "subject": "Thinking Like a SwiftUI Engineer",
-            "description": "Build your own modifiers, and take a deep dive into how SwiftUI works under the hood.",
-            "author": "Maksim Tochilkin"
-        },
-        {
-            "month": 10,
-            "day": 7,
-            "subject": "UI / UX Design",
-            "description": "What's good UI design? Learn how to apply the principles of Human Interface Design to your new and existing apps.",
-            "author": "Shahar Ben-Dor"
-        },
-        {
-            "month": 10,
-            "day": 21,
-            "subject": "MetalKit",
-            "description": "Learn how to take advantage of vast hardware capabilities on iOS and macOS.",
-            "author": "Maksim Tochilkin"
+            "day": 15,
+            "subject": "Second meeting - Projects!",
+            "description": "We'll be discussing more about projects this semester.",
+            "author": "Jai Chawla"
         }
     ]
 }
