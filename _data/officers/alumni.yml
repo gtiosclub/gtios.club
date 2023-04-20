@@ -4,6 +4,11 @@
   pic: "/images/home/officers/tanmoy.jpg"
   website: "https://tanmoy.tech"
 
+- name: "Christina Zhao"
+  job: "Reddit"
+  pic: "/images/home/officers/christina1.jpg"
+  website: "https://www.linkedin.com/in/christina-zhao43"
+
 - name: "Phil Zakharchenko"
   job: "Apple"
   pic: "/images/home/officers/phil1.jpg"
@@ -28,12 +33,12 @@
   job: "Apple"
   pic: "/images/home/officers/malek.jpg"
   website: "https://github.com/malekamiri"
-  
+
 - name: "Michael Koohang"
   job: "Nike"
   pic: "/images/home/officers/michael.jpg"
   website: "https://michaelkoohang.github.io/#/"
- 
+
 - name: "John Jones"
   job: "Apple"
   pic: "/images/home/officers/john.jpg"

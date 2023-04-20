@@ -4,13 +4,8 @@
   pic: "/images/home/officers/jai-1.JPG"
   website: "https://linkedin.com/in/jai-chawla"
 
-- name: "Christina Zhao"
-  job: "Vice President"
-  pic: "/images/home/officers/christina1.jpg"
-  website: "https://www.linkedin.com/in/christina-zhao43"
-
 - name: "Allen Su"
-  job: "Senior Tech Lead"
+  job: "Vice President"
   pic: "/images/home/officers/allen.JPEG"
   website: "https://www.linkedin.com/in/allensu02"
 
@@ -20,71 +15,41 @@
   website: "https://www.linkedin.com/in/amoman/"
 
 - name: "Khushi Bhardwaj"
-  job: "Tech Lead"
+  job: "Senior Tech Lead"
   pic: "/images/home/officers/khushi.jpg"
   website: "https://www.linkedin.com/in/khushibhardwaj/"
 
 - name: "Rahul Narayanan"
-  job: "Tech Lead"
+  job: "Senior Tech Lead"
   pic: "/images/home/officers/rahul.jpg"
   website: "https://www.linkedin.com/in/rahul-ozhur-narayanan-0899a8217/"
 
-- name: "Hyelin Lee"
-  job: "Tech Lead"
-  pic: "/images/home/officers/hyelin.jpg"
-  website: "https://www.linkedin.com/in/lhyelinn/"
-
 - name: "Ajay Moturi"
-  job: "Tech Lead"
+  job: "Senior Tech Lead"
   pic: "/images/home/officers/ajay.jpg"
   website: "http://linkedin.com/in/ajaymoturi"
 
 - name: "Hajin Kim"
-  job: "Senior Developer"
+  job: "Tech Lead"
   pic: "/images/home/officers/hajin.jpg"
   website: "https://www.linkedin.com/in/hajin-kim-3015121a1/"
 
-- name: "Viren Mirchandani"
-  job: "Senior Developer"
-  pic: "/images/home/officers/viren.jpg"
-  website: "https://www.linkedin.com/in/viren-m/"
-
-- name: "Claire"
-  job: "Senior Developer"
-  pic: "/images/home/officers/claire.jpg"
-  website: "https://www.linkedin.com/in/lhyelinn/"
-
-- name: "Eric Zhou"
-  job: "Senior Developer"
-  pic: "/images/home/officers/eric.jpg"
-  website: "https://www.linkedin.com/in/ericzhou000/"
-
 - name: "Ethan Fox"
-  job: "Senior Developer"
+  job: "Tech Lead"
   pic: "/images/home/officers/ethan.jpg"
   website: "https://www.linkedin.com/in/iwatger/"
 
-- name: "Nicolas Rios"
-  job: "Senior Developer"
-  pic: "/images/home/officers/nico.jpg"
-  website: "https://www.linkedin.com/in/nicolas-rios/"
-
-- name: "Amit Kulkarni"
-  job: "Senior Developer"
-  pic: "/images/home/officers/amit.jpg"
-  website: "https://www.linkedin.com/in/amitkulk123/"
-
 - name: "Arina Shah"
-  job: "Senior Developer"
+  job: "Tech Lead"
   pic: "/images/home/officers/arina.jpeg"
   website: "https://www.linkedin.com/in/arina-shah/"
 
 - name: "Abdulaziz Albahar"
-  job: "Senior Developer"
+  job: "Senior Tech Lead"
   pic: "/images/home/officers/aziz.jpg"
   website: "https://www.linkedin.com/in/azizalbahar/"
 
 - name: "Maksim Tochilkin"
-  job: "Intern - Apple, ex-VP"
+  job: "Vice President"
   pic: "/images/home/officers/maksim.jpg"
   website: "https://github.com/atlant04"
