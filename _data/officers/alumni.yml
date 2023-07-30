@@ -1,4 +1,14 @@
 # This is the list of alumni. To add or remove, update this list.
+- name: "Maksim Tochilkin"
+  job: "Apple"
+  pic: "/images/home/officers/maksim.jpg"
+  website: "https://github.com/atlant04"
+
+- name: "Jai Chawla"
+  job: "Apex Health"
+  pic: "/images/home/officers/jai-1.JPG"
+  website: "https://linkedin.com/in/jai-chawla"
+
 - name: "Tanmoy Panigrahi"
   job: "Apple"
   pic: "/images/home/officers/tanmoy.jpg"
