@@ -1,12 +1,12 @@
 {
-    "semester": "Fall 2022",
+    "semester": "Fall 2023",
     "meetings": [
         {
-            "month": 9,
-            "day": 13,
+            "month": 8,
+            "day": 29,
             "subject": "First Meeting!",
             "description": "Meet the officers, learn more about the club, and what we're doing this semester.",
-            "author": "Jai Chawla"
+            "author": "iOS Club"
         }
     ]
 }
