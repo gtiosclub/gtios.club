@@ -14,15 +14,15 @@
   pic: "/images/home/officers/rahul.jpg"
   website: "https://www.linkedin.com/in/rahul-ozhur-narayanan-0899a8217/"
 
+- name: "Abdulaziz Albahar"
+  job: "Vice President - Bootcamp"
+  pic: "/images/home/officers/aziz.jpg"
+  website: "https://www.linkedin.com/in/azizalbahar/"
+
 - name: "Khushi Bhardwaj"
   job: "Senior Tech Lead"
   pic: "/images/home/officers/khushi.jpg"
   website: "https://www.linkedin.com/in/khushibhardwaj/"
-
-- name: "Abdulaziz Albahar"
-  job: "Senior Tech Lead"
-  pic: "/images/home/officers/aziz.jpg"
-  website: "https://www.linkedin.com/in/azizalbahar/"
 
 - name: "Ajay Moturi"
   job: "Senior Tech Lead"
@@ -43,6 +43,31 @@
   job: "Tech Lead"
   pic: "/images/home/officers/nick_candello.jpeg"
   website: "https://www.linkedin.com/in/nicholas-candello-426392157"
+  
+- name: "Gabe McGuire"
+  job: "Design Lead"
+  pic: "/images/home/officers/gabe_mcguire.jpeg"
+  website: "https://www.linkedin.com/in/gabe-mcguire/"
+
+- name: "Shreya Malpani"
+  job: "Bootcamp Instructor"
+  pic: "/images/home/officers/shreya_malpani.jpg"
+  website: "https://www.linkedin.com/in/shreya-malpani5/"
+  
+- name: "Noah Sadir"
+  job: "Bootcamp Instructor"
+  pic: "/images/home/officers/noah_sadir.jpg"
+  website: "https://github.com/noahsadir"
+
+- name: "Alena Tochilkina"
+  job: "Bootcamp Instructor"
+  pic: "/images/home/officers/alena.webp"
+  website: "https://www.linkedin.com/in/alena-tochilkina/"
+
+- name: "Lauren Pak"
+  job: "Senior Designer"
+  pic: "/images/home/officers/lauren_pak.JPG"
+  website: "https://www.linkedin.com/in/lauren-pak-a51607201/"
 
 - name: "Max Ko"
   job: "Senior Developer"
@@ -54,35 +79,15 @@
   pic: "/images/home/officers/isabel_zhou.jpg"
   website: "https://www.linkedin.com/in/isabelxzhou/"
 
-- name: "Lauren Pak"
-  job: "Senior Developer"
-  pic: "/images/home/officers/lauren_pak.JPG"
-  website: "https://www.linkedin.com/in/lauren-pak-a51607201/"
-
 - name: "Jiyoon Lee"
   job: "Senior Developer"
   pic: "/images/home/officers/jiyoon_lee.JPEG"
   website: "https://www.linkedin.com/in/jiyoon-lee121"
 
-- name: "Shreya Malpani"
-  job: "Senior Developer"
-  pic: "/images/home/officers/shreya_malpani.jpg"
-  website: "https://www.linkedin.com/in/shreya-malpani5/"
-
-- name: "Gabe McGuire"
-  job: "Design Lead"
-  pic: "/images/home/officers/gabe_mcguire.jpeg"
-  website: "https://www.linkedin.com/in/gabe-mcguire/"
-
 - name: "Sankeat Cheemalamarri"
   job: "Senior Developer"
   pic: "/images/home/officers/srisankaet_cheemalamarri.jpeg"
   website: "https://www.linkedin.com/in/scheemalamarri/"
-
-- name: "Noah Sadir"
-  job: "Senior Developer"
-  pic: "/images/home/officers/noah_sadir.jpg"
-  website: "https://github.com/noahsadir"
 
 - name: "Ryan O'Meara"
   job: "Senior Developer"
