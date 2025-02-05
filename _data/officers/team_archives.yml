@@ -1,0 +1,40 @@
+# This is the list of officers. To add or remove officers, update this list.
+- name: "Allen Su"
+  job: "President"
+  pic: "/images/home/officers/allen.JPEG"
+  website: "https://www.linkedin.com/in/allensu02"
+
+- name: "Amogh Mantri"
+  job: "Vice President - Operations"
+  pic: "/images/home/officers/amogh.jpg"
+  website: "https://www.linkedin.com/in/amoman/"
+
+- name: "Khushi Bhardwaj"
+  job: "Senior Tech Lead"
+  pic: "/images/home/officers/khushi.jpg"
+  website: "https://www.linkedin.com/in/khushibhardwaj/"
+
+- name: "Ajay Moturi"
+  job: "Senior Tech Lead"
+  pic: "/images/home/officers/ajay.jpg"
+  website: "http://linkedin.com/in/ajaymoturi"
+
+- name: "Shreya Malpani"
+  job: "Bootcamp Instructor"
+  pic: "/images/home/officers/shreya_malpani.jpg"
+  website: "https://www.linkedin.com/in/shreya-malpani5/"
+
+- name: "Alena Tochilkina"
+  job: "Bootcamp Instructor"
+  pic: "/images/home/officers/alena.webp"
+  website: "https://www.linkedin.com/in/alena-tochilkina/"
+
+- name: "Lauren Pak"
+  job: "Senior Designer"
+  pic: "/images/home/officers/lauren_pak.JPG"
+  website: "https://www.linkedin.com/in/lauren-pak-a51607201/"
+
+- name: "Isabel Zhou"
+  job: "Senior Developer"
+  pic: "/images/home/officers/isabel_zhou.jpg"
+  website: "https://www.linkedin.com/in/isabelxzhou/"

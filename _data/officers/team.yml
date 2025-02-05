@@ -1,73 +1,56 @@
 # This is the list of officers. To add or remove officers, update this list.
-- name: "Allen Su"
-  job: "President"
-  pic: "/images/home/officers/allen.JPEG"
-  website: "https://www.linkedin.com/in/allensu02"
-
-- name: "Amogh Mantri"
-  job: "Vice President - Operations"
-  pic: "/images/home/officers/amogh.jpg"
-  website: "https://www.linkedin.com/in/amoman/"
-
 - name: "Rahul Narayanan"
-  job: "Vice President - Projects"
+  job: "President"
   pic: "/images/home/officers/rahul.jpg"
   website: "https://www.linkedin.com/in/rahul-ozhur-narayanan-0899a8217/"
 
-- name: "Abdulaziz Albahar"
+
+- name: "Sankeat Cheemalamarri"
+  job: "Vice President - Operations"
+  pic: "/images/home/officers/srisankaet_cheemalamarri.jpeg"
+  website: "https://www.linkedin.com/in/scheemalamarri/"
+
+- name: "Arina Shah"
+  job: "Vice President - Projects"
+  pic: "/images/home/officers/arina_shah.jpg"
+  website: "https://www.linkedin.com/in/arina-shah/"
+
+- name: "Aziz Albahar"
   job: "Vice President - Bootcamp"
   pic: "/images/home/officers/aziz.jpg"
   website: "https://www.linkedin.com/in/azizalbahar/"
 
-- name: "Khushi Bhardwaj"
-  job: "Senior Tech Lead"
-  pic: "/images/home/officers/khushi.jpg"
-  website: "https://www.linkedin.com/in/khushibhardwaj/"
+- name: "Gabe McGuire"
+  job: "Vice President - Design & Media"
+  pic: "/images/home/officers/gabe_mcguire.jpeg"
+  website: "https://www.linkedin.com/in/gabe-mcguire/"
 
-- name: "Ajay Moturi"
-  job: "Senior Tech Lead"
-  pic: "/images/home/officers/ajay.jpg"
-  website: "http://linkedin.com/in/ajaymoturi"
+- name: "******"
+  job: "Vice President - *****"
+  pic: "/images/home/officers/placeholder.jpeg"
+  website: "*****"
+
+- name: "Tim Arant"
+  job: "Marketing Lead"
+  pic: "/images/home/officers/placeholder.jpeg"
+  website: "https://www.linkedin.com/in/timothy-arant/"
 
 - name: "Ethan Fox"
   job: "Senior Tech Lead"
   pic: "/images/home/officers/ethan_fox.jpeg"
   website: "https://www.linkedin.com/in/iwatger/"
 
-- name: "Arina Shah"
-  job: "Tech Lead"
-  pic: "/images/home/officers/arina_shah.jpg"
-  website: "https://www.linkedin.com/in/arina-shah/"
 
 - name: "Nicholas Candello"
   job: "Tech Lead"
   pic: "/images/home/officers/nick_candello.jpeg"
   website: "https://www.linkedin.com/in/nicholas-candello-426392157"
-  
-- name: "Gabe McGuire"
-  job: "Design Lead"
-  pic: "/images/home/officers/gabe_mcguire.jpeg"
-  website: "https://www.linkedin.com/in/gabe-mcguire/"
 
-- name: "Shreya Malpani"
-  job: "Bootcamp Instructor"
-  pic: "/images/home/officers/shreya_malpani.jpg"
-  website: "https://www.linkedin.com/in/shreya-malpani5/"
-  
+
 - name: "Noah Sadir"
   job: "Bootcamp Instructor"
   pic: "/images/home/officers/noah_sadir.jpg"
   website: "https://github.com/noahsadir"
-
-- name: "Alena Tochilkina"
-  job: "Bootcamp Instructor"
-  pic: "/images/home/officers/alena.webp"
-  website: "https://www.linkedin.com/in/alena-tochilkina/"
-
-- name: "Lauren Pak"
-  job: "Senior Designer"
-  pic: "/images/home/officers/lauren_pak.JPG"
-  website: "https://www.linkedin.com/in/lauren-pak-a51607201/"
 
 - name: "Max Ko"
   job: "Senior Developer"
@@ -84,17 +67,24 @@
   pic: "/images/home/officers/jiyoon_lee.JPEG"
   website: "https://www.linkedin.com/in/jiyoon-lee121"
 
-- name: "Sankeat Cheemalamarri"
-  job: "Senior Developer"
-  pic: "/images/home/officers/srisankaet_cheemalamarri.jpeg"
-  website: "https://www.linkedin.com/in/scheemalamarri/"
+
 
 - name: "Ryan O'Meara"
-  job: "Senior Developer"
+  job: "Tech Lead"
   pic: "/images/home/officers/ryan_omeara.jpg"
   website: "https://www.linkedin.com/in/ryan-o-meara-724913223/"
 
 - name: "Steven Liu"
-  job: "Senior Developer"
+  job: "Tech Lead"
   pic: "/images/home/officers/steven_liu.JPG"
   website: "https://github.com/ecoist-ste"
+
+
+
+
+
+#template
+- name: ""
+  job: ""
+  pic: "/images/home/officers/steven_liu.JPG"
+  website: ""
