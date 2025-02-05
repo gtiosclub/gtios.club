@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply to iOS Club</title>
+    <style>
+
+        body {
+            margin: 0px;
+            padding: 0px;
+            font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+            #F5F5F5
+        }
+        #container {
+            width: 100%;
+            height: 100%;
+            /* background-color: #F5F5F5; */
+            display: flex;
+            flex-direction: row;
+        }
+
+        #header {
+            width: 100%;
+            height: 100%;
+        }
+
+        .card {
+            width: 50%;
+            height: 100%;
+            background-color: #F5F5F5;
+            border: none;
+            border-radius: 12px;
+            box-shadow: none;
+            display: flex;
+            flex-direction: column;
+        }
+
+        @media screen and (max-width: 768px) {
+            #header {
+                width: 100%;
+                height: 100%;
+                background-color: #F5F5F5;
+            }
+            #container {
+                flex-direction: column;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h1>Apply to iOS Club</h1>
+    </div>
+    <div id="container">
+        <a class="card">
+            <div class="card-body">
+                <h5 class="card-title">Bootcamp Application</h5>
+                <p class="card-text">Apply to be an iOS Club developer for the 2020-2021 school year!</p>
+                <a href="https://forms.gle/6Z6Z1Z6Z6Z6Z6Z6Z6" class="btn btn-primary">Apply</a>
+            </div>
+        </a>
+        <a class="card">
+            <div class="card-body">
+                <h5 class="card-title">Developer Application</h5>
+                <p class="card-text">Apply to be an iOS Club developer for one of our great projects!</p>
+                <a href="https://forms.gle/6Z6Z1Z6Z6Z6Z6Z6Z6" class="btn btn-primary">Apply</a>
+            </div>
+        </a>
+        
+
+    </div>
+</body>
+</html>
