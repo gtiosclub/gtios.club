@@ -1,4 +1,14 @@
 # This is the list of alumni. To add or remove, update this list.
+- name: "Allen Su"
+  job: "BrainGate"
+  pic: "/images/home/officers/allen.JPEG"
+  website: "https://www.linkedin.com/in/allensu02"
+
+- name: "Alena Tochilkina"
+  job: "Apple"
+  pic: "/images/home/officers/alena.webp"
+  website: "https://www.linkedin.com/in/alena-tochilkina/"
+
 - name: "Maksim Tochilkin"
   job: "Apple"
   pic: "/images/home/officers/maksim.jpg"
