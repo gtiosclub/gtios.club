@@ -22,7 +22,7 @@
 
 - name: "Aziz Albahar"
   job: "Vice President - Bootcamp"
-  pic: "/images/home/officers/aziz.webp"
+  pic: "/images/home/officers/aziz.jpg"
   website: "https://www.linkedin.com/in/azizalbahar/"
 
 - name: "Gabe McGuire"
@@ -32,12 +32,12 @@
 
 - name: "Sankaet Cheemalamarri"
   job: "Vice President - Operations"
-  pic: "/images/home/officers/sankaet_c.webp"
+  pic: "/images/home/officers/sankaet_c.jpg"
   website: "https://www.linkedin.com/in/scheemalamarri/"
 
 - name: "Vishnesh Jayanthi Ramanathan"
   job: "Vice President - External Relations"
-  pic: "/images/home/officers/vishnesh_j.webp"
+  pic: "/images/home/officers/vishnesh_j.jpg"
   website: "http://linkedin.com/in/vishnesh"
 
 - name: "Tim Arant"
@@ -47,7 +47,7 @@
 
 - name: "Ethan Fox"
   job: "Senior Tech Lead"
-  pic: "/images/home/officers/ethan_f.webp"
+  pic: "/images/home/officers/ethan_f.jpg"
   website: "https://www.linkedin.com/in/iwatger/"
 
 - name: "Nicholas Candello"
@@ -72,17 +72,17 @@
 
 - name: "Ankit Roy"
   job: "Tech Lead"
-  pic: "/images/home/officers/rik_roy.webp"
+  pic: "/images/home/officers/rik_roy.jpg"
   website: "www.linkedin.com/in/ankit-roy11"
 
 - name: "Austin Huguenard"
   job: "Tech Lead"
-  pic: "/images/home/officers/austin_h.webp"
+  pic: "/images/home/officers/austin_h.jpg"
   website: "https://www.linkedin.com/in/austin-huguenard"
 
 - name: "Datta Kansal"
   job: "Tech Lead"
-  pic: "/images/home/officers/datta__k.webp"
+  pic: "/images/home/officers/datta__k.jpg"
   website: "https://www.linkedin.com/in/datta-kansal/"
 
 - name: "Max Ko"
