@@ -1,14 +1,19 @@
 # This is the list of officers. To add or remove officers, update this list.
+
+# Add everyone in heirarchical order then alphabetically
+# Heirarchy
+# President
+# Vice Presidents (and other misc exec members)
+# Tech Leads
+# Bootcamp Instructors
+# Senior Developers
+# Senior Designers
+
+
 - name: "Rahul Narayanan"
   job: "President"
   pic: "/images/home/officers/rahul.jpg"
   website: "https://www.linkedin.com/in/rahul-ozhur-narayanan-0899a8217/"
-
-
-- name: "Sankeat Cheemalamarri"
-  job: "Vice President - Operations"
-  pic: "/images/home/officers/srisankaet_cheemalamarri.jpeg"
-  website: "https://www.linkedin.com/in/scheemalamarri/"
 
 - name: "Arina Shah"
   job: "Vice President - Projects"
@@ -25,6 +30,11 @@
   pic: "/images/home/officers/gabe_mcguire.jpeg"
   website: "https://www.linkedin.com/in/gabe-mcguire/"
 
+- name: "Sankeat Cheemalamarri"
+  job: "Vice President - Operations"
+  pic: "/images/home/officers/srisankaet_cheemalamarri.jpeg"
+  website: "https://www.linkedin.com/in/scheemalamarri/"
+
 - name: "Vishnesh Jayanthi Ramanathan"
   job: "Vice President - External Relations"
   pic: "/images/home/officers/vishnesh_j.webp"
@@ -40,12 +50,10 @@
   pic: "/images/home/officers/ethan_fox.jpeg"
   website: "https://www.linkedin.com/in/iwatger/"
 
-
 - name: "Nicholas Candello"
   job: "Tech Lead"
   pic: "/images/home/officers/nick_candello.jpeg"
   website: "https://www.linkedin.com/in/nicholas-candello-426392157"
-
 
 - name: "Noah Sadir"
   job: "Bootcamp Instructor"
@@ -57,16 +65,10 @@
   pic: "/images/home/officers/max_ko.jpeg"
   website: "https://www.linkedin.com/in/max-ko"
 
-- name: "Isabel Zhou"
-  job: "Senior Developer"
-  pic: "/images/home/officers/isabel_zhou.jpg"
-  website: "https://www.linkedin.com/in/isabelxzhou/"
-
 - name: "Jiyoon Lee"
   job: "Senior Developer"
   pic: "/images/home/officers/jiyoon_lee.JPEG"
   website: "https://www.linkedin.com/in/jiyoon-lee121"
-
 
 
 - name: "Ryan O'Meara"
