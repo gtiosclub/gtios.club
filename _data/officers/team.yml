@@ -22,7 +22,7 @@
 
 - name: "Aziz Albahar"
   job: "Vice President - Bootcamp"
-  pic: "/images/home/officers/aziz.jpg"
+  pic: "/images/home/officers/aziz.webp"
   website: "https://www.linkedin.com/in/azizalbahar/"
 
 - name: "Gabe McGuire"
@@ -30,9 +30,9 @@
   pic: "/images/home/officers/gabe_mcguire.jpeg"
   website: "https://www.linkedin.com/in/gabe-mcguire/"
 
-- name: "Sankeat Cheemalamarri"
+- name: "Sankaet Cheemalamarri"
   job: "Vice President - Operations"
-  pic: "/images/home/officers/srisankaet_cheemalamarri.jpeg"
+  pic: "/images/home/officers/srisankaet_c.webp"
   website: "https://www.linkedin.com/in/scheemalamarri/"
 
 - name: "Vishnesh Jayanthi Ramanathan"
@@ -47,7 +47,7 @@
 
 - name: "Ethan Fox"
   job: "Senior Tech Lead"
-  pic: "/images/home/officers/ethan_fox.jpeg"
+  pic: "/images/home/officers/ethan_f.webp"
   website: "https://www.linkedin.com/in/iwatger/"
 
 - name: "Nicholas Candello"
@@ -60,6 +60,31 @@
   pic: "/images/home/officers/noah_sadir.jpg"
   website: "https://github.com/noahsadir"
 
+- name: "Ryan O'Meara"
+  job: "Tech Lead"
+  pic: "/images/home/officers/ryan_omeara.jpg"
+  website: "https://www.linkedin.com/in/ryan-o-meara-724913223/"
+
+- name: "Steven Liu"
+  job: "Tech Lead"
+  pic: "/images/home/officers/steven_liu.JPG"
+  website: "https://www.linkedin.com/in/steven-liu-146646205/"
+
+- name: "Ankit Roy"
+  job: "Tech Lead"
+  pic: "/images/home/officers/rik_roy.webp"
+  website: "www.linkedin.com/in/ankit-roy11"
+
+- name: "Austin Huguenard"
+  job: "Tech Lead"
+  pic: "/images/home/officers/austin_h.webp"
+  website: "https://www.linkedin.com/in/austin-huguenard"
+
+- name: "Datta Kansal"
+  job: "Tech Lead"
+  pic: "/images/home/officers/datta__k.webp"
+  website: "https://www.linkedin.com/in/datta-kansal/"
+
 - name: "Max Ko"
   job: "Senior Developer"
   pic: "/images/home/officers/max_ko.jpeg"
@@ -69,17 +94,6 @@
   job: "Senior Developer"
   pic: "/images/home/officers/jiyoon_lee.JPEG"
   website: "https://www.linkedin.com/in/jiyoon-lee121"
-
-
-- name: "Ryan O'Meara"
-  job: "Tech Lead"
-  pic: "/images/home/officers/ryan_omeara.jpg"
-  website: "https://www.linkedin.com/in/ryan-o-meara-724913223/"
-
-- name: "Steven Liu"
-  job: "Tech Lead"
-  pic: "/images/home/officers/steven_liu.JPG"
-  website: "https://github.com/ecoist-ste"
 
 
 
