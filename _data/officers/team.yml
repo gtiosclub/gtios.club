@@ -105,6 +105,11 @@
   pic: "/images/home/officers/yamil_q.jpg"
   website: "https://www.linkedin.com/in/yamil-quispe/"
 
+- name: "Alec Hance"
+  job: "Senior Developer"
+  pic: "/images/home/officers/alec_h.jpg"
+  website: "https://www.linkedin.com/in/alechancegt/"
+
 - name: "Alexandria Ober"
   job: "Senior Developer"
   pic: "/images/home/officers/alexandria_o.jpg"
@@ -144,6 +149,11 @@
   job: "Senior Developer"
   pic: "/images/home/officers/nitya_p.jpg"
   website: "https://www.linkedin.com/in/nitya-potti-662274249/"
+
+- name: "Shaunak Karnik"
+  job: "Senior Developer"
+  pic: "/images/home/officers/shaunak_k.jpg"
+  website: "https://www.linkedin.com/in/shaunak-karnik/"
 
 - name: "Shreeya Garg"
   job: "Senior Developer"
