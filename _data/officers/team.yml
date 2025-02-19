@@ -50,26 +50,6 @@
   pic: "/images/home/officers/ethan_f.jpg"
   website: "https://www.linkedin.com/in/iwatger/"
 
-- name: "Nicholas Candello"
-  job: "Tech Lead"
-  pic: "/images/home/officers/nick_candello.jpeg"
-  website: "https://www.linkedin.com/in/nicholas-candello-426392157"
-
-- name: "Noah Sadir"
-  job: "Bootcamp Instructor"
-  pic: "/images/home/officers/noah_sadir.jpg"
-  website: "https://github.com/noahsadir"
-
-- name: "Ryan O'Meara"
-  job: "Tech Lead"
-  pic: "/images/home/officers/ryan_omeara.jpg"
-  website: "https://www.linkedin.com/in/ryan-o-meara-724913223/"
-
-- name: "Steven Liu"
-  job: "Tech Lead"
-  pic: "/images/home/officers/steven_liu.JPG"
-  website: "https://www.linkedin.com/in/steven-liu-146646205/"
-
 - name: "Ankit Roy"
   job: "Tech Lead"
   pic: "/images/home/officers/rik_roy.jpg"
@@ -85,19 +65,120 @@
   pic: "/images/home/officers/datta__k.jpg"
   website: "https://www.linkedin.com/in/datta-kansal/"
 
-- name: "Max Ko"
+- name: "Gustavo Garfias"
+  job: "Tech Lead"
+  pic: "/images/home/officers/gustavo_g.webp"
+  website: "https://linkedin.com/in/gustavogarfias"
+
+- name: "Nicholas Candello"
+  job: "Tech Lead"
+  pic: "/images/home/officers/nick_candello.jpeg"
+  website: "https://www.linkedin.com/in/nicholas-candello-426392157"
+
+- name: "Ryan O'Meara"
+  job: "Tech Lead"
+  pic: "/images/home/officers/ryan_omeara.jpg"
+  website: "https://www.linkedin.com/in/ryan-o-meara-724913223/"
+
+- name: "Steven Liu"
+  job: "Tech Lead"
+  pic: "/images/home/officers/steven_liu.JPG"
+  website: "https://www.linkedin.com/in/steven-liu-146646205/"
+
+- name: "Brayden Huguenard"
+  job: "Bootcamp Instructor"
+  pic: "/images/home/officers/brayden_h.webp"
+  website: "https://www.linkedin.com/in/brayden-huguenard"
+
+- name: "Jason Wrzesien"
+  job: "Bootcamp Instructor"
+  pic: "/images/home/officers/jason_w.webp"
+  website: "https://www.linkedin.com/in/jason-wrzesien/"
+
+- name: "Noah Sadir"
+  job: "Bootcamp Instructor"
+  pic: "/images/home/officers/noah_sadir.jpg"
+  website: "https://github.com/noahsadir"
+
+- name: "Yamil Quispe"
+  job: "Bootcamp Instructor"
+  pic: "/images/home/officers/yamil_q.webp"
+  website: "https://www.linkedin.com/in/yamil-quispe/"
+
+- name: "Alexandria Ober"
   job: "Senior Developer"
-  pic: "/images/home/officers/max_ko.jpeg"
-  website: "https://www.linkedin.com/in/max-ko"
+  pic: "/images/home/officers/alexandria_o.webp"
+  website: "https://linkedin.com/in/alexandria-ober-86446830a"
+
+- name: "Amber Verma"
+  job: "Senior Developer"
+  pic: "/images/home/officers/amber_v.webp"
+  website: "https://www.linkedin.com/in/amber-verma-713454267/"
+
+- name: "Amiire Kolawole"
+  job: "Senior Developer"
+  pic: "/images/home/officers/amiire_k.webp"
+  website: "https://www.linkedin.com/in/amiire-kolawole/"
 
 - name: "Jiyoon Lee"
   job: "Senior Developer"
   pic: "/images/home/officers/jiyoon_lee.JPEG"
   website: "https://www.linkedin.com/in/jiyoon-lee121"
 
+- name: "Joseph Masson"
+  job: "Senior Developer"
+  pic: "/images/home/officers/joseph_m.webp"
+  website: "https://www.linkedin.com/in/jhmusm21/"
 
+- name: "Matthew Free"
+  job: "Senior Developer"
+  pic: "/images/home/matthew_f.webp"
+  website: "https://www.linkedin.com/in/mjfree34"
 
+- name: "Max Ko"
+  job: "Senior Developer"
+  pic: "/images/home/officers/max_ko.jpeg"
+  website: "https://www.linkedin.com/in/max-ko"
 
+- name: "Nitya Potti"
+  job: "Senior Developer"
+  pic: "/images/home/officers/nitya_p.webp"
+  website: "https://www.linkedin.com/in/nitya-potti-662274249/"
+
+- name: "Shreeya Garg"
+  job: "Senior Developer"
+  pic: "/images/home/officers/shreeya_g.webp"
+  website: "http://linkedin.com/in/shreeya-garg-b99bbb292"
+
+- name: "Stepan Kravtsov"
+  job: "Senior Developer"
+  pic: "/images/home/officers/nitya_p.webp"
+  website: "https://www.linkedin.com/in/stepan-kravtsov/"
+
+- name: "Hiba Ahmed"
+  job: "Senior Designer"
+  pic: "/images/home/officers/hiba_a.webp"
+  website: "https://www.linkedin.com/in/hiba-ahmed0104"
+
+- name: "Mandy Luong"
+  job: "Senior Designer"
+  pic: "/images/home/officers/mandy_l.webp"
+  website: "https://www.linkedin.com/in/mandy-luong-20/"
+
+- name: "Patrick Guo"
+  job: "Senior Designer"
+  pic: "/images/home/officers/patrick_g.webp"
+  website: "https://www.linkedin.com/in/patrick-j-guo/"
+
+- name: "Sid Krishnan"
+  job: "Senior Designer"
+  pic: "/images/home/officers/sid_k.webp"
+  website: "https://www.linkedin.com/in/sid-krishnan/"
+
+- name: "Sri Vamsi Putti"
+  job: "Senior Designer"
+  pic: "/images/home/officers/sid_k.webp"
+  website: "https://www.linkedin.com/in/srivamsi-putti/"
 
 #template
 # - name: ""
