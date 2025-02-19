@@ -82,12 +82,12 @@
 
 - name: "Steven Liu"
   job: "Tech Lead"
-  pic: "/images/home/officers/steven_liu.JPG"
+  pic: "/images/home/officers/steven_liu.jpg"
   website: "https://www.linkedin.com/in/steven-liu-146646205/"
 
 - name: "Brayden Huguenard"
   job: "Bootcamp Instructor"
-  pic: "/images/home/officers/brayden_h.webp"
+  pic: "/images/home/officers/brayden_h.jpg"
   website: "https://www.linkedin.com/in/brayden-huguenard"
 
 - name: "Jason Wrzesien"
@@ -107,7 +107,7 @@
 
 - name: "Alexandria Ober"
   job: "Senior Developer"
-  pic: "/images/home/officers/alexandria_o.webp"
+  pic: "/images/home/officers/alexandria_o.jpg"
   website: "https://linkedin.com/in/alexandria-ober-86446830a"
 
 - name: "Amber Verma"
@@ -127,12 +127,12 @@
 
 - name: "Joseph Masson"
   job: "Senior Developer"
-  pic: "/images/home/officers/joseph_m.webp"
+  pic: "/images/home/officers/joseph_m.jpg"
   website: "https://www.linkedin.com/in/jhmusm21/"
 
 - name: "Matthew Free"
   job: "Senior Developer"
-  pic: "/images/home/matthew_f.webp"
+  pic: "/images/home/matthew_f.jpg"
   website: "https://www.linkedin.com/in/mjfree34"
 
 - name: "Max Ko"
@@ -142,13 +142,18 @@
 
 - name: "Nitya Potti"
   job: "Senior Developer"
-  pic: "/images/home/officers/nitya_p.webp"
+  pic: "/images/home/officers/nitya_p.jpg"
   website: "https://www.linkedin.com/in/nitya-potti-662274249/"
 
 - name: "Shreeya Garg"
   job: "Senior Developer"
   pic: "/images/home/officers/shreeya_g.webp"
   website: "http://linkedin.com/in/shreeya-garg-b99bbb292"
+
+- name: "Sri Vamsi Putti"
+  job: "Senior Developer"
+  pic: "/images/home/officers/sri_p.webp"
+  website: "https://www.linkedin.com/in/srivamsi-putti/"
 
 - name: "Stepan Kravtsov"
   job: "Senior Developer"
@@ -175,10 +180,6 @@
   pic: "/images/home/officers/sid_k.webp"
   website: "https://www.linkedin.com/in/sid-krishnan/"
 
-- name: "Sri Vamsi Putti"
-  job: "Senior Designer"
-  pic: "/images/home/officers/sid_k.webp"
-  website: "https://www.linkedin.com/in/srivamsi-putti/"
 
 #template
 # - name: ""
