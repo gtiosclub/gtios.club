@@ -92,7 +92,7 @@
 
 - name: "Jason Wrzesien"
   job: "Bootcamp Instructor"
-  pic: "/images/home/officers/jason_w.webp"
+  pic: "/images/home/officers/jason_w.jpg"
   website: "https://www.linkedin.com/in/jason-wrzesien/"
 
 - name: "Noah Sadir"
@@ -102,7 +102,7 @@
 
 - name: "Yamil Quispe"
   job: "Bootcamp Instructor"
-  pic: "/images/home/officers/yamil_q.webp"
+  pic: "/images/home/officers/yamil_q.jpg"
   website: "https://www.linkedin.com/in/yamil-quispe/"
 
 - name: "Alexandria Ober"
@@ -112,12 +112,12 @@
 
 - name: "Amber Verma"
   job: "Senior Developer"
-  pic: "/images/home/officers/amber_v.webp"
+  pic: "/images/home/officers/amber_v.jpg"
   website: "https://www.linkedin.com/in/amber-verma-713454267/"
 
 - name: "Amiire Kolawole"
   job: "Senior Developer"
-  pic: "/images/home/officers/amiire_k.webp"
+  pic: "/images/home/officers/amiire_k.jpg"
   website: "https://www.linkedin.com/in/amiire-kolawole/"
 
 - name: "Jiyoon Lee"
@@ -147,17 +147,17 @@
 
 - name: "Shreeya Garg"
   job: "Senior Developer"
-  pic: "/images/home/officers/shreeya_g.webp"
+  pic: "/images/home/officers/shreeya_g.jpg"
   website: "http://linkedin.com/in/shreeya-garg-b99bbb292"
 
 - name: "Sri Vamsi Putti"
   job: "Senior Developer"
-  pic: "/images/home/officers/sri_p.webp"
+  pic: "/images/home/officers/sri_p.jpg"
   website: "https://www.linkedin.com/in/srivamsi-putti/"
 
 - name: "Stepan Kravtsov"
   job: "Senior Developer"
-  pic: "/images/home/officers/nitya_p.webp"
+  pic: "/images/home/officers/stepan_k.jpg"
   website: "https://www.linkedin.com/in/stepan-kravtsov/"
 
 - name: "Hiba Ahmed"
@@ -167,7 +167,7 @@
 
 - name: "Mandy Luong"
   job: "Senior Designer"
-  pic: "/images/home/officers/mandy_l.webp"
+  pic: "/images/home/officers/mandy_l.jpg"
   website: "https://www.linkedin.com/in/mandy-luong-20/"
 
 - name: "Patrick Guo"
