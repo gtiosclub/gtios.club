@@ -45,11 +45,6 @@
   pic: "https://media.licdn.com/dms/image/v2/C4E03AQGkiJLym20u8g/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1637281222223?e=1744848000&v=beta&t=wdtu_xVrgqAxR6R5j8g4re1FtNP5ztbHnji3ssoOu1Y"
   website: "https://www.linkedin.com/in/timothy-arant/"
 
-- name: "Ethan Fox"
-  job: "Senior Tech Lead"
-  pic: "/images/home/officers/ethan_f.jpg"
-  website: "https://www.linkedin.com/in/iwatger/"
-
 - name: "Ankit Roy"
   job: "Tech Lead"
   pic: "/images/home/officers/rik_roy.jpg"
@@ -64,6 +59,11 @@
   job: "Tech Lead"
   pic: "/images/home/officers/datta__k.jpg"
   website: "https://www.linkedin.com/in/datta-kansal/"
+
+- name: "Ethan Fox"
+  job: "Tech Lead"
+  pic: "/images/home/officers/ethan_f.jpg"
+  website: "https://www.linkedin.com/in/iwatger/"
 
 - name: "Gustavo Garfias"
   job: "Tech Lead"
