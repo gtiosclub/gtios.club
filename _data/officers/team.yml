@@ -48,7 +48,7 @@
 - name: "Ankit Roy"
   job: "Tech Lead"
   pic: "/images/home/officers/rik_roy.jpg"
-  website: "www.linkedin.com/in/ankit-roy11"
+  website: "https://www.linkedin.com/in/ankit-roy11"
 
 - name: "Austin Huguenard"
   job: "Tech Lead"
@@ -124,6 +124,11 @@
   job: "Senior Developer"
   pic: "/images/home/officers/amirre_k.jpg"
   website: "https://www.linkedin.com/in/amiire-kolawole/"
+
+- name: "Jason Nair"
+  job: "Senior Developer"
+  pic: "/images/home/officers/jason_n.webp"
+  website: "www.linkedin.com/in/jason-nair"
 
 - name: "Jiyoon Lee"
   job: "Senior Developer"
