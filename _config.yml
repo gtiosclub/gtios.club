@@ -18,12 +18,12 @@ description: An iOS development club hosted at the Georgia Institute of Technolo
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://gtios.club" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: pretty
-email: hello@gtios.club
+email: iosgatech@gmail.com
 github: gtiosclub
 facebook_url: https://www.facebook.com/groups/gtiosclub/
 facebook_ios_uri: fb://group/?id=501207600034394
 youtube_url: https://www.youtube.com/channel/UCOPipt2xlYnDMD5AM6IMmdw
-discord_url: https://discord.gg/AFm4RtcVkD
+discord_url: https://discord.gg/JmXta5MUSM
 instagram_url: https://www.instagram.com/gtiosclub/
 
 # Build settings
